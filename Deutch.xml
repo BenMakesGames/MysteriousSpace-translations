@@ -1,0 +1,325 @@
+<?xml version="1.0"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LanguageName>Deutch</LanguageName>
+  <LanguageCode>de</LanguageCode>
+  <LanguageIcon>2</LanguageIcon>
+  <Translation_Unavailable>Übersetzung Nicht Verfügbar</Translation_Unavailable>
+  <None>Keiner</None>
+  <Hull>Rumpf</Hull>
+  <Armor>Panzerung</Armor>
+  <Shield>Schild</Shield>
+  <Accessory>#Accessory#</Accessory>
+  <Orbital_Accessory>#Orbital Accessory#</Orbital_Accessory>
+  <Revive>#Revive!#</Revive>
+  <Fuel>Treibstoff</Fuel>
+  <Points>Punkte</Points>
+  <Cargo>Fracht</Cargo>
+  <Yes>Ja</Yes>
+  <No>Nein</No>
+  <On>#On#</On>
+  <Off>#Off#</Off>
+  <Ready>Bereit</Ready>
+  <New>Neu</New>
+  <GET>ABHOLEN</GET>
+  <Closer>Näher</Closer>
+  <Total>Gesamt</Total>
+  <Difficulty>Schwierigkeit</Difficulty>
+  <Points_Earned>Punkte Erhalten</Points_Earned>
+  <Threat>Bedrohung</Threat>
+  <Low>Schwach</Low>
+  <Medium>Mittlere</Medium>
+  <High>Stark</High>
+  <Extreme>Extrem</Extreme>
+  <Overpowering>Überwältigend</Overpowering>
+  <NEW_GAME>NEUES SPIEL</NEW_GAME>
+  <CONTINUE_GAME>SPIEL FORTSETZEN</CONTINUE_GAME>
+  <HIGH_SCORES>HIGHSCORES</HIGH_SCORES>
+  <ABOUT>CREDITS</ABOUT>
+  <DONATIONS>SPENDEN</DONATIONS>
+  <QUIT>BEENDEN</QUIT>
+  <COLLECTION>SAMMLUNG</COLLECTION>
+  <SETTINGS>VORLIEBEN</SETTINGS>
+  <Music>Musik</Music>
+  <Sound_Effect>Sound-Effekt</Sound_Effect>
+  <version>version</version>
+  <DEBUG_MODE_ON>DEBUG-MODUS AUF</DEBUG_MODE_ON>
+  <Space>Weltall</Space>
+  <Health>Gesundheit</Health>
+  <Education>Ausbildung</Education>
+  <Misc>Divers</Misc>
+  <Ship_Name>Schiffsname</Ship_Name>
+  <Ship_Type>Schiffstyp</Ship_Type>
+  <Subroutine>Subroutine</Subroutine>
+  <Please_name_your_ship>#Please name your ship!#</Please_name_your_ship>
+  <That_name_is_already_in_use>#That name is already in use!#</That_name_is_already_in_use>
+  <Add_a_player>Fügen einen Player</Add_a_player>
+  <Add_another_player>Fügen einen anderen Spieler</Add_another_player>
+  <Remove_player>Nimm diesen Spieler</Remove_player>
+  <Add_an_orbital_player>Fügen ein Oribtal Spieler</Add_an_orbital_player>
+  <Press_to_accept_name>(((START)) wenn Sie fertig)</Press_to_accept_name>
+  <Very_well_Shutting_down>#Very well. Shutting down.#</Very_well_Shutting_down>
+  <I_feel_fine>#I feel fine.#</I_feel_fine>
+  <Lets_do_some_flight_exercises>#Let's do some flight exercises.#</Lets_do_some_flight_exercises>
+  <No_thanks>Nein danke.</No_thanks>
+  <Practice_Moving>Praxis Bewegungs</Practice_Moving>
+  <Practice_Shooting>Schießübungen</Practice_Shooting>
+  <The_truth_behind_Sector_ZZ_Omega_9_remains_a_secret>Die Wahrheit hinter Sector ZZ-Omega-9 bleibt ein Geheimnis.</The_truth_behind_Sector_ZZ_Omega_9_remains_a_secret>
+  <The_truth_behind_Sector_ZZ_Omega_9_dies_with_you>Die Wahrheit hinter Sector ZZ-Omega-9 stirbt mit Ihnen.</The_truth_behind_Sector_ZZ_Omega_9_dies_with_you>
+  <The_truth_behind_Sector_ZZ_Omega_9_will_be_revealed>#The truth behind Sector ZZ-Omega-9 will be revealed!#</The_truth_behind_Sector_ZZ_Omega_9_will_be_revealed>
+  <Final_score>Endergebnis:</Final_score>
+  <PLAY_AGAIN_LOSE>
+    <string>WIEDER SPIELEN</string>
+    <string>EINEN VERSUCH</string>
+  </PLAY_AGAIN_LOSE>
+  <PLAY_AGAIN_WIN>
+    <string>WIEDER SPIELEN</string>
+  </PLAY_AGAIN_WIN>
+  <DONE_FOR_NOW_LOSE>
+    <string>AUFGEBEN</string>
+    <string>VERLASSEN</string>
+    <string>NICHT MEHR</string>
+    <string>GIB AUF</string>
+  </DONE_FOR_NOW_LOSE>
+  <DONE_FOR_NOW_WIN>
+    <string>VERLASSEN</string>
+  </DONE_FOR_NOW_WIN>
+  <Visit_Planet>Besuchen Planeten</Visit_Planet>
+  <Inventory_Slash_Menu>Inventar/Menü</Inventory_Slash_Menu>
+  <Equipment>Ausrüstung</Equipment>
+  <Inventory>Inventar</Inventory>
+  <Upgrade>Verbessern</Upgrade>
+  <Save_and_Quit>Beenden</Save_and_Quit>
+  <Settings>Vorlieben</Settings>
+  <Sound_Volume>Tonlautstärke</Sound_Volume>
+  <Music_Volume>Musiklautstärke</Music_Volume>
+  <Vibrate_Controller>#Vibrate Controller#</Vibrate_Controller>
+  <Reset_Tutorial>#Reset Tutorial#</Reset_Tutorial>
+  <Show_Health_Numbers>#Show Health Numbers#</Show_Health_Numbers>
+  <Display>#Display#</Display>
+  <Windowed>#Windowed#</Windowed>
+  <Fullscreen>#Fullscreen#</Fullscreen>
+  <Strengthen_Hull>#Strengthen Hull#</Strengthen_Hull>
+  <X_Points>%points% Punkte</X_Points>
+  <Second_Weapon_Slot>#Second Weapon Slot#</Second_Weapon_Slot>
+  <Third_Weapon_Slot>#Third Weapon Slot#</Third_Weapon_Slot>
+  <Additional_Armor_Slot>#Additional Armor Slot#</Additional_Armor_Slot>
+  <Alien_Scanners>#Alien Scanners#</Alien_Scanners>
+  <Scrapping>#Scrapping#</Scrapping>
+  <Improved_Thrusters>#Thrusters I#</Improved_Thrusters>
+  <Improved_Thrusters_2>#Thrusters II#</Improved_Thrusters_2>
+  <Adaptive_Software>#Adaptive Software#</Adaptive_Software>
+  <Shielded_Core>#Shielded Core#</Shielded_Core>
+  <Super_Repellent_Surface>#Super-repellent Surface#</Super_Repellent_Surface>
+  <Improved_Thrusters_Description>Erhöht die Kontrolle durch die Verbesserung stoppen Geschwindigkeit.</Improved_Thrusters_Description>
+  <Second_Weapon_Slot_Description>#Allows you to simultaneously equip up to two weapons. Your second weapon will operate at 2/3 speed.#</Second_Weapon_Slot_Description>
+  <Third_Weapon_Slot_Description>#Allows you to simultaneously equip up to three weapons. Your third weapon will operate at 1/3 speed.#</Third_Weapon_Slot_Description>
+  <Strengthen_Hull_Description>Erhöht Rumpf um %amount%.
+
++2 Tragfähigkeit.</Strengthen_Hull_Description>
+  <Not_enough_upgrade_parts>#Not enough upgrade parts.#</Not_enough_upgrade_parts>
+  <Cannot_upgrade_while_on_a_planet>#Cannot upgrade while on a planet.#</Cannot_upgrade_while_on_a_planet>
+  <You_have_no_inventory>Sie haben kein Inventar.</You_have_no_inventory>
+  <Inventory_is_full>Inventar voll ist.</Inventory_is_full>
+  <This_ship_part_has_not_been_identified>#This ship part has not been identified.#</This_ship_part_has_not_been_identified>
+  <Press_to_drop>%input% fallen</Press_to_drop>
+  <Press_to_identify>%input% zu identifizieren</Press_to_identify>
+  <Press_to_equip>%input% auszustatten</Press_to_equip>
+  <Press_to_unequip>%input% um ausklinken</Press_to_unequip>
+  <Press_to_change>%input% ändern</Press_to_change>
+  <Press_to_use>%input% zu bedienen</Press_to_use>
+  <Press_to_upgrade>%input% aktualisieren</Press_to_upgrade>
+  <Cannot_equip_ship_parts_while_on_a_planet>Kann nicht auf dem Planeten ausrüsten</Cannot_equip_ship_parts_while_on_a_planet>
+  <You_may_identify_this_once_youre_safe_in_space>#Cannot identify while on a planet#</You_may_identify_this_once_youre_safe_in_space>
+  <Cannot_throw_away_equipped_ship_parts>#Cannot throw away equipped parts#</Cannot_throw_away_equipped_ship_parts>
+  <You_can_use_Alien_Artifacts_while_on_a_planet_or_in_space>(Sie können Ihre Alien Artefakte, während auf einem Planeten oder im Raum zu verwenden.)</You_can_use_Alien_Artifacts_while_on_a_planet_or_in_space>
+  <You_can_use_Advanced_Technology_while_on_a_planet_or_in_space>#(You can use Advanced Technology while on a planet, or in space.)#</You_can_use_Advanced_Technology_while_on_a_planet_or_in_space>
+  <To_quit_press_A_or_ENTER_now>#To quit, press A or ENTER now.#</To_quit_press_A_or_ENTER_now>
+  <You_have_never_used_this_kind_of_Alien_Artifact_before>Sie haben noch nie diese Art von Alien Artifact verwendet vor. Die Auswirkungen wird es auf Ihrem Schiff unbekannt.</You_have_never_used_this_kind_of_Alien_Artifact_before>
+  <You_have_never_used_this_kind_of_Advanced_Technology_before>Sie haben noch nie diese Art von Advanced Technology verwendet, vor. Die Auswirkungen wird es haben, sind nicht bekannt.</You_have_never_used_this_kind_of_Advanced_Technology_before>
+  <ALIEN_ARTIFACT_COLOR_NAMES>
+    <string>Weiß außerirdisches Artefakt</string>
+    <string>Grau außerirdisches Artefakt</string>
+    <string>Rot außerirdisches Artefakt</string>
+    <string>Braun außerirdisches Artefakt</string>
+    <string>Orange außerirdisches Artefakt</string>
+    <string>Gelb außerirdisches Artefakt</string>
+    <string>Lindgrün außerirdisches Artefakt</string>
+    <string>Grün außerirdisches Artefakt</string>
+    <string>Cyan außerirdisches Artefakt</string>
+    <string>Blaue außerirdisches Artefakt</string>
+    <string>Lila außerirdisches Artefakt</string>
+    <string>Rosa außerirdisches Artefakt</string>
+    <string>Schwarz außerirdisches Artefakt</string>
+  </ALIEN_ARTIFACT_COLOR_NAMES>
+  <Log>Logbuch</Log>
+  <Profile>Profil</Profile>
+  <Blueprint>Plan</Blueprint>
+  <Advanced_Technology>Fortgeschrittene Technologie</Advanced_Technology>
+  <Angry_Armor>Böse Panzerung</Angry_Armor>
+  <Volcanic_Armor>Vulkan Panzerung</Volcanic_Armor>
+  <Berserker_Armor>Berserker Panzerung</Berserker_Armor>
+  <ANGEL_Armor>ANGEL Panzerung</ANGEL_Armor>
+  <Regenerating_Armor>Regenerierende Panzerung</Regenerating_Armor>
+  <Embedded_Armor>Embedded-Panzerung</Embedded_Armor>
+  <Heavy_Armor>Schwere Panzerung</Heavy_Armor>
+  <Angry_Shield>Wütend Schild</Angry_Shield>
+  <Nova_Shield>Nova Schild</Nova_Shield>
+  <EMP_Resistant_Shield>EMP-resistente Schild</EMP_Resistant_Shield>
+  <Integrated_Shield>Integrierte Schild</Integrated_Shield>
+  <Desperate_Shield>Verzweifelten Schild</Desperate_Shield>
+  <Synchronized_Shield>Synchronisiert Schild</Synchronized_Shield>
+  <Overcharged_Shield>Überladen Schild</Overcharged_Shield>
+  <Tiny>Winziges %name%</Tiny>
+  <Alien_Integrator>Außerirdische Integrator</Alien_Integrator>
+  <Engine_Booster>Motorverstärker</Engine_Booster>
+  <Hull_Repair_Bots>Rumpf Reparatur Bots</Hull_Repair_Bots>
+  <Phase_Shield>Phase Schild</Phase_Shield>
+  <Last_Resort>Letztes Mittel</Last_Resort>
+  <Weapon_Booster>Waffenverstärker</Weapon_Booster>
+  <Shield_Rerouter>Schild Umleiter</Shield_Rerouter>
+  <Alien_Teleporter>Außerirdisches Teleporter</Alien_Teleporter>
+  <EMP_Channeler>#EMP Channeler#</EMP_Channeler>
+  <Modified_EMP_Channeler>#%modifier% EMP Channeler#</Modified_EMP_Channeler>
+  <Stream_Interrupt>#Stream Interrupt#</Stream_Interrupt>
+  <Can_absorb_x_damage>Können %amount% Schaden zu absorbieren.</Can_absorb_x_damage>
+  <Originally>Ursprünglich %amount%.</Originally>
+  <Regenerates_x_damage_every_y_seconds>Regeneriert %damage% Schaden/%seconds% Sekunden.</Regenerates_x_damage_every_y_seconds>
+  <Resists_X_percent_of_damage_resulting_from_collisions>Beständig gegen %percent%% der Schäden durch Kollisionen ergeb.</Resists_X_percent_of_damage_resulting_from_collisions>
+  <Resists_X_percent_of_damage_resulting_from_weapons>#Resists %percent%% of damage resulting from weapons.#</Resists_X_percent_of_damage_resulting_from_weapons>
+  <X_percent_movement_speed>%percent%% Geschwindigkeit.</X_percent_movement_speed>
+  <Lava>Lava</Lava>
+  <Slowed>Verlangsamte</Slowed>
+  <NotAvailable>n.a.</NotAvailable>
+  <Light_Lukida_Description>Ein kleines, schnelles Schiff.
+
+* +20% Geschwindigkeit
+* Wenn gebremst wird für 50%
+  weniger Zeit verlangsamt
+* -1 Rumpf
+* Maximal 2 Waffenplätze</Light_Lukida_Description>
+  <Heavy_Head_of_Hydrus_Description>#Head of Hydrus Description#</Heavy_Head_of_Hydrus_Description>
+  <Alien_Alwaid_Description>Ein außerirdisches Schiff.
+
+* Statt ihrer normalen
+  Wirkungen, Artefakte
+  verdoppeln Schildregen für
+  3 Sekunden und Reparaturen
+  1 Panzerung und Rumpf
+* Beginnen mit einem
+  EMP-resistente Schild
+* -10% Geschwindigkeit
+* -1 Rumpf</Alien_Alwaid_Description>
+  <Orbiting_Oculus_Description>#Orbiting Oculus Description#</Orbiting_Oculus_Description>
+  <Risky_Ras_Algethi_Description>#Risky Ras Algethi Description#</Risky_Ras_Algethi_Description>
+  <Alien_Alwaid_Alien_Artifact_Effect_Description>Verdoppeln Schildregen für 3 Sekunden und Reparaturen 1 Panzerung und Rumpf.</Alien_Alwaid_Alien_Artifact_Effect_Description>
+  <PLANET_TYPE_NAMES>
+    <string>Wald</string>
+    <string>Wüste</string>
+    <string>Öde</string>
+    <string>Ozean</string>
+    <string>Eis</string>
+    <string>Lava</string>
+    <string>Bergbau</string>
+    <string>Frequentiert</string>
+  </PLANET_TYPE_NAMES>
+  <CIVILIZATION_BASE_OPTIONS>
+    <string>Kaufen</string>
+    <string>Verkaufen</string>
+    <string>Werft</string>
+    <string>Informationen</string>
+  </CIVILIZATION_BASE_OPTIONS>
+  <MONTH_ABBREVIATIONS>
+    <string />
+    <string>Jän</string>
+    <string>Feb</string>
+    <string>März</string>
+    <string>Apr</string>
+    <string>Mai</string>
+    <string>Juni</string>
+    <string>Juli</string>
+    <string>Aug</string>
+    <string>Sept</string>
+    <string>Okt</string>
+    <string>Nov</string>
+    <string>Dez</string>
+  </MONTH_ABBREVIATIONS>
+  <SCAN_DATA_ENTRIES />
+  <Hello_Captain>Hallo, Kapitän.</Hello_Captain>
+  <One_more_thing>#One more thing:#</One_more_thing>
+  <We_cant_go_back_now>#We can't go back now.#</We_cant_go_back_now>
+  <What_do_you_recommend>#What do you recommend?#</What_do_you_recommend>
+  <Sounds_like_a_plan>#Sounds like a plan.#</Sounds_like_a_plan>
+  <MAINTENANCE_CHECK>#Sorry to wake you, but it's time for another 100LY maintenance check.
+
+There are no outstanding issues requiring your attention. Hardware and software operations appear normal.
+
+How do you feel?#</MAINTENANCE_CHECK>
+  <TUTORIALIZE_OPTION>#Good.
+
+Before shutting down, would you like to do some exercises?#</TUTORIALIZE_OPTION>
+  <TUTORIAL_MINIBOSS_APPROACHES>#Wait.
+
+Captain, I'm picking something up... a ship is approaching us. I'm having trouble making contact; it's an old ship, and badly damaged.#</TUTORIAL_MINIBOSS_APPROACHES>
+  <TUTORIAL_MINIBOSS_APPROACHES_2>#Captain, it's readying its weapons. It may be old and damaged, but this is definitely a warship.
+
+Try to disable it by force; while you're doing that, I'll attempt to hack in and gain control of it.#</TUTORIAL_MINIBOSS_APPROACHES_2>
+  <END_OF_TUTORIAL_NEUTRALIZED>#Captain, I've gained control of the ship. I'm shutting it down now.#</END_OF_TUTORIAL_NEUTRALIZED>
+  <END_OF_TUTORIAL_DESTROYED>#Well done, captain.
+
+Sorry I wasn't able to shut it down faster; it's more badly-damaged than I thought.
+
+I was able to get some information, however.#</END_OF_TUTORIAL_DESTROYED>
+  <END_OF_TUTORIAL_2>#The ship's memories show that it was indeed a warship. It was badly damaged in a skirmish 526 years ago and has been drifting, derelict, since.
+
+It's hard to say where the rest of its kind are, since the information it has is about 526 years old; with any luck we won't have any more run-ins.#</END_OF_TUTORIAL_2>
+  <END_OF_TUTORIAL_3>#Anyway, as this is the last maintenance check before we reach Sector ZZ-Omega-9, I recommend conserving as much Fuel as possible. We don't want to to be caught unprepared for whatever lies in store for us.#</END_OF_TUTORIAL_3>
+  <LAVA_INFO>#I feel I should remind you that our shields were not designed for the high temperatures of lava. While they will technically hold, we will not be able to regenerate them while submerged.#</LAVA_INFO>
+  <MYSTERIOUS_FORCE_EXPLANATION>#Sorry to wake you, but there's an emergency: an unidentified force is causing us to decelerate.
+
+While currently negligible, this force is increasing as we approach the ZZ-Omega cluster.
+
+If this force increases at its current rate, we will not have enough Fuel to return home.#</MYSTERIOUS_FORCE_EXPLANATION>
+  <MYSTERIOUS_FORCE_SOLUTION_EXPLANATION>#There are several mineral-rich planets in the ZZ-Omega cluster. We could stop at these planets to extract the necessary Fuel.
+
+If you'd like to go ahead with this plan, I have identified a few courses we could take through the ZZ-Omega cluster.
+
+Regardless of the course taken, we will need to collect 3 Fuel from each planet encountered before continuing.#</MYSTERIOUS_FORCE_SOLUTION_EXPLANATION>
+  <STASIS_EXPLANATION>#One of our ship parts is showing an extremely high Stasis level!
+
+I've analyzed its structure: it's definitely having a positive effect, but it's alien in origin; I worry about butterfly effects. So far there don't seem to be any problems, but I'll let you know if there are any changes.#</STASIS_EXPLANATION>
+  <ENTROPY_EXPLANATION>#One of our ship parts is showing an extremely high Entropy level!
+
+I've analyzed its structure, but this is beyond our ability to repair.
+
+We can continue using this part, but we should definitely be on the lookout for a replacement.#</ENTROPY_EXPLANATION>
+  <WEAKENED_EXPLANATION>#One of our ship parts is Weakened!
+
+We can continue using this part, but be aware that further Weakening will completely destroy it.#</WEAKENED_EXPLANATION>
+  <EXPLAIN_POCKET_DIMENSION>#We appear to have fallen into a pocket of folded space. That alien structure was probably there to protect against this very event, but was disrupted by our tractor beam.
+
+Our ship isn't powerful enough to go against the gravitational fields. We'll just have to let them carry us along, and out the other end.#</EXPLAIN_POCKET_DIMENSION>
+  <EXPLAIN_POCKET_DIMENSION_2>#Wait.
+
+Captain, I'm picking something up... a ship, or what's left of it. Pieces of its debris have become tangled in the gravitational field.
+
+There's also fragments we may be able to use as fuel. If possible, we should pick these up, but survival is our top priority.#</EXPLAIN_POCKET_DIMENSION_2>
+  <Its_dangerous_to_go_alone_take_this>#It's dangerous to go alone! Take this.#</Its_dangerous_to_go_alone_take_this>
+  <ReceivedItemNote>#(Received a %itemname%.)#</ReceivedItemNote>
+  <Fool>Trottel.</Fool>
+  <PRACTICE_MOVING_TUTORIAL>#Great! Let's begin!
+
+Move the ship using %input%.#</PRACTICE_MOVING_TUTORIAL>
+  <PRACTICE_SHOOTING_TUTORIAL>#Unfortunately, there isn't anything out here to practice shooting at. A holographic projection will have to do.
+
+I'll create several holograms; practice moving while holding %input% to fire at them.#</PRACTICE_SHOOTING_TUTORIAL>
+  <WASD_or_the_arrow_keys>#WASD or the arrow keys#</WASD_or_the_arrow_keys>
+  <Z_or_slash>#Z or /#</Z_or_slash>
+  <the_left_analog_stick>#the left analog stick#</the_left_analog_stick>
+  <CTRL>#CTRL#</CTRL>
+  <SHIFT>#SHIFT#</SHIFT>
+  <ENTER>#ENTER#</ENTER>
+  <ESC>#ESC#</ESC>
+  <DEL>#DEL#</DEL>
+  <Unknown_command>#Unknown command. Type HELP for help.#</Unknown_command>
+  <Release_Date>%month% %day%, %year%</Release_Date>
+</Language>

@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LanguageName>Türkçe</LanguageName>
+  <LanguageCode>tr</LanguageCode>
+  <LanguageIcon>10</LanguageIcon>
+  <Translation_Unavailable>Translation Unavailable</Translation_Unavailable>
+  <None>Yok</None>
+  <Hull>Gövde</Hull>
+  <Armor>Zırh</Armor>
+  <Shield>Kalkan</Shield>
+  <Accessory>Aksesuar</Accessory>
+  <Orbital_Accessory>Yörünge Aksesuarı</Orbital_Accessory>
+  <Revive>Canlan!</Revive>
+  <Fuel>Yakıt</Fuel>
+  <Points>Points</Points>
+  <Cargo>Kargo</Cargo>
+  <Yes>Evet</Yes>
+  <No>Hayır</No>
+  <On>Açık</On>
+  <Off>Kapalı</Off>
+  <Ready>Hazır</Ready>
+  <New>Yeni</New>
+  <GET>AL</GET>
+  <!-- !!!!! -->
+  <Closer>Yaklaş</Closer>
+  <Total>Toplam</Total>
+  <Difficulty>Zorluk</Difficulty>
+  <Points_Earned>Kazanılan Puan</Points_Earned>
+  <Threat>Threat</Threat>
+  <Low>Düşük</Low>
+  <Medium>Orta</Medium>
+  <High>Yüksek</High>
+  <Extreme>Aşırı</Extreme>
+  <Overpowering>Aşırı Güç</Overpowering>
+  <NEW_GAME>YENİ OYUN</NEW_GAME>
+  <CONTINUE_GAME>OYUNA DEVAM ET</CONTINUE_GAME>
+  <HIGH_SCORES>YÜKSEK PUAN</HIGH_SCORES>
+  <ABOUT>HAKKINDA</ABOUT>
+  <DONATIONS>BAĞIŞ</DONATIONS>
+  <QUIT>ÇIK</QUIT>
+  <COLLECTION>KOLEKSİYON</COLLECTION>
+  <SETTINGS>AYARLAR</SETTINGS>
+  <Music>Müzik</Music>
+  <Sound_Effect>Ses Efekti</Sound_Effect>
+  <version>versiyon</version>
+  <DEBUG_MODE_ON>DEBUG MODU AÇIK</DEBUG_MODE_ON>
+  <SHIP>GEMİ</SHIP>
+  <SCORE>SKOR</SCORE>
+  <DATE>TARİH</DATE>
+  <Space>Uzay</Space>
+  <Health>Sağlık</Health>
+  <Education>Eğitim</Education>
+  <Misc>Çeşitli</Misc>
+  <THE_PREMISE>Bilimadamları ZZ-Omega-9 Sektöründen gelen garip bir sinyal tespit ettiler.
+  
+Acaba bu sinyal uygarlığı kurtaracak enerji kaynağından geliyor olabilir mi?
+
+Bunu araştırmak ve bu bilgiyle geri dönmek senin görevin.
+  
+Bol şanslar, pilot!</THE_PREMISE>
+  <MADLIB_SIZES>
+    <string>uzun</string>
+    <string>kısa</string>
+    <string>geniş</string>
+    <string>ince</string>
+    <string>ağır</string>
+    <string>hafif</string>
+  </MADLIB_SIZES>
+  <MADLIB_PERSON_DESCRIPTIONS>
+    <string>ilginç</string>
+    <string>adanmış</string>
+    <string>yetenekli</string>
+    <string>saygın</string>
+    <string>kıymeti bilinmemiş</string>
+    <string>zengin</string>
+    <string>ırkçı</string>
+  </MADLIB_PERSON_DESCRIPTIONS>
+  <MADLIB_SHIP_PARTS>
+    <string>kokpit</string>
+    <string>kanatlar</string>
+    <string>motor</string>
+    <string>kuyruk</string>
+    <string>güverte</string>
+  </MADLIB_SHIP_PARTS>
+  <MADLIB_WORKSHOP_STATE>
+    <string>derme çatma</string>
+    <string>meşhur</string>
+    <string>küçük</string>
+    <string>yerel</string>
+    <string>askeri</string>
+    <string>dünyadışı</string>
+  </MADLIB_WORKSHOP_STATE>
+  <MADLIB_CORPORATION_NAMES>
+    <string>Gemi Şekilleri</string>
+    <string>Gemi İşleri</string>
+    <string>Magnetar Mfg</string>
+    <string>G&amp;G Gemi</string>
+    <string>Krieg &amp; </string>
+  </MADLIB_CORPORATION_NAMES>
+  <MADLIB_PIRATE_NAMES>
+    <string>#000000sakal</string>
+    <string>nickRhekır</string>
+    <string>FRED</string>
+    <string>Bipsi Avadon</string>
+    <string>"tırtıl"</string>
+  </MADLIB_PIRATE_NAMES>
+  <MADLIB_JOBS_TITLES>
+    <string>mühendis</string>
+    <string>tüccar</string>
+    <string>nakliyeci</string>
+    <string>korsan</string>
+    <string>kumarbaz</string>
+  </MADLIB_JOBS_TITLES>
+  <MADLIB_RELATIVES>
+    <string>kız kardeşin</string>
+    <string>ağabeyin</string>
+    <string>annen</string>
+    <string>baban</string>
+    <string>halan</string>
+    <string>dayın</string>
+    <string>kuzenin</string>
+  </MADLIB_RELATIVES>
+  <MADLIB_SHIP_TYPES>
+    <string>yarış</string>
+    <string>savaş</string>
+    <string>kurye</string>
+  </MADLIB_SHIP_TYPES>
+
+  <STORY_MADLIBS>
+    <string>Bir %workshop state% tersanesinde üretilen gemin, bir %person desc% mühendisinin gurur ve neşe kaynağıydı.
+Üzerinde %color% işlemeler ve çok ilginç şekilli bir %ship part% var.</string>
+    <string>%corporation name% Şirketinin popüler bir %ship type% modeline öykünerek hazırlanan ve bu görev için sana verilen gemin olağanüstü ölçüde %size%, ve çarpıcı %color% boyayla kaplı.</string>
+    <string>Zamanında %pirate name% tarafından kullanılan bu gemi, görevin için epey bir tadilattan geçmiş, ama hala orijinal %color% şeritlerini koruyor.</string>
+    <string>Bir savaşçı için biraz fazla %size% olan gemin, şahane askeri kafalarca tasarlanmış.
+Basit, %color% işlemeler metalik gövdesinin iki tarafında uzanıyor.</string>
+    <string>Yours is one of many %ship type%s made by %corporation name%. It features their signature %color% stripes and %size% %ship part%.</string>
+    <string>Gemin %corporation name% şirketince yapılan %ship type% modellerinden biri. Şirketin kendisiyle özdeşleşen %color% şeritlerini ve %size% %ship part% kısmını taşıyor.</string>
+    <string>%relative%, %person desc% bir %job title%, beklenmedik bir şekilde %small number% yıl önce öldü. Askeriyeye katıldığından beni görüşmüyordunuz, bu yüzden gemisini sana bıraktığını öğrendiğinde epey şaşırdın: %corporation name% Şirketinden bu %size%, %color% %ship type%.</string>
+    <string>Kendi gemini almak için sefer sırasında garip işlerle uğraştın: %corporation name% Şirketi'nden bu %size% nadide parçayı.
+Özel tasarım %ship part% kısmını geminin geri kalanı gibi %color% rengine boyatmak şaşırtıcı derecede pahalıydı, ama cidden değdi!</string>
+  </STORY_MADLIBS>
+  <SHIP_COLOR_NAMES>
+    <string>turuncu</string>
+    <string>kırmızı</string>
+    <string>mavi</string>
+    <string>mor</string>
+    <string>yeşil</string>
+  </SHIP_COLOR_NAMES>
+  <Ship_Name>Gemi Adı</Ship_Name>
+  <Ship_Type>Gemi Tipi</Ship_Type>
+  <Subroutine>Altyordamı</Subroutine>
+  <Please_name_your_ship>Lütfen gemine bir ad ver!</Please_name_your_ship>
+  <That_name_is_already_in_use>O ad zaten kullanımda!</That_name_is_already_in_use>
+  <Add_a_player>Yeni bir oyuncu ekle</Add_a_player>
+  <Add_another_player>Başka bir oyuncu ekle</Add_another_player>
+  <Remove_player>Bu oyuncuyu çıkar</Remove_player>
+  <Add_an_orbital_player>Bir yörünge oyuncusu ekle</Add_an_orbital_player>
+  <Press_to_accept_name>(tamamladığında ((START)) tuşuna bas)</Press_to_accept_name>
+  <Very_well_Shutting_down>Pekâlâ. Kapatılıyor.</Very_well_Shutting_down>
+  <I_feel_fine>İyi hissediyorum.</I_feel_fine>
+  <Lets_do_some_flight_exercises>Hadi biraz uçuş pratiği yapalım.</Lets_do_some_flight_exercises>
+  <No_thanks>Hayır, teşekkürler.</No_thanks>
+  <Practice_Moving>Alıştırma aktif...</Practice_Moving>
+  <Practice_Shooting>Ateş tuşuna basılı tut...</Practice_Shooting>
+  <The_truth_behind_Sector_ZZ_Omega_9_remains_a_secret>Sektör ZZ-Omega-9'un arkasındaki sır hala gizemini koruyor.</The_truth_behind_Sector_ZZ_Omega_9_remains_a_secret>
+  <The_truth_behind_Sector_ZZ_Omega_9_dies_with_you>Sektör ZZ-Omega-9'un arkasındaki sır seninle birlikte öldü.</The_truth_behind_Sector_ZZ_Omega_9_dies_with_you>
+  <The_truth_behind_Sector_ZZ_Omega_9_will_be_revealed>Sektör ZZ-Omega-9'un arkasındaki sır açığa çıkacak!</The_truth_behind_Sector_ZZ_Omega_9_will_be_revealed>
+  <Final_score>Bitiş Skoru:</Final_score>
+  <PLAY_AGAIN_LOSE>
+    <string>TEKRAR OYNA</string>
+    <string>YENİDEN DENE</string>
+    <string>TEKRAR</string>
+  </PLAY_AGAIN_LOSE>
+  <PLAY_AGAIN_WIN>
+    <string>TEKRAR OYNA</string>
+    <string>TEKRAR</string>
+  </PLAY_AGAIN_WIN>
+  <DONE_FOR_NOW_LOSE>
+    <string>YETERLİ</string>
+    <string>VAZGEÇ</string>
+    <string>MENÜYE GERİ DÖN</string>
+  </DONE_FOR_NOW_LOSE>
+  <DONE_FOR_NOW_WIN>
+    <string>YETERLİ</string>
+  </DONE_FOR_NOW_WIN>
+  <Visit_Planet>Gezegene Git</Visit_Planet>
+  <Inventory_Slash_Menu>Envanter/Menü</Inventory_Slash_Menu>
+  <Equipment>Ekipman</Equipment>
+  <Inventory>Envanter</Inventory>
+  <Upgrade>Geliştir</Upgrade>
+  <Save_and_Quit>Kaydet ve Çık</Save_and_Quit>
+  <Settings>Ayarlar</Settings>
+  <Sound_Volume>Ses Şiddeti</Sound_Volume>
+  <Music_Volume>Müzik Şiddeti</Music_Volume>
+  <Vibrate_Controller>Oyun Kolu Titreşimi</Vibrate_Controller>
+  <Reset_Tutorial>Öğrenme Ayarlarını Sıfırla</Reset_Tutorial>
+  <Show_Health_Numbers>Can Sayılarını Göster</Show_Health_Numbers>
+  <Display>Görüntü</Display>
+  <Windowed>Pencere</Windowed>
+  <Fullscreen>Tam Ekran</Fullscreen>
+  <Strengthen_Hull>Gövde Güçlendir</Strengthen_Hull>
+  <X_Points>%points% Puan</X_Points>
+  <Second_Weapon_Slot>İkinci Silah Yuvası</Second_Weapon_Slot>
+  <Third_Weapon_Slot>Üçüncü Silah Yuvası</Third_Weapon_Slot>
+  <Additional_Armor_Slot>Ek Zırh Yuvası</Additional_Armor_Slot>
+  <Alien_Scanners>Uzaylı Tarayıcıları</Alien_Scanners>
+  <Scrapping>Hurda Toplama</Scrapping>
+  <Improved_Thrusters>Ateşleyiciler I</Improved_Thrusters>
+  <Improved_Thrusters_2>Ateşleyiciler II</Improved_Thrusters_2>
+  <Adaptive_Software>Uyarlamalı Yazılım</Adaptive_Software>
+  <Shielded_Core>Kalkanlı Çekirdek</Shielded_Core>
+  <Super_Repellent_Surface>Süper-Püskürtücü Yüzey</Super_Repellent_Surface>
+  <Improved_Thrusters_Description>Durma hızını artırarak kontrolü kolaylaştırır.</Improved_Thrusters_Description>
+  <Second_Weapon_Slot_Description>Aynı anda iki silah kullanabilmeni sağlar. İkinci silahın 2/3 hızında çalışacaktır.</Second_Weapon_Slot_Description>
+  <Third_Weapon_Slot_Description>Aynı anda üç silah kullanabilmeni sağlar. Üçüncü silahın 1/3 hızında çalışacaktır.</Third_Weapon_Slot_Description>
+  <Strengthen_Hull_Description>Mevcut ve azami gövde kuvvetine %amount% ekler.
+
++2 taşıma kapasitesi.</Strengthen_Hull_Description>
+  <Not_enough_upgrade_parts>Yeterince geliştirme parçan yok.</Not_enough_upgrade_parts>
+  <Cannot_upgrade_while_on_a_planet>Bir gezegendeyken geliştiremezsin.</Cannot_upgrade_while_on_a_planet>
+  <You_have_no_inventory>Envanterin yok.</You_have_no_inventory>
+  <Inventory_is_full>Envanterin dolu.</Inventory_is_full>
+  <This_ship_part_has_not_been_identified>Bu gemi parçası henüz tanımlanamadı.</This_ship_part_has_not_been_identified>
+  <Press_to_drop>düşürmek için %input% tuşuna bas</Press_to_drop>
+  <Press_to_identify>tanımlamak için %input% tuşuna bas</Press_to_identify>
+  <Press_to_equip>kullanmak için %input% tuşuna bas</Press_to_equip>
+  <Press_to_unequip>çıkarmak için %input% tuşuna bas</Press_to_unequip>
+  <Press_to_change>değiştirmek için %input% tuşuna bas</Press_to_change>
+  <Press_to_use>kullanmak için %input% tuşuna bas</Press_to_use>
+  <Press_to_upgrade>geliştirmek için %input% tuşuna bas.</Press_to_upgrade>
+  <Cannot_equip_ship_parts_while_on_a_planet>Bir gezegendeyken yeni parçalar donanamazsın.</Cannot_equip_ship_parts_while_on_a_planet>
+  <You_may_identify_this_once_youre_safe_in_space>Bir gezegendeyken tanımlama kullanılamaz.</You_may_identify_this_once_youre_safe_in_space>
+  <Cannot_throw_away_equipped_ship_parts>Donandığın parçaları atamazsın.</Cannot_throw_away_equipped_ship_parts>
+  <You_can_use_Alien_Artifacts_while_on_a_planet_or_in_space>(Uzaylı eserini uzaydayken veya bir gezegendeyken kullanabilirsin.)</You_can_use_Alien_Artifacts_while_on_a_planet_or_in_space>
+  <You_can_use_Advanced_Technology_while_on_a_planet_or_in_space>(Gelişmiş teknolojiyi uzaydayken veya bir gezegendeyken kullanabilirsin.)</You_can_use_Advanced_Technology_while_on_a_planet_or_in_space>
+  <To_quit_press_A_or_ENTER_now>Çıkmak için şimdi ((A))'ya veya ENTER'a bas.</To_quit_press_A_or_ENTER_now>
+  <You_have_never_used_this_kind_of_Alien_Artifact_before>Bu tip Uzaylı Eserini şimdiye kadar hiç kullanmadın. Etkilerinin ne olacağını bilmiyorsun.</You_have_never_used_this_kind_of_Alien_Artifact_before>
+  <You_have_never_used_this_kind_of_Advanced_Technology_before>Bu tip Gelişmiş Teknolojiyi şimdiye kadar hiç kullanmadın. Etkilerinin ne olacağını bilmiyorsun.</You_have_never_used_this_kind_of_Advanced_Technology_before>
+  <ALIEN_ARTIFACT_COLOR_NAMES>
+    <string>Beyaz Uzaylı Eseri</string>
+    <string>Gri Uzaylı Eseri</string>
+    <string>Kırmızı Uzaylı Eseri</string>
+    <string>Kahverengi Uzaylı Eseri</string>
+    <string>Turuncu Uzaylı Eseri</string>
+    <string>Sarı Uzaylı Eseri</string>
+    <string>Turkuaz Uzaylı Eseri</string>
+    <string>Yeşil Uzaylı Eseri</string>
+    <string>Mavi Uzaylı Eseri</string>
+    <string>Lacivert Uzaylı Eseri</string>
+    <string>Mor Uzaylı Eseri</string>
+    <string>Pembe Uzaylı Eseri</string>
+    <string>Siyah Uzaylı Eseri</string>
+  </ALIEN_ARTIFACT_COLOR_NAMES>
+  <ALIEN_ARTIFACT_EFFECT_DESCRIPTIONS>
+    <string>Ana kalkanına eşit güçte bir geçici kalkan ekler. (Geçici kalkanlar zamanla yenilenmez.)</string>
+    <string>Kalkanları tamamen doldurur.</string>
+    <string>Zırhı tamamen tamir eder.</string>
+    <string>50% gövdeyi onarın.</string>
+    <string>5 saniyelik hasarsızlık kazandırır.</string>
+    <string>Kalkanları 5 saniyeliğine 0'a düşürür.</string>
+    <string>Ana silahının ateşleme hızını 10 saniyelğine ikiye katlar.</string>
+    <string>Kalkan yenilenme hızını 10 saniyeliğine iki katına çıkarır.</string>
+    <string>10 saniyeliğine arıza tespiti yapar.</string>
+    <string>Bütün kötü durum etkilerini tamir eder. (yavaşlamalar, algılayıcı arızası, ters çevrilmiş kontroller ve kalkan iptalleri).</string>
+    <string>10 saniyeliğine yavaşladın.</string>
+    <string>Hızını 10 saniyeliğine 50% artırır.</string>
+    <string>Kontrolleri 10 saniyeliğine ters çevirir.</string>
+  </ALIEN_ARTIFACT_EFFECT_DESCRIPTIONS>
+  <ADVANCED_TECHNOLOGY_EFFECT_DESCRIPTIONS>
+    <string>Rastgele bir gemi parçasının Entropisini artırır. (Bu kötü bir şey!)</string>
+    <string>Rastgele bir gemi parçasının İstikrarını artırır. (Bu iyi bir şey!)</string>
+    <string>Rastgele bir zayıflatılmış ekipmanı güçlendirir.</string>
+    <string>Zırh gücünü kalıcı olarak 1 artırır.</string>
+    <string>Bir gemi geliştirmesi kazandırır.</string>
+    <string>Gemiyi gezegende rastgele bir yere ışınlar.</string>
+    <string>Gövdene büyük bir hasar verir.</string>
+    <string>Hiçbir etkisi yoktur.</string>
+    <string>Bir yakıt verir.</string>
+    <string>Bir gemi geliştirmeni kaybettirir.</string>
+    <string>Bütün düşmanları 10 saniye yavaşlatır.</string>
+    <string>Gemiyi tamamen başka bir odada yeniden inşa eder.</string>
+    <string>Yakınlarda bir sürü düşmanın belirmesine neden olur.</string>
+    <string>Yeni düşmanların oluşturulmasını 10 saniyeliğine engeller.</string>
+    <string>Ekrandaki bütün düşmanları ve mermileri yok eder.</string>
+  </ADVANCED_TECHNOLOGY_EFFECT_DESCRIPTIONS>
+  <Log>Kayıt</Log>
+  <Profile>Profil</Profile>
+  <Blueprint>Tasarı</Blueprint>
+  <Battery>Batarya</Battery>
+  <Repair_Kit>Tamir Kiti</Repair_Kit>
+  <Long_Range_Scanner>Uzun Menzil Tarayıcısı</Long_Range_Scanner>
+  <Advanced_Technology>Geliştirilmiş Teknoloji</Advanced_Technology>
+  <Battery_Use_Description>5 saniyeliğine kalkanlarının yenilenme oranı ikiye katlanır, silahlarının ateşleme oranı ikiye katlanır ve hızlanırsın.</Battery_Use_Description>
+  <Item_has_been_permanently_added_to_the_COLLECTION>%item% KOLEKSİYONA kalıcı olarak dahil edildi.</Item_has_been_permanently_added_to_the_COLLECTION>
+  <Master_Sword>Esas Kılıç</Master_Sword>
+  <Angry_Armor>Kızgın Zırh</Angry_Armor>
+  <Volcanic_Armor>Volkanik Zırh</Volcanic_Armor>
+  <Berserker_Armor>Çılgın Zırh</Berserker_Armor>
+  <ANGEL_Armor>MELEK Zırhı</ANGEL_Armor>
+  <Regenerating_Armor>Yenilenen Zırh</Regenerating_Armor>
+  <Embedded_Armor>Dahili Zırh</Embedded_Armor>
+  <Heavy_Armor>Ağır Zırh</Heavy_Armor>
+  <Angry_Shield>Kızgın Kalkan</Angry_Shield>
+  <Nova_Shield>Nova Kalkanı</Nova_Shield>
+  <EMP_Resistant_Shield>EMP-dirençli Kalkan</EMP_Resistant_Shield>
+  <Malleable_Shield>Esnek Kalkan</Malleable_Shield>
+  <Integrated_Shield>Bütünleşik Kalkan</Integrated_Shield>
+  <Desperate_Shield>Umutsuz Kalkan</Desperate_Shield>
+  <Synchronized_Shield>Sekronize Kalkan</Synchronized_Shield>
+  <Overcharged_Shield>Aşırıyüklenmiş Kalkan</Overcharged_Shield>
+  <Tiny>Minik %name%</Tiny>
+  <Alien_Integrator>Uzaylı Toplayıcısı</Alien_Integrator>
+  <Engine_Booster>Motor İticisi</Engine_Booster>
+  <Hull_Repair_Bots>Gövde Tamir Botları</Hull_Repair_Bots>
+  <Phase_Shield>Faz Kalkanı</Phase_Shield>
+  <Last_Resort>Son Çare</Last_Resort>
+  <Weapon_Booster>Silah Takviyesi</Weapon_Booster>
+  <Shield_Rerouter>Kalkan Saptırıcısı</Shield_Rerouter>
+  <Alien_Teleporter>Uzaylı Işınlayıcısı</Alien_Teleporter>
+  <EMP_Channeler>EMP Yönlendiricisi</EMP_Channeler>
+  <Modified_EMP_Channeler>%modifier% EMP Yönlendiricisi</Modified_EMP_Channeler>
+  <Stream_Interrupt>Akış Kesici</Stream_Interrupt>
+  <Fuel_Preprocessor>Yakıt Önişlemcisi</Fuel_Preprocessor>
+  <Emergency_Backup_Systems>Acil Yedek Sistemleri</Emergency_Backup_Systems>
+  <Rubberized>Kauçuklanmış</Rubberized>
+  <Penetrating>Delici</Penetrating>
+  <Fires_one_bullet_every_X_seconds>Her %seconds% saniyede bir mermi ateşler.</Fires_one_bullet_every_X_seconds>
+  <Bullets_travel_X_pixels_per_second>Mermiler saniyede %speed% piksel ilerler.</Bullets_travel_X_pixels_per_second>
+  <BULLET_TYPE_REGULAR> %damage% hasarı verir.</BULLET_TYPE_REGULAR>
+  <BULLET_TYPE_EMP>HİÇ hasar vermezler, onun yerine hedefi %seconds% saniyeliğine yavaşlatır.
+Dokunduğu herhangi bir güçkalkanını tamamen devredışı bırakır.</BULLET_TYPE_EMP>
+  <BULLET_TYPE_RUBBER>Duvarlardan seker, ömürleri 1.5 saniyedir.
+%damage% hasarı verir.</BULLET_TYPE_RUBBER>
+  <BULLET_TYPE_FRAGMENTING>%damage% hasarı verir ve mermiler ilerlerken daha küçük mermiler ateşler.</BULLET_TYPE_FRAGMENTING>
+  <BULLET_TYPE_KNOCKBACK>%damage% hasarı verir ve hedefi %knockback% geriye ittirir.</BULLET_TYPE_KNOCKBACK>
+  <BULLET_TYPE_PENETRATING>%damage% hasarı verir ve duvardan geçebilir.</BULLET_TYPE_PENETRATING>
+  <Can_absorb_x_damage>%amount% miktar hasarı emebilir.</Can_absorb_x_damage>
+  <Originally>Aslında %amount%.</Originally>
+  <Regenerates_x_damage_every_y_seconds>Saniye başına %damage% hasar tamir eder.</Regenerates_x_damage_every_y_seconds>
+  <Resists_X_percent_of_damage_resulting_from_collisions>Çarpışma kaynaklı hasarların %percent%% kısmına direnir.</Resists_X_percent_of_damage_resulting_from_collisions>
+  <Resists_X_percent_of_damage_resulting_from_weapons>Silahlardan kaynaklı hasarların %percent%% kısmına direnir.</Resists_X_percent_of_damage_resulting_from_weapons>
+  <Does_not_protect_from_collision_damage>Çarpışma hasarına karşı korumaz.</Does_not_protect_from_collision_damage>
+  <X_percent_shield_recharge_rate>%percent%% kalkan şarj oranı.</X_percent_shield_recharge_rate>
+  <X_percent_weapon_recharge_rate>%percent%% silah şarj oranı.</X_percent_weapon_recharge_rate>
+  <X_percent_movement_speed>%percent%% hareket hızı.</X_percent_movement_speed>
+  <X_percent_revive_speed>%percent%% canlanma hızı.</X_percent_revive_speed>
+  <Regen_rate_is_doubled_if_pacifist>%seconds% saniye ateş etmezsen iyileşme hızın ikiye katlanır. </Regen_rate_is_doubled_if_pacifist>
+  <When_you_are_slowed_you_are_randomly_teleported>Yavaşladığında rastgele ışınlanırsın.</When_you_are_slowed_you_are_randomly_teleported>
+  <Something_good_happens_every_X_seconds>Her %seconds% saniyede bir iyi bir şey olur.</Something_good_happens_every_X_seconds>
+  <Something_bad_happens_every_X_seconds>Her %seconds% saniyede bir kötü bir şey olur.</Something_bad_happens_every_X_seconds>
+  <Armor_is_weakened>Bu zırh güçsüzleşti, normalde sağlayacağının yarısı kadar zırh sağlayabiliyor.</Armor_is_weakened>
+  <Fire_rate_is_halved_due_to_Weakening>Güçsüzleşme yüzünden ateş oranı yarıya düştü.</Fire_rate_is_halved_due_to_Weakening>
+  <Damage_is_halved_due_to_Weakening>Güçsüzleşme yüzünden hasar yarısına düştü.</Damage_is_halved_due_to_Weakening>
+  <Lava>Lav</Lava>
+  <Slowed>Yavaşlamış</Slowed>
+  <NotAvailable>M/D</NotAvailable>
+  <Light_Lukida_Description>Küçük, hızlı bir gemi.
+
+* +%20 hareket hızı
+* Yavaşladığında,
+  %50 daha kısa sürede yeniden hızlanır.
+* -1 Gövde Gücü
+* En fazla 2 silah taşıyabilir.</Light_Lukida_Description>
+  <Alien_Alwaid_Description>Bir uzaylı gemisi.
+
+* Uzaylı eserleri normal etkileri yerine kalkan yenilenmesini 3 saniyeliğine 2 katına çıkarır ve zırhının ve gövdenin 1'sini yeniler.
+* EMP-dirençli bir Kalkanla başlar.
+* -%15 hareket hızı
+* -1 Gövde gücü</Alien_Alwaid_Description>
+  <Orbiting_Oculus_Description>Bir uydu gibi iş görür, başka bir gemibib yörüngesinde hareket eder. Kendi kendine hareket edemez, ancak herhangi bir yöne ateş edebilir. Ayrıca mermileri bir kalkan gibi engelleyebilir ve düşmanlara çarpabilir. Yok edilirse, bölümün sonuna kadar yok olur.</Orbiting_Oculus_Description>
+  <Risky_Ras_Algethi_Description>Yıldızlararası hızlıca seyahat için üretilmiş bir gemi.
+
+* Sadece 2 yakıta ihtiyaç duyar.
+* Yakıt topladığında, 4 saniyeliğine Hızlandırılırsın.
+  (Yakıt Parçası için 1 saniye).
+* Daha fazla düşmanla karşılaşacaksın.</Risky_Ras_Algethi_Description>
+  <Alien_Alwaid_Alien_Artifact_Effect_Description>Kalkan yenilenme hızını 3 saniyeliğine iki katına çıkarır ve Zırh ve Gövdeyi %20 yeniler.</Alien_Alwaid_Alien_Artifact_Effect_Description>
+  <PLANET_TYPE_NAMES>
+    <string>Orman</string>
+    <string>Çöl</string>
+    <string>Issız</string>
+    <string>Okyanus</string>
+    <string>Buz</string>
+    <string>Lav</string>
+    <string>Maden</string>
+    <string>Perili</string>
+  </PLANET_TYPE_NAMES>
+  <CIVILIZATION_BASE_OPTIONS>
+    <string>Satın Almak</string>
+    <string>Satmak</string>
+    <string>Tersane</string>
+    <string>Bilgi</string>
+  </CIVILIZATION_BASE_OPTIONS>
+  <MONTH_ABBREVIATIONS>
+    <string/>
+    <string>Ocak</string>
+    <string>Şub</string>
+    <string>Mar</string>
+    <string>Nis</string>
+    <string>May</string>
+    <string>Haz</string>
+    <string>Tem</string>
+    <string>Ağu</string>
+    <string>Eyl</string>
+    <string>Ek</string>
+    <string>Kas</string>
+    <string>Ara</string>
+  </MONTH_ABBREVIATIONS>
+  <SCAN_DATA_ENTRIES>
+    <ArrayOfString>
+      <string>Hedefleyen Eltair</string>
+      <string>Hareket etmemesine rağmen, EMP silahını aralıksız olarak senin bulunduğun yere ateşleyecek. Kendi başına pek zararsız olmasına karşın, yavaşlatan mermileri etrafta başka düşmanlar olduğunda çok tehlikeli olabilir.
+      
+Tehdit: 3
+Hız: Yok
+Can: 240</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Bombacı Kelbalray</string>
+      <string>Güçlü bir bomba silahı var, ve nasıl kullanacağını biliyor: yukarına çıkmaya çalışıp kafana ölüm yağdıracak.
+      
+Eğer bombalarının keskin sesini duyar ama onu göremezsen, yukarı bak.
+      
+Tehdit: 6
+Hız: %50
+Can: 120</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Bombacı Kelbalray 2</string>
+      <string>Güçlü bir bomba silahı var, ve nasıl kullanacağını biliyor: yukarına çıkmaya çalışıp kafana ölüm yağdıracak.
+      
+Eğer bombalarının keskin sesini duyar ama onu göremezsen, yukarı bak.
+      
+Tehdit: 10
+Hız: %50
+Can: 200</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Emekleyen Karina</string>
+      <string>Duvarlara yapışıp tahmin edilebilir bir yol izler, ama güçlü silahlarını rastgele ateşler ve mermileri duvarlardan seker.
+
+Tehdit: 7
+Hız: ??
+Can: 280</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Atılgan Deneb</string>
+      <string>Sürü halinde gelip, dört yandan saldırırlar...
+
+Tehdit: 5
+Hız: %70-%110
+Can: 60</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Dörtyol Fomalhaut</string>
+      <string>Yanına atılır ve dört lazerini birden ateşler.
+
+Tehdit: 1
+Hız: %100
+Can: 50</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Dörtyol Fomalhaut 2</string>
+      <string>Yanına inanılmaz bir hızla atılır ve dört lazerini birden iki el ateşler.
+Tehdit: 8
+Hız: %150
+Can: 100</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Üşüşen Sirrah</string>
+      <string>Sadece ufak bir rahatsızlık, ötesi değiller. Etrafta vızıldayarak yakıt ve diğer eşyaları dolandırırlar ama hiçbirine sahip olamazlar.
+Tehdit: 0
+Hız: %60
+Can: 5</string>    
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Yüzen Şeylak</string>
+      <string>Sana doğru yalpalayarak gelen bu şeyin kendi güvenliğini umursadığı yok. En kötüsü, yok edildiğinde epey şiddetli patlaması.
+Tehdit: 2
+Hız: %30
+Can: 120</string>  
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Yüzen Şeylak 2</string>
+      <string>Sana doğru yalpalayarak gelen bu şeyin kendi güvenliğini umursadığı yok. En kötüsü, yok edildiğinde epey şiddetli patlaması.
+Tehdit: 9
+Hız: %40
+Can: 240</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>İzleyen Talita</string>
+      <string>Etrafında garip açılarda gezip, uyandığında bir seri mermi bırakıyor.
+Tehdit: 9
+Hız: %40
+Can: 240</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Tünelci Boğa</string>
+      <string>Sana doğru bükülerek gelir. İkiye bölündüğünde her iki yarı bağımsız hareket eder. Kafasını yok ettiğinde, yenisi çıkar.
+
+Eğer bu kadar küçük olmasaydı gerçekten korkunç olurdu.
+
+Tehdit: 4
+Hız: %50
+Can: 80 (her parça)</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Yenilenen Rigel</string>
+      <string>Gezegenlerin çevresindeki yörüngede bilinmeyen bir sebeple bekler, durur. Görevi her ne ise, kendisini hışımla korur ve hasarlı parçalarını yenileyebilir.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Devasa Balina</string>
+      <string>Okyanus gezegenlerinde bulunur, bir grup balıkla çevrili.
+
+Ama nasıl içinde bir parça yakıt bulunuyor? Yanlışlıkla yakıtı mı yemiş?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Devasa Balina (Lav)</string>
+      <string>Lav gezegenlerinde bulunur, etrafında bir grup kül rengi yaratık var.
+
+Bu gerçekten Okyanus gezegenlerinde bulunan balinayla aynı tür mü?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Küçük Balık</string>
+      <string>Küçük, uçak bir balık. Devasa Balinaların çevresinde üşüşürler. Galiba aralarında simbiyoik bir ilişki var.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Tünelci Boğa (Devasa)</string>
+      <string>Belki de sadece "Dev" demek yetecek. Adını nasıl koyarsak koyalım, bazı Tünelci Boğaların bu kadar nasıl büyüyebildikleri bir muamma.
+Tehdit: ??
+Hız: %70
+Can: 500 (her parça)</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Gizlenen Cor Caroli</string>
+      <string>Görünmeyen yollarda hareket eder, sadece sana bir salvo ateş ettiğinde görülür.</string>
+      <string>Tehdit: 2
+Hız: ??
+Can: 400</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Antares Anemon</string>
+      <string>Okyanus zemininde durur, periyodik olarak büyük deniz yaratıklarını bile öldürmeye veya yaralamaya yetecek bir enerji salınımı yapar.</string>
+      <string>Tehdit: 1
+Hız: Yok
+Can: 60</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Seyyar Eridanus</string>
+      <string>Atılır, kayar ve ateş eder... atılır, kayar ve ateş eder...</string>
+      <string>Tehdit: 1
+Hız: 100%
+Can: 50</string>
+    </ArrayOfString>
+  </SCAN_DATA_ENTRIES>
+  <Hello_Captain>Merhaba, Kaptan.</Hello_Captain>
+  <One_more_thing>Bir şey daha:</One_more_thing>
+  <We_cant_go_back_now>Şimdi geri gidemeyiz.</We_cant_go_back_now>
+  <What_do_you_recommend>Ne önerirsin?</What_do_you_recommend>
+  <Sounds_like_a_plan>Kulağa mantıklı geliyor.</Sounds_like_a_plan>
+  <MAINTENANCE_CHECK>Uyandırmak istemezdim, ama 100IY bakım kontrolü zamanı.
+
+Sizi endişelendirebilecek sıradışı bir durum yok. Yazılım ve donanım işlemleri normal gözüküyor.
+
+Nasıl hissediyorsun?</MAINTENANCE_CHECK>
+  <TUTORIALIZE_OPTION>İyi.
+
+Before shutting down, would you like to do some exercises?</TUTORIALIZE_OPTION>
+  <TUTORIAL_MINIBOSS_APPROACHES>Wait.
+
+Kaptan bir şey yakaladım... bir gemi bize yaklaşıyor. Bağlantı kurmakta güçlük çekiyorum; eski bir gemi ve epey hasar almış.</TUTORIAL_MINIBOSS_APPROACHES>
+  <TUTORIAL_MINIBOSS_APPROACHES_2>Kaptan, gemi silahlarını hazırlıyor. Karşımızdaki eski ve hasarlı olabilir, ama kesinlikle bir savaş gemisi.
+
+Onu güçle etkisiz hale getirmeye çalış; sen bunu yaparken ben de onu hekleyip kontrolünü ele geçirmeye çalışacağım.</TUTORIAL_MINIBOSS_APPROACHES_2>
+  <END_OF_TUTORIAL_NEUTRALIZED>Kaptan geminin kontrolünü ele geçirdim, şimdi devredışı bırakıyorum.</END_OF_TUTORIAL_NEUTRALIZED>
+  <END_OF_TUTORIAL_DESTROYED>Tebrikler, kaptan.
+
+Daha önce devredışı bırakamadığım için üzgünüm. Tahmin ettiğimden daha fazla hasarlıydı.
+
+Yine de bazı bilgileri ele geçirebildim.</END_OF_TUTORIAL_DESTROYED>
+  <END_OF_TUTORIAL_2>Geminin kayıtları onun bir savaş gemisi olduğunu doğruluyor. 526 yıl önceki bir çarpışmada ağır hasar almış ve o zamandan beri harap bir şekilde sürükleniyor derelict.
+
+Bilgi 526 yaşında olduğundan, bunun gemi gemilerin gerisinin nerede olduğunu söylemek zor; biraz şanslıysak bunun gibi bir başkasıyla karşılaşmayız.</END_OF_TUTORIAL_2>
+  <END_OF_TUTORIAL_3>Neyse, bu Sektör ZZ-Omega-9'a ulaşmadan önceki son bakım kontrolüydü, mümkün olduğunca fazla yakıt tasarrufu öneririm. İleride bizi bekleyen her ne ise, hazırlıksız yakalanmak istemeyiz.</END_OF_TUTORIAL_3>
+  <LAVA_INFO>Sanırım hatırlatmalıyım: kalkanlarımız lavın yüksek ısısı için tasarlanmadı. Teknik olarak tek parça olacaklardır, ama yüzey altındayken onları yenilememiz imkânsız.</LAVA_INFO>
+  <MYSTERIOUS_FORCE_EXPLANATION>Uyandırdığım için üzgünüm, ancak acil bir durum var: tanımlanmayan bir güç yavaşlamamıza sebep oluyor.
+  
+Şu an yok sayılabilir durumda olsa da, güç ZZ-Omega Kümesine yaklaştıkça kuvvetleniyor.
+
+Eğer güç bu hızda artmaya devam ederse, eve dönmek için yeterli yakıtımız olmayabilir.</MYSTERIOUS_FORCE_EXPLANATION>
+  <MYSTERIOUS_FORCE_SOLUTION_EXPLANATION>ZZ-Omega Kümesinde pekçok maden yönünden zengin gezegen var. Bu gezegenlerde durup gerekli yakıtı çıkarabiliriz. Bu planla hareket etmek istersen, ZZ-Omega Kümesinde hareket edebileceğimiz birkaç güzergâh belirledim.
+  
+Hangi yolu seçersen seç, karşılaştığımız her gezegenden 3 Yakıt çıkarmamız gerekecek.
+  </MYSTERIOUS_FORCE_SOLUTION_EXPLANATION>
+  <STASIS_EXPLANATION>Gemi parçalarımızdan biri aşırı yüksek İstikrar seviyesi gösteriyor!
+  
+Yapısını inceledim: Kesinlikle pozitif bir etkisi var, ama kaynağı bilinmedik; tahmin edemeyeceğimiz sonuçlar olabilir diye endişeleniyorum. Şimdiye kadar bir sorun yok gibi gözüküyor, bir şey değişirse seni bilgilendiririm.</STASIS_EXPLANATION>
+  <ENTROPY_EXPLANATION>Gemi parçalarımızdan biri aşırı yüksek Entropi seviyesi gösteriyor!
+
+Yapısını inceledim, bu bizim tamir kapasitemizin çok üstünde.
+
+Bu parçayı kullanmaya devam edebiliriz, ama kesinlikle yedeğe ihtiyacımız aklımızda olmalı.</ENTROPY_EXPLANATION>
+  <WEAKENED_EXPLANATION>Gemi parçalarımızdan biri Güçsüzleşmiş!
+  
+Bu parçayı kullanmaya devam edebiliriz, ama ilerideki olası Güçsüzleştirmeler onu tamamen yok edecek.</WEAKENED_EXPLANATION>
+  <EXPLAIN_POCKET_DIMENSION>Katlanmış uzayın bir girintisine düştük. Oradaki uzaylı yapısı büyük ihtimalle bu ihtimale karşı bir savunmaydı, ama bizim çekici ışınımız onu engelledi.
+  
+Gemimiz çekimsel sahalardan kaçabilecek kadar güçlü değil. Bizi beraberlerinde öteki uca taşımalarını beklemekten başka yapacak bir şeyimiz yok.</EXPLAIN_POCKET_DIMENSION>
+  <EXPLAIN_POCKET_DIMENSION_2>Bekle.
+
+Kaptan, bir şey tespit ettim...bir gemi, yahut gemiden geriye kalanlar. Hurda parçaları çekimsel sahaların arasında sıkışmış.
+
+Yakıt olarak kullanabileceğimiz parçalar olabilir. Eğer mümkünse bunları almaya çalışmalıyız, ama tabi ki hayatta kalmak asıl önceliğimiz.</EXPLAIN_POCKET_DIMENSION_2>
+  <Its_dangerous_to_go_alone_take_this>Yalnız gitmen tehlikeli! Bunu al.</Its_dangerous_to_go_alone_take_this>
+  <ReceivedItemNote>(%itemname% silahını aldın.)</ReceivedItemNote>
+  <Fool>Aptal.</Fool>
+  <PRACTICE_MOVING_TUTORIAL>Harika! Hadi başlayalım!
+
+Gemiyi %input% kullanarak hareket ettir.</PRACTICE_MOVING_TUTORIAL>
+  <PRACTICE_SHOOTING_TUTORIAL>Maalesef, etrafta alıştırma için ateş edebileceğimiz hiçbir şey yok. Mecburen holografik bir yansıtma işimizi görecek.
+
+Birkaç hologram üreteceğim; onlara %input% tuşunu kullanarak ateş etmeye çalış.</PRACTICE_SHOOTING_TUTORIAL>
+  <MINIBOSS_EXPLANATION>Çok güçlü bir sinyal tespit ettim... başka bir gemi, ama şimdiye kadar karşılaştıklarımızdan hepsinden daha güçlü.
+  
+Tehlikeli olabilir, ama yok edersek, Yakıtını ele geçirebiliriz.
+  
+Haritada yerini işaretleyeceğim.</MINIBOSS_EXPLANATION>
+  <WASD_or_the_arrow_keys>WASD veya ok tuşları</WASD_or_the_arrow_keys>
+  <Z_or_slash>Z veya /</Z_or_slash>
+  <the_left_analog_stick>sol analog kolu</the_left_analog_stick>
+  <CTRL>CTRL</CTRL>
+  <SHIFT>SHIFT</SHIFT>
+  <ENTER>ENTER</ENTER>
+  <ESC>ESC</ESC>
+  <DEL>DEL</DEL>
+  <Unknown_command>Bilinmeyen komut. Yardım için HELP yazın.</Unknown_command>
+  <Release_Date>%day% %month%, %year%</Release_Date>
+
+  <WINDOW_LOST_FOCUS>PENCERE ODAĞI KAYBOLDU. DEVAM ETMEK İÇİN PENCERYE TIKLAYIN, VE ((A))'ya VEYA ENTER'a BASIN.</WINDOW_LOST_FOCUS>
+</Language>

@@ -1,0 +1,446 @@
+<?xml version="1.0"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LanguageName>Francais</LanguageName>
+  <LanguageCode>fr</LanguageCode>
+  <LanguageIcon>1</LanguageIcon>
+  <Translation_Unavailable>Traduction Indisponible</Translation_Unavailable>
+  <None>Aucun</None>
+  <Hull>Coque</Hull>
+  <Armor>Armure</Armor>
+  <Shield>Bouclier</Shield>
+  <Accessory>Accessorie</Accessory>
+  <Orbital_Accessory>Accessoire Orbitale</Orbital_Accessory>
+  <Revive>Ranimer!</Revive>
+  <Fuel>Carburant</Fuel>
+  <Points>Points</Points>
+  <Cargo>Cargaison</Cargo>
+  <Yes>Oui</Yes>
+  <No>Non</No>
+  <On>Oui</On>
+  <Off>Non</Off>
+  <Ready>Prêt</Ready>
+  <New>Neuf</New>
+  <GET>PRENDRE</GET>
+  <Closer>Approchez</Closer>
+  <Total>Total</Total>
+  <Difficulty>Difficulté</Difficulty>
+  <Points_Earned>Points Gagnés</Points_Earned>
+  <Threat>Menace</Threat>
+  <Low>Faible</Low>
+  <Medium>Moyenne</Medium>
+  <High>Élevée</High>
+  <Extreme>Extrême</Extreme>
+  <Overpowering>Écrasante</Overpowering>
+  <NEW_GAME>NOUVEAU JEU</NEW_GAME>
+  <CONTINUE_GAME>CONTINUER JEU</CONTINUE_GAME>
+  <HIGH_SCORES>MEILLEURS SCORES</HIGH_SCORES>
+  <ABOUT>CRÉDITS</ABOUT>
+  <DONATIONS>DONATIONS</DONATIONS>
+  <QUIT>QUITTER</QUIT>
+  <COLLECTION>COLLECTION</COLLECTION>
+  <SETTINGS>RÉGLAGES</SETTINGS>
+  <Music>Musique</Music>
+  <Sound_Effect>Effet Sonore</Sound_Effect>
+  <version>version</version>
+  <DEBUG_MODE_ON>MODE DÉBOGAGE EST ALLUMÉ</DEBUG_MODE_ON>
+  <SHIP>VAISSEAU</SHIP>
+  <SCORE>SCORE</SCORE>
+  <DATE>DATE</DATE>
+  <Space>Espace</Space>
+  <Health>Santé</Health>
+  <Education>Éducation</Education>
+  <Misc>Divers</Misc>
+  <SHIP_COLOR_NAMES>
+    <string>orange</string>
+    <string>rouge</string>
+    <string>bleu</string>
+    <string>pourpre</string>
+    <string>vert</string>
+  </SHIP_COLOR_NAMES>
+  <Ship_Name>Nom de vaisseau</Ship_Name>
+  <Ship_Type>Type de vaisseau</Ship_Type>
+  <Subroutine>Subroutine</Subroutine>
+  <Please_name_your_ship>SVP nommez votre vaisseau!</Please_name_your_ship>
+  <That_name_is_already_in_use>Ce nom est déjà utilisé!</That_name_is_already_in_use>
+  <Add_a_player>Ajouter un joueur</Add_a_player>
+  <Add_another_player>Ajouter un autre joueur</Add_another_player>
+  <Remove_player>Enlever ce joueur</Remove_player>
+  <Add_an_orbital_player>Ajouter un joueur Orbitale</Add_an_orbital_player>
+  <Press_to_accept_name>(((START)) quand fini)</Press_to_accept_name>
+  <Very_well_Shutting_down>Très bien. Arrêt.</Very_well_Shutting_down>
+  <I_feel_fine>Je me sens bien.</I_feel_fine>
+  <Lets_do_some_flight_exercises>Faisons des exercices de pilotage.</Lets_do_some_flight_exercises>
+  <No_thanks>Non merci.</No_thanks>
+  <Practice_Moving>Pratique Mobile</Practice_Moving>
+  <Practice_Shooting>Pratique Tir</Practice_Shooting>
+  <The_truth_behind_Sector_ZZ_Omega_9_remains_a_secret>La vérité derrière le secteur ZZ-Omega-9 demeure un secret.</The_truth_behind_Sector_ZZ_Omega_9_remains_a_secret>
+  <The_truth_behind_Sector_ZZ_Omega_9_dies_with_you>La vérité derrière le secteur ZZ-Omega-9 meurt avec toi.</The_truth_behind_Sector_ZZ_Omega_9_dies_with_you>
+  <The_truth_behind_Sector_ZZ_Omega_9_will_be_revealed>La vérité derrière le secteur ZZ-Omega-9 sera révêlée!</The_truth_behind_Sector_ZZ_Omega_9_will_be_revealed>
+  <Final_score>Score final:</Final_score>
+  <PLAY_AGAIN_LOSE>
+    <string>REJOUER</string>
+    <string>RÉESSAYER</string>
+    <string>ENCORE</string>
+  </PLAY_AGAIN_LOSE>
+  <PLAY_AGAIN_WIN>
+    <string>ENCORE</string>
+  </PLAY_AGAIN_WIN>
+  <DONE_FOR_NOW_LOSE>
+    <string>ABANDONNER L'ESPOIR</string>
+    <string>QUITTER</string>
+    <string>PAS PLUS</string>
+    <string>FINI</string>
+  </DONE_FOR_NOW_LOSE>
+  <DONE_FOR_NOW_WIN>
+    <string>FINI</string>
+  </DONE_FOR_NOW_WIN>
+  <Visit_Planet>Visitez Planet</Visit_Planet>
+  <Inventory_Slash_Menu>Inventaire/Menu</Inventory_Slash_Menu>
+  <Equipment>Équipement</Equipment>
+  <Inventory>Inventaire</Inventory>
+  <Upgrade>Mise à Niveau</Upgrade>
+  <Save_and_Quit>Quitter</Save_and_Quit>
+  <Settings>Réglages</Settings>
+  <Sound_Volume>Volume du Son</Sound_Volume>
+  <Music_Volume>Volume de la Musique</Music_Volume>
+  <Vibrate_Controller>Contrôleur de Vibrations</Vibrate_Controller>
+  <Reset_Tutorial>Réinitialiser les Tutoriel</Reset_Tutorial>
+  <Show_Health_Numbers>#Show Health Numbers#</Show_Health_Numbers>
+  <Display>#Display#</Display>
+  <Windowed>#Windowed#</Windowed>
+  <Fullscreen>#Fullscreen#</Fullscreen>
+  <Strengthen_Hull>Coque Résistance</Strengthen_Hull>
+  <X_Points>%points% Points</X_Points>
+  <Second_Weapon_Slot>Deuxième Arme</Second_Weapon_Slot>
+  <Third_Weapon_Slot>Troisième Arme</Third_Weapon_Slot>
+  <Additional_Armor_Slot>#Additional Armor Slot#</Additional_Armor_Slot>
+  <Alien_Scanners>Scanners Aliens</Alien_Scanners>
+  <Scrapping>#Scrapping#</Scrapping>
+  <Improved_Thrusters>Propulseur I</Improved_Thrusters>
+  <Improved_Thrusters_2>Propulseur II</Improved_Thrusters_2>
+  <Adaptive_Software>Logiciel Adaptatif</Adaptive_Software>
+  <Shielded_Core>Noyau Blindé</Shielded_Core>
+  <Super_Repellent_Surface>#Super-repellent Surface#</Super_Repellent_Surface>
+  <Improved_Thrusters_Description>Augmente le contrôle par l'amélioration de la vitesse limite d'arrêt.</Improved_Thrusters_Description>
+  <Second_Weapon_Slot_Description>Vous permet de vous équiper simultanément avec un maximum de deux armes. Votre deuxième arme fonctionnera à 2/3 de la vitesse habituelle. </Second_Weapon_Slot_Description>
+  <Third_Weapon_Slot_Description>Vous permet de vous équiper simultanément avec un maximum de trois armes. Votre troisième arme fonctionnera à 1/3 de la vitesse habituelle.</Third_Weapon_Slot_Description>
+  <Strengthen_Hull_Description>Augmente la Coque de %amount%.
+
++2 capacité de charge.</Strengthen_Hull_Description>
+  <Not_enough_upgrade_parts>Pas assez de partie pour mettre à niveau.</Not_enough_upgrade_parts>
+  <Cannot_upgrade_while_on_a_planet>Impossible de mettre à niveau sur la planète.</Cannot_upgrade_while_on_a_planet>
+  <You_have_no_inventory>Aucun inventaire.</You_have_no_inventory>
+  <Inventory_is_full>Inventaire est plein.</Inventory_is_full>
+  <This_ship_part_has_not_been_identified>Cette partie du vaisseau n'a pas été identifiée.</This_ship_part_has_not_been_identified>
+  <Press_to_drop>%input% pour tomber</Press_to_drop>
+  <Press_to_identify>%input% pour identifier</Press_to_identify>
+  <Press_to_equip>%input% pour équiper</Press_to_equip>
+  <Press_to_unequip>%input% pour déséquiper</Press_to_unequip>
+  <Press_to_change>%input% pour changer</Press_to_change>
+  <Press_to_use>%input% pour utiliser</Press_to_use>
+  <Press_to_upgrade>%input% pour mettre à niveau</Press_to_upgrade>
+  <Cannot_equip_ship_parts_while_on_a_planet>Impossible d'équiper sur la planète.</Cannot_equip_ship_parts_while_on_a_planet>
+  <You_may_identify_this_once_youre_safe_in_space>Impossible d'identifer sur la planète.</You_may_identify_this_once_youre_safe_in_space>
+  <Cannot_throw_away_equipped_ship_parts>#Cannot throw away equipped parts#</Cannot_throw_away_equipped_ship_parts>
+  <You_can_use_Alien_Artifacts_while_on_a_planet_or_in_space>(Vous pouvez utiliser les Artefacts Aliens tandis que sur une planète, ou dans l'espace.)</You_can_use_Alien_Artifacts_while_on_a_planet_or_in_space>
+  <You_can_use_Advanced_Technology_while_on_a_planet_or_in_space>#(You can use Advanced Technology while on a planet, or in space.)#</You_can_use_Advanced_Technology_while_on_a_planet_or_in_space>
+  <To_quit_press_A_or_ENTER_now>Pour quitter, appuyez sur ((A)) ou ENTRÉE maintenant.</To_quit_press_A_or_ENTER_now>
+  <You_have_never_used_this_kind_of_Alien_Artifact_before>Vous n'avez jamais utilisé ce genre de Alien Artifact avant. Les effets qu'il aura sur votre vaisseau ne sont pas connus.</You_have_never_used_this_kind_of_Alien_Artifact_before>
+  <You_have_never_used_this_kind_of_Advanced_Technology_before>Vous avez jamais utilisé ce genre de Technologie Avancée avant. Les effets qu'il aura sont inconnus.</You_have_never_used_this_kind_of_Advanced_Technology_before>
+  <Outpost_Please_Find_Rover>S'il vous plaît trouver nos rover perdus!</Outpost_Please_Find_Rover>
+  <Outpost_Please_Give_Shield>Pouvez-vous donner un bouclier?</Outpost_Please_Give_Shield>
+  <Outpost_Generic_Thank_You>Merci! :)</Outpost_Generic_Thank_You>
+  <Outpost_Thanks_Again>Merci encore! :)</Outpost_Thanks_Again>
+  <Outpost_Accept_Reward>Acceptez ce cadeau!</Outpost_Accept_Reward>
+  <Outpost_Safe_Travels>Bon voyage!</Outpost_Safe_Travels>
+  <ALIEN_ARTIFACT_COLOR_NAMES>
+    <string>Artefact Alien Blanc</string>
+    <string>Artefact Alien Gris</string>
+    <string>Artefact Alien Rouge</string>
+    <string>Artefact Alien Brun</string>
+    <string>Artefact Alien Orange</string>
+    <string>Artefact Alien Jaune</string>
+    <string>Artefact Alien Lime</string>
+    <string>Artefact Alien Vert</string>
+    <string>Artefact Alien Cyan</string>
+    <string>Artefact Alien Bleu</string>
+    <string>Artefact Alien Pourpre</string>
+    <string>Artefact Alien Rose</string>
+    <string>Artefact Alien Noir</string>
+  </ALIEN_ARTIFACT_COLOR_NAMES>
+  <Log>Journal</Log>
+  <Profile>Profil</Profile>
+  <Blueprint>Plan</Blueprint>
+  <Advanced_Technology>Technologie Avancée</Advanced_Technology>
+  <Master_Sword>Épée de Légende</Master_Sword>
+  <Angry_Armor>Armure Colérique</Angry_Armor>
+  <Volcanic_Armor>Armure Volcanique</Volcanic_Armor>
+  <Berserker_Armor>Armure de Berserker</Berserker_Armor>
+  <ANGEL_Armor>Armure ANGEL</ANGEL_Armor>
+  <Regenerating_Armor>Armure Régénérative</Regenerating_Armor>
+  <Embedded_Armor>Armure Intégrée</Embedded_Armor>
+  <Heavy_Armor>Armure Lourde</Heavy_Armor>
+  <Angry_Shield>Bouclier Colérique</Angry_Shield>
+  <Nova_Shield>Bouclier Nova</Nova_Shield>
+  <EMP_Resistant_Shield>Bouclier IEM-résistante</EMP_Resistant_Shield>
+  <Integrated_Shield>Bouclier Intégré</Integrated_Shield>
+  <Desperate_Shield>Bouclier Désespéré</Desperate_Shield>
+  <Synchronized_Shield>Bouclier Synchronisé</Synchronized_Shield>
+  <Overcharged_Shield>Bouclier Surchargé</Overcharged_Shield>
+  <Tiny>Minuscule %name%</Tiny>
+  <Alien_Integrator>Intégrateur Alien</Alien_Integrator>
+  <Engine_Booster>Booster de Moteur</Engine_Booster>
+  <Hull_Repair_Bots>Vots Coque Réparation</Hull_Repair_Bots>
+  <Phase_Shield>Bouclier Phase</Phase_Shield>
+  <Last_Resort>Dernier Recours</Last_Resort>
+  <Weapon_Booster>Booster d'Arme</Weapon_Booster>
+  <Shield_Rerouter>Bouclier Inverseur</Shield_Rerouter>
+  <Alien_Teleporter>Téléporteur Alien</Alien_Teleporter>
+  <EMP_Channeler>#EMP Channeler#</EMP_Channeler>
+  <Modified_EMP_Channeler>#%modifier% EMP Channeler#</Modified_EMP_Channeler>
+  <Stream_Interrupt>#Stream Interrupt#</Stream_Interrupt>
+  <Can_absorb_x_damage>Peut absorber %amount% dégâts.</Can_absorb_x_damage>
+  <Originally>%amount% à l'origine.</Originally>
+  <Regenerates_x_damage_every_y_seconds>Régénère %damage% des dégâts/%seconds% secondes.</Regenerates_x_damage_every_y_seconds>
+  <Resists_X_percent_of_damage_resulting_from_collisions>Peut resister %percent%% des dégâts en cas de collision.</Resists_X_percent_of_damage_resulting_from_collisions>
+  <Resists_X_percent_of_damage_resulting_from_weapons>#Resists %percent%% of damage resulting from weapons.#</Resists_X_percent_of_damage_resulting_from_weapons>
+  <X_percent_movement_speed>%percent%% vitesse.</X_percent_movement_speed>
+  <Lava>Lave</Lava>
+  <Slowed>Ralenti</Slowed>
+  <NotAvailable>N/D</NotAvailable>
+  <Light_Lukida_Description>Un petit bateau rapide.
+
+* +20% vitesse
+* Lorsque ralenti, il est
+  ralenti pour 50% moins de
+  temps
+* -1 Coque
+* Maximum de 2 emplacements
+  d'armes</Light_Lukida_Description>
+  <Alien_Alwaid_Description>Un vaisseau alien.
+
+* Au lieu de leurs effets
+  normaux, Artefacts Aliens
+  doubler bouclier régén
+  pour 3 seconds et de
+  restaurer 1 point de
+  armure et la coque
+* Commence par un Bouclier
+  de Dispersion
+* -10% vitesse
+* -1 Coque</Alien_Alwaid_Description>
+  <Orbiting_Oculus_Description>#Orbiting Oculus Description#</Orbiting_Oculus_Description>
+  <Risky_Ras_Algethi_Description>#Risky Ras Algethi Description#</Risky_Ras_Algethi_Description>
+  <Alien_Alwaid_Alien_Artifact_Effect_Description>Doubler bouclier régén pour 3 seconds et de restaurer 1 de votre armure et la coque.</Alien_Alwaid_Alien_Artifact_Effect_Description>
+  <PLANET_TYPE_NAMES>
+    <string>Forêt</string>
+    <string>Désert</string>
+    <string>Rocheux</string>
+    <string>Océan</string>
+    <string>Glace</string>
+    <string>Lave</string>
+    <string>Minière</string>
+    <string>Hanté</string>
+  </PLANET_TYPE_NAMES>
+  <CIVILIZATION_BASE_OPTIONS>
+    <string>Acheter</string>
+    <string>Vendre</string>
+    <string>Chantier Naval</string>
+    <string>Information</string>
+  </CIVILIZATION_BASE_OPTIONS>
+  <MONTH_ABBREVIATIONS>
+    <string />
+    <string>janv</string>
+    <string>févr</string>
+    <string>mars</string>
+    <string>avril</string>
+    <string>mai</string>
+    <string>juin</string>
+    <string>juil</string>
+    <string>août</string>
+    <string>sept</string>
+    <string>oct</string>
+    <string>nov</string>
+    <string>déc</string>
+  </MONTH_ABBREVIATIONS>
+  <SCAN_DATA_ENTRIES>
+    <ArrayOfString>
+      <string>Altair Visant</string>
+      <string>Menace: 3
+Vitesse: Aucun
+Coque: 240</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Celbalrai Moquette</string>
+      <string>Menace: 6
+Vitesse: 50%
+Coque: 120</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Celbalrai Moquette II</string>
+      <string>Menace: 10
+Vitesse: 50%
+Coque: 200</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Carinae Ramper</string>
+      <string>Menace: 7
+Vitesse: ??
+Coque: 280</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Deneb Fringant</string>
+      <string>Menace: 5
+Vitesse: 70%-110%
+Coque: 60</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Fomalhaut à Quatre Voies</string>
+      <string>Menace: 1
+Vitesse: 100%
+Coque: 50</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Fomalhaut à Quatre Voies II</string>
+      <string>Menace: 8
+Vitesse: 150%
+Coque: 100</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Swarming Sirrah</string>
+      <string>Menace: 0
+Vitesse: 60%
+Coque: 5</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Sheliak Piscine</string>
+      <string>Menace: 2
+Vitesse: 30%
+Coque: 120</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Sheliak Piscine II</string>
+      <string>Menace: 9
+Vitesse: 40%
+Coque: 240</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Trailing Talitha</string>
+      <string>Menace: 4
+Vitesse: 40%
+Coque: 120</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Taurus Creuser</string>
+      <string>Menace: 4
+Vitesse: 50%
+Coque: 80 (pour le segment)</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Rigel Régénération</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>The Whale</string>
+      <string />
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>The Whale (Lave)</string>
+      <string />
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Petit Poisson</string>
+      <string />
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Taurus Creuser ()</string>
+      <string>Menace: ??
+Vitesse: 70%
+Coque: 500 (each segment)</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Cor Caroli Masquée</string>
+      <string>Il se déplace chemins invisibles, et ne apparaît que pour tirer un arc de balles dans votre direction.</string>
+      <string>Menace: 2
+Vitesse: ??
+Coque: 400</string>
+    </ArrayOfString>
+  </SCAN_DATA_ENTRIES>
+  <Hello_Captain>Bonjour, Commandant.</Hello_Captain>
+  <One_more_thing>Une chose de plus:</One_more_thing>
+  <We_cant_go_back_now>On ne peut pas rentrer maintenant.</We_cant_go_back_now>
+  <What_do_you_recommend>Que recommandez-vous?</What_do_you_recommend>
+  <Sounds_like_a_plan>Ça me semble bien.</Sounds_like_a_plan>
+  <MAINTENANCE_CHECK>Désolé de vous réveiller, mais il est temps de faire la maintenance des 100AL.
+
+Il n'y a pas de problème éminent qui nécessite votre attention. Les opérations du software et hardware apparaissent normaux.
+
+Comment vous sentez vous?</MAINTENANCE_CHECK>
+  <TUTORIALIZE_OPTION>Très bien.
+
+Avant d'éteindre, voulez vous faire quelques exercices pratiques?</TUTORIALIZE_OPTION>
+  <TUTORIAL_MINIBOSS_APPROACHES>#Wait.
+
+Captain, I'm picking something up... a ship is approaching us. I'm having trouble making contact; it's an old ship, and badly damaged.#</TUTORIAL_MINIBOSS_APPROACHES>
+  <TUTORIAL_MINIBOSS_APPROACHES_2>#Captain, it's readying its weapons. It may be old and damaged, but this is definitely a warship.
+
+Try to disable it by force; while you're doing that, I'll attempt to hack in and gain control of it.#</TUTORIAL_MINIBOSS_APPROACHES_2>
+  <END_OF_TUTORIAL_NEUTRALIZED>#Captain, I've gained control of the ship. I'm shutting it down now.#</END_OF_TUTORIAL_NEUTRALIZED>
+  <END_OF_TUTORIAL_DESTROYED>#Well done, captain.
+
+Sorry I wasn't able to shut it down faster; it's more badly-damaged than I thought.
+
+I was able to get some information, however.#</END_OF_TUTORIAL_DESTROYED>
+  <END_OF_TUTORIAL_2>#The ship's memories show that it was indeed a warship. It was badly damaged in a skirmish 526 years ago and has been drifting, derelict, since.
+
+It's hard to say where the rest of its kind are, since the information it has is about 526 years old; with any luck we won't have any more run-ins.#</END_OF_TUTORIAL_2>
+  <END_OF_TUTORIAL_3>#Anyway, as this is the last maintenance check before we reach Sector ZZ-Omega-9, I recommend conserving as much Fuel as possible. We don't want to to be caught unprepared for whatever lies in store for us.#</END_OF_TUTORIAL_3>
+  <LAVA_INFO>Je me sens obligé de vous rappeler que nos boucliers n'ont pas été conçus pour les hautes temperatures de la lave. Techniquement ils pourront résister, mais pas se régénérer quand ils seront immergés dans la lave.</LAVA_INFO>
+  <MYSTERIOUS_FORCE_EXPLANATION>Désolé de vous réveillez, mais il y a une urgence: une force non identifié nous oblige à ralentir.
+
+En e moment cette force est négligeable, mais elle augmente avec notre rapprochement vers l'amas ZZ-Omega.
+
+Si cette force continue a augmenter à la même vitesse, nous n'aurons pas assez de carburant pour rentrer à la base.</MYSTERIOUS_FORCE_EXPLANATION>
+  <MYSTERIOUS_FORCE_SOLUTION_EXPLANATION>Il y a plusieurs planètes riches en minéraux dans l'amas ZZ-Omega. Nous pourrions faire une escale pour retirer le carburant nécessaire.
+
+Si vous voulez poursuivre ce plan, j'ai identifié plusieurs parcours possibles à travers l'amas ZZ-Omega.
+
+Indépendamment du parcours choisi, nous allons devoir prendre 3 Carburants sur chaque planètes que nous visitons avant de pouvoir continuer.</MYSTERIOUS_FORCE_SOLUTION_EXPLANATION>
+  <STASIS_EXPLANATION>Une partie de notre vaisseau montre un taux de Stasis extrêmement élevé!
+
+J'ai analysé sa structure: il y a certainement un impact positif mais la source est extraterrestre; mon souci est la possibilité d'un effet papillon. Pour l'instant il ne semble pas avoir de problèmes, mais je vous tiendrais au courant s'il y a des changements.</STASIS_EXPLANATION>
+  <ENTROPY_EXPLANATION>Une partie de notre vaisseau montre un taux d'Entropy extrêmement élevé!
+
+J'ai analysé sa structure et nous n'avons pas la capacité de la réparer.
+
+Nous pouvons continuer a se servir de cette partie mais nous devrions définitivement chercher à la remplacer.</ENTROPY_EXPLANATION>
+  <WEAKENED_EXPLANATION>Une partie de notre vaisseau est Weakened!
+
+Nous pouvons continuer a se servir de cette partie mais soyez conscient que davantage de Weakening la détruira.</WEAKENED_EXPLANATION>
+  <EXPLAIN_POCKET_DIMENSION>#We appear to have fallen into a pocket of folded space. That alien structure was probably there to protect against this very event, but was disrupted by our tractor beam.
+
+Our ship isn't powerful enough to go against the gravitational fields. We'll just have to let them carry us along, and out the other end.#</EXPLAIN_POCKET_DIMENSION>
+  <EXPLAIN_POCKET_DIMENSION_2>#Wait.
+
+Captain, I'm picking something up... a ship, or what's left of it. Pieces of its debris have become tangled in the gravitational field.
+
+There's also fragments we may be able to use as fuel. If possible, we should pick these up, but survival is our top priority.#</EXPLAIN_POCKET_DIMENSION_2>
+  <Its_dangerous_to_go_alone_take_this>C'est risqué d'y aller seul! Prenez ça.</Its_dangerous_to_go_alone_take_this>
+  <ReceivedItemNote>(Recoit %itemname%.)</ReceivedItemNote>
+  <Fool>Imbécile.</Fool>
+  <PRACTICE_MOVING_TUTORIAL>Super! Allons y!
+
+Bougez le vaisseau en utilisant %input%.</PRACTICE_MOVING_TUTORIAL>
+  <PRACTICE_SHOOTING_TUTORIAL>Malheureusement, il n'y a rien ici pour faire des exercices de tir. Nous allons utiliser une projection holographique.
+
+Je vais créer plusieurs hologrammes; pratiquez bouger tandis tenant %input% à tirer sur eux.</PRACTICE_SHOOTING_TUTORIAL>
+  <WASD_or_the_arrow_keys>WASD ou les touches fléchées</WASD_or_the_arrow_keys>
+  <Z_or_slash>Z ou /</Z_or_slash>
+  <the_left_analog_stick>le stick analogique gauche</the_left_analog_stick>
+  <CTRL>#CTRL#</CTRL>
+  <SHIFT>#SHIFT#</SHIFT>
+  <ENTER>ENTRÉE</ENTER>
+  <ESC>#ESC#</ESC>
+  <DEL>#DEL#</DEL>
+  <Unknown_command>#Unknown command. Type HELP for help.#</Unknown_command>
+  <Release_Date>%month% %day%, %year%</Release_Date>
+</Language>

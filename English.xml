@@ -1,0 +1,794 @@
+<?xml version="1.0"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LanguageName>English</LanguageName>
+  <LanguageCode>en</LanguageCode>
+  <LanguageIcon>0</LanguageIcon>
+  <Translation_Unavailable>Translation Unavailable</Translation_Unavailable>
+  <None>None</None>
+  <Weapon>Weapon</Weapon>
+  <Hull>Hull</Hull>
+  <Armor>Armor</Armor>
+  <Shield>Shield</Shield>
+  <Accessory>Accessory</Accessory>
+  <Orbital_Accessory>Orbital Accessory</Orbital_Accessory>
+  <Revive>Revive!</Revive>
+  <Fuel>Fuel</Fuel>
+  <Points>Points</Points>
+  <Cargo>Cargo</Cargo>
+  <Yes>Yes</Yes>
+  <No>No</No>
+  <On>On</On>
+  <Off>Off</Off>
+  <Ready>Ready</Ready>
+  <New>New</New>
+  <GET>GET</GET>
+  <Closer>Closer</Closer>
+  <Total>Total</Total>
+  <Difficulty>Difficulty</Difficulty>
+  <Points_Earned>Points Earned</Points_Earned>
+  <Threat>Threat</Threat>
+  <Low>Low</Low>
+  <Medium>Medium</Medium>
+  <High>High</High>
+  <Extreme>Extreme</Extreme>
+  <Overpowering>Overpowering</Overpowering>
+  <NEW_GAME>NEW GAME</NEW_GAME>
+  <CONTINUE_GAME>CONTINUE GAME</CONTINUE_GAME>
+  <HIGH_SCORES>HIGH SCORES</HIGH_SCORES>
+  <ABOUT>ABOUT</ABOUT>
+  <DONATIONS>DONATIONS</DONATIONS>
+  <QUIT>QUIT</QUIT>
+  <COLLECTION>COLLECTION</COLLECTION>
+  <SETTINGS>SETTINGS</SETTINGS>
+  <Music>Music</Music>
+  <Sound_Effect>Sound Effect</Sound_Effect>
+  <version>version</version>
+  <DEBUG_MODE_ON>DEBUG MODE ON</DEBUG_MODE_ON>
+  <SHIP>SHIP</SHIP>
+  <SCORE>SCORE</SCORE>
+  <DATE>DATE</DATE>
+  <Space>Space</Space>
+  <Health>Health</Health>
+  <Education>Education</Education>
+  <Misc>Misc</Misc>
+  <THE_PREMISE>Scientists have detected a strange signal originating from the ZZ-Omega-9 system.
+
+Could it be the power source that will save civilization?
+
+It is your mission to investigate, and return with that information.
+
+Good luck, pilot!</THE_PREMISE>
+  <STORY_MADLIBS>
+    <string>Built in a %workshop state% shipyard, your ship was the pride and joy of a %person desc% engineer.
+It has %color% detailing and an unusually-shaped %ship part%.</string>
+    <string>Modeled after a popular %ship type% from %corporation name%, the ship you've been assigned for this mission is unusually %size%, and features a striking %color% paint job.</string>
+    <string>Once owned by the infamous pirate %pirate name%, your ship received heavy modifications for this mission, but still sports its original %color% stripes.</string>
+    <string>Though %size% for a fighter, your ship was designed by brilliant military minds.
+Simple, %color% detailing runs along each side of its metalic frame.</string>
+    <string>Yours is one of many %ship type%s made by %corporation name%. It features their signature %color% stripes and %size% %ship part%.</string>
+    <string>Your %relative%, a %person desc% %job title%, passed away unexpectedly %small number% years ago. You'd had a falling out after you joined the military, so you were even more surprised to learn that they had left you their ship: this %size%, %color% %ship type% from %corporation name%.</string>
+    <string>You took some odd jobs during your military tour in order to buy your own ship: this %size% beauty from %corporation name%.
+Getting the custom-desgined %ship part% to match the ship's %color% paint job was surprisingly expensive, but well worth it!</string>
+  </STORY_MADLIBS>
+  <MADLIB_SIZES>
+    <string>long</string>
+    <string>short</string>
+    <string>wide</string>
+    <string>slim</string>
+    <string>heavy-weight</string>
+    <string>light-weight</string>
+  </MADLIB_SIZES>
+  <MADLIB_PERSON_DESCRIPTIONS>
+    <string>eccentric</string>
+    <string>dedicated</string>
+    <string>talented</string>
+    <string>respected</string>
+    <string>unappreciated</string>
+    <string>wealthy</string>
+    <string>xenophilic</string>
+  </MADLIB_PERSON_DESCRIPTIONS>
+  <MADLIB_SHIP_PARTS>
+    <string>cockpit</string>
+    <string>wings</string>
+    <string>engine</string>
+    <string>tail</string>
+    <string>nose</string>
+  </MADLIB_SHIP_PARTS>
+  <MADLIB_WORKSHOP_STATE>
+    <string>scrappy</string>
+    <string>renowned</string>
+    <string>small</string>
+    <string>local</string>
+    <string>military</string>
+    <string>off-world</string>
+  </MADLIB_WORKSHOP_STATE>
+  <MADLIB_CORPORATION_NAMES>
+    <string>Ship Shapes Corp</string>
+    <string>Shipworks</string>
+    <string>Magnetar Mfg</string>
+    <string>G&amp;G Shipcorp</string>
+    <string>Krieg &amp; Co.</string>
+  </MADLIB_CORPORATION_NAMES>
+  <MADLIB_PIRATE_NAMES>
+    <string>#000000beard</string>
+    <string>nickNhack</string>
+    <string>FRED</string>
+    <string>Bipsi Avadon</string>
+    <string>"caterpillar"</string>
+  </MADLIB_PIRATE_NAMES>
+  <MADLIB_JOBS_TITLES>
+    <string>engineer</string>
+    <string>trader</string>
+    <string>hauler</string>
+    <string>pirate</string>
+    <string>gambler</string>
+  </MADLIB_JOBS_TITLES>
+  <MADLIB_RELATIVES>
+    <string>sister</string>
+    <string>brother</string>
+    <string>mother</string>
+    <string>father</string>
+    <string>aunt</string>
+    <string>uncle</string>
+    <string>cousin</string>
+  </MADLIB_RELATIVES>
+  <MADLIB_SHIP_TYPES>
+    <string>racer</string>
+    <string>fighter</string>
+    <string>courier</string>
+  </MADLIB_SHIP_TYPES>
+  <SHIP_COLOR_NAMES>
+    <string>orange</string>
+    <string>red</string>
+    <string>blue</string>
+    <string>violet</string>
+    <string>green</string>
+  </SHIP_COLOR_NAMES>
+  <Ship_Name>Ship Name</Ship_Name>
+  <Ship_Type>Ship Type</Ship_Type>
+  <Subroutine>Subroutine</Subroutine>
+  <Please_name_your_ship>Please name your ship!</Please_name_your_ship>
+  <That_name_is_already_in_use>That name is already in use!</That_name_is_already_in_use>
+  <Add_a_player>Add a player</Add_a_player>
+  <Add_another_player>Add another player</Add_another_player>
+  <Remove_player>Remove this player</Remove_player>
+  <Change_ship_name>Change ship name</Change_ship_name>
+  <Change_ship_type>Change ship type</Change_ship_type>
+  <Add_an_orbital_player>Add an Orbital player</Add_an_orbital_player>
+  <Press_to_accept_name>(((START)) when done)</Press_to_accept_name>
+  <Very_well_Shutting_down>Very well. Shutting down.</Very_well_Shutting_down>
+  <I_feel_fine>I feel fine.</I_feel_fine>
+  <Lets_do_some_flight_exercises>Let's do some flight exercises.</Lets_do_some_flight_exercises>
+  <No_thanks>No thanks.</No_thanks>
+  <Practice_Moving>Practice moving...</Practice_Moving>
+  <Practice_Shooting>Hold down fire button...</Practice_Shooting>
+  <The_truth_behind_Sector_ZZ_Omega_9_remains_a_secret>The truth behind Sector ZZ-Omega-9 remains a secret.</The_truth_behind_Sector_ZZ_Omega_9_remains_a_secret>
+  <The_truth_behind_Sector_ZZ_Omega_9_dies_with_you>The truth behind Sector ZZ-Omega-9 dies with you.</The_truth_behind_Sector_ZZ_Omega_9_dies_with_you>
+  <The_truth_behind_Sector_ZZ_Omega_9_will_be_revealed>The truth behind Sector ZZ-Omega-9 will be revealed!</The_truth_behind_Sector_ZZ_Omega_9_will_be_revealed>
+  <Final_score>Final score:</Final_score>
+  <PLAY_AGAIN_LOSE>
+    <string>PLAY AGAIN</string>
+    <string>TRY AGAIN</string>
+  </PLAY_AGAIN_LOSE>
+  <PLAY_AGAIN_WIN>
+    <string>PLAY AGAIN</string>
+  </PLAY_AGAIN_WIN>
+  <DONE_FOR_NOW_LOSE>
+    <string>DONE FOR NOW</string>
+    <string>GIVE UP</string>
+    <string>RETURN TO MENU</string>
+    <string>ABANDON HOPE</string>
+  </DONE_FOR_NOW_LOSE>
+  <DONE_FOR_NOW_WIN>
+    <string>DONE FOR NOW</string>
+  </DONE_FOR_NOW_WIN>
+  <Visit_Planet>Visit Planet</Visit_Planet>
+  <Jump_to_Planet>Jump to Planet</Jump_to_Planet>
+  <Inventory_Slash_Menu>Inventory/Menu</Inventory_Slash_Menu>
+  <Equipment>Equipment</Equipment>
+  <Inventory>Inventory</Inventory>
+  <Upgrade>Upgrade</Upgrade>
+  <Save_and_Quit>Save &amp; Quit</Save_and_Quit>
+  <Settings>Settings</Settings>
+  <Sound_Volume>Sound Volume</Sound_Volume>
+  <Music_Volume>Music Volume</Music_Volume>
+  <Vibrate_Controller>Vibrate Controller</Vibrate_Controller>
+  <Reset_Tutorial>Reset Tutorial Settings</Reset_Tutorial>
+  <Show_Health_Numbers>Show Health Numbers</Show_Health_Numbers>
+  <Display>Display</Display>
+  <Windowed>Windowed</Windowed>
+  <Fullscreen>Fullscreen</Fullscreen>
+  <Strengthen_Hull>Strengthen Hull</Strengthen_Hull>
+  <Upgrade_points_description_1>Does what it says on the box.</Upgrade_points_description_1>
+  <Upgrade_points_description_2>Does what it says on the tin.</Upgrade_points_description_2>
+  <X_Points>%points% Points</X_Points>
+  <Second_Weapon_Slot>Second Weapon Slot</Second_Weapon_Slot>
+  <Third_Weapon_Slot>Third Weapon Slot</Third_Weapon_Slot>
+  <Additional_Armor_Slot>Additional Armor Slot</Additional_Armor_Slot>
+  <Alien_Scanners>Alien Scanners</Alien_Scanners>
+  <Scrapping>Scrapping</Scrapping>
+  <Improved_Thrusters>Thrusters I</Improved_Thrusters>
+  <Improved_Thrusters_2>Thrusters II</Improved_Thrusters_2>
+  <Adaptive_Software>Adaptive Software</Adaptive_Software>
+  <Shielded_Core>Shielded Core</Shielded_Core>
+  <Super_Repellent_Surface>Super-repellent Surface</Super_Repellent_Surface>
+  <Second_Accessory>Second Accessory</Second_Accessory>
+  <Menaces_with_Spikes>Menaces with Spikes</Menaces_with_Spikes>
+  <Improved_Thrusters_Description>Increases control by improving stopping speed.
+
+(If you keep bumping against spikey walls, this could help!)</Improved_Thrusters_Description>
+  <Second_Weapon_Slot_Description>Allows you to simultaneously equip up to two weapons. Your second weapon will operate at 2/3 speed.</Second_Weapon_Slot_Description>
+  <Third_Weapon_Slot_Description>Allows you to simultaneously equip up to three weapons. Your third weapon will operate at 1/3 speed.</Third_Weapon_Slot_Description>
+  <Strengthen_Hull_Description>Adds %amount% to your maximum and current Hull strength.
+
++2 carrying capacity.</Strengthen_Hull_Description>
+  <Not_enough_upgrade_parts>Not enough upgrade parts.</Not_enough_upgrade_parts>
+  <Cannot_upgrade_while_on_a_planet>Cannot upgrade while on a planet.</Cannot_upgrade_while_on_a_planet>
+  <You_have_no_inventory>You have no inventory.</You_have_no_inventory>
+  <Inventory_is_full>Inventory is full.</Inventory_is_full>
+  <This_ship_part_has_not_been_identified>This ship part has not been identified.</This_ship_part_has_not_been_identified>
+  <Press_to_toggle_mode>%input% to toggle mode</Press_to_toggle_mode>
+  <Press_to_drop>%input% to drop</Press_to_drop>
+  <Press_to_identify>%input% to identify</Press_to_identify>
+  <Press_to_equip>%input% to equip</Press_to_equip>
+  <Press_to_unequip>%input% to unequip</Press_to_unequip>
+  <Press_to_change>%input% to change</Press_to_change>
+  <Press_to_use>%input% to use</Press_to_use>
+  <Press_to_upgrade>%input% to upgrade</Press_to_upgrade>
+  <Throw_this_item_away>Throw this item away?</Throw_this_item_away>
+  <Cannot_equip_ship_parts_while_on_a_planet>Cannot equip while on a planet</Cannot_equip_ship_parts_while_on_a_planet>
+  <You_may_identify_this_once_youre_safe_in_space>Cannot identify while on a planet</You_may_identify_this_once_youre_safe_in_space>
+  <Cannot_throw_away_equipped_ship_parts>Cannot throw away equipped parts</Cannot_throw_away_equipped_ship_parts>
+  <You_can_use_Alien_Artifacts_while_on_a_planet_or_in_space>(You can use Alien Artifacts while on a planet, or in space.)</You_can_use_Alien_Artifacts_while_on_a_planet_or_in_space>
+  <You_can_use_Advanced_Technology_while_on_a_planet_or_in_space>(You can use Advanced Technology while on a planet, or in space.)</You_can_use_Advanced_Technology_while_on_a_planet_or_in_space>
+  <To_quit_press_A_or_ENTER_now>To quit, press ((A)) or ENTER now.</To_quit_press_A_or_ENTER_now>
+  <You_have_never_used_this_kind_of_Alien_Artifact_before>You have never used this kind of Alien Artifact before. The effects it will have on your ship are unknown.</You_have_never_used_this_kind_of_Alien_Artifact_before>
+  <You_have_never_used_this_kind_of_Advanced_Technology_before>You have never used this kind of Advanced Technology before. The effects it will have are unknown.</You_have_never_used_this_kind_of_Advanced_Technology_before>
+  <Outpost_Destroyed_Rover>Our rover was destroyed :(</Outpost_Destroyed_Rover>
+  <Outpost_Please_Find_Rover>Please find our lost rover!</Outpost_Please_Find_Rover>
+  <Outpost_Thanks_Please_Drop_Rover>Thank you! :D Could you put it down near the base?</Outpost_Thanks_Please_Drop_Rover>
+  <Outpost_Thanks_Again>Thanks again! :)</Outpost_Thanks_Again>
+  <Outpost_Please_Map>Could you map this planet for us?</Outpost_Please_Map>
+  <Outpost_Thanks_For_Map>Thanks for mapping the planet! :)</Outpost_Thanks_For_Map>
+  <Outpost_Please_Give_Shield>Our Shield is failing. Can you spare a Shield?</Outpost_Please_Give_Shield>
+  <Outpost_Generic_Thank_You>Thank you! :)</Outpost_Generic_Thank_You>
+  <Outpost_Accept_Reward>Please take these!</Outpost_Accept_Reward>
+  <Outpost_Safe_Travels>Safe travels!</Outpost_Safe_Travels>
+  <SOLD>SOLD</SOLD>
+  <ALIEN_ARTIFACT_COLOR_NAMES>
+    <string>White Alien Artifact</string>
+    <string>Gray Alien Artifact</string>
+    <string>Red Alien Artifact</string>
+    <string>Brown Alien Artifact</string>
+    <string>Orange Alien Artifact</string>
+    <string>Yellow Alien Artifact</string>
+    <string>Lime Alien Artifact</string>
+    <string>Green Alien Artifact</string>
+    <string>Cyan Alien Artifact</string>
+    <string>Blue Alien Artifact</string>
+    <string>Purple Alien Artifact</string>
+    <string>Pink Alien Artifact</string>
+    <string>Black Alien Artifact</string>
+  </ALIEN_ARTIFACT_COLOR_NAMES>
+  <ALIEN_ARTIFACT_EFFECT_DESCRIPTIONS>
+    <string>Adds a bonus shield equal in strength to your main shield. (Bonus shields do not regenerate over time.)</string>
+    <string>Fully restores shields.</string>
+    <string>Fully repairs armor.</string>
+    <string>Repairs 50% hull, rounded up.</string>
+    <string>Grants 5 second invulnerability.</string>
+    <string>Reduces shields to 0 for 5 seconds.</string>
+    <string>Doubles the firing rate of your first weapon for 10 seconds.</string>
+    <string>Doubles shield regeneration rate for 10 seconds.</string>
+    <string>Sensors malfunction for 10 seconds.</string>
+    <string>Removes all bad status effects (slows, sensor malfunctions, inverted controls, and shield disables), and grants immunity to such effects for 5 seconds.</string>
+    <string>You are Slowed for 10 seconds.</string>
+    <string>Your speed is increased by 50% for 10 seconds.</string>
+    <string>Inverts controls for 10 seconds.</string>
+  </ALIEN_ARTIFACT_EFFECT_DESCRIPTIONS>
+  <ADVANCED_TECHNOLOGY_EFFECT_DESCRIPTIONS>
+    <string>Increases the Entropy of a random, equipped ship part. (This is a bad thing!)</string>
+    <string>Increases the Stasis of a random, equipped ship part. (This is a good thing!)</string>
+    <string>Strengthens a random, Weakened equipment.</string>
+    <string>Permanently increases the strength of all your armors by 1. (Including those that are unequipped.)</string>
+    <string>Grants one Ship Upgrade.</string>
+    <string>Teleports the ship to a random location on the planet.</string>
+    <string>Deals enough damage to your hull to reduce it to 1.</string>
+    <string>Creates a random object.</string>
+    <string>Grants one Fuel.</string>
+    <string>Takes away one Ship Upgrade. If you have none, Weakens a random equipment, instead.</string>
+    <string>Slows all enemies for 10 seconds.</string>
+    <string>Completely restructures the ship into another form.</string>
+    <string>Causes several enemies to appear nearby.</string>
+    <string>Prevents new enemies from spawning for 10 seconds.</string>
+    <string>Destroys all on-screen enemies and bullets.</string>
+  </ADVANCED_TECHNOLOGY_EFFECT_DESCRIPTIONS>
+  <Advanced_Technology_Random_Object_Description>A %object% is created!</Advanced_Technology_Random_Object_Description>
+  <Log>Log</Log>
+  <Profile>Profile</Profile>
+  <Blueprint>Blueprint</Blueprint>
+  <Battery>Battery</Battery>
+  <Repair_Kit>Repair Kit</Repair_Kit>
+  <Long_Range_Scanner>Long-range Scanner</Long_Range_Scanner>
+  <Advanced_Technology>Advanced Technology</Advanced_Technology>
+  <Star_Chart>Star Chart</Star_Chart>
+  <crate>crate</crate>
+  <rover>rover</rover>
+  <Unidentified_Ship_Part>Unidentified %shippart%</Unidentified_Ship_Part>
+  <Battery_Use_Description>For 5 seconds your shield's regen rate is doubled, your weapons' fire rates are doubled, and you are Hasted.</Battery_Use_Description>
+  <Battery_Drop_Description>When dropped, explodes in a layered ring of 64 bullets after a short delay. 32 of the bullets deal %damage% damage each; the other 32 are EMP bullets.</Battery_Drop_Description>
+  <Item_has_been_permanently_added_to_the_COLLECTION>%item% has been permanently added to the COLLECTION.</Item_has_been_permanently_added_to_the_COLLECTION>
+  <Upgrade_Blueprint_Use_Description>This blueprint reveals a new Upgrade you could get for your ship.</Upgrade_Blueprint_Use_Description>
+  <Star_Chart_Use_Description>Nearby star systems will be revealed to you.</Star_Chart_Use_Description>
+  <Master_Sword>Master Sword</Master_Sword>
+  <Angry_Armor>Angry Armor</Angry_Armor>
+  <Volcanic_Armor>Volcanic Armor</Volcanic_Armor>
+  <Berserker_Armor>Berserker Armor</Berserker_Armor>
+  <ANGEL_Armor>ANGEL Armor</ANGEL_Armor>
+  <Regenerating_Armor>Regenerating Armor</Regenerating_Armor>
+  <Embedded_Armor>Embedded Armor</Embedded_Armor>
+  <Heavy_Armor>Heavy Armor</Heavy_Armor>
+  <Angry_Shield>Angry Shield</Angry_Shield>
+  <Nova_Shield>Nova Shield</Nova_Shield>
+  <EMP_Resistant_Shield>EMP-resistant Shield</EMP_Resistant_Shield>
+  <Malleable_Shield>Malleable Shield</Malleable_Shield>
+  <Integrated_Shield>Integrated Shield</Integrated_Shield>
+  <Desperate_Shield>Desperate Shield</Desperate_Shield>
+  <Synchronized_Shield>Synchronized Shield</Synchronized_Shield>
+  <Overcharged_Shield>Overcharged Shield</Overcharged_Shield>
+  <Tiny>Tiny %name%</Tiny>
+  <Advanced_Integrator>Advanced Integrator</Advanced_Integrator>
+  <Alien_Integrator>Alien Integrator</Alien_Integrator>
+  <Engine_Booster>Engine Booster</Engine_Booster>
+  <Hull_Repair_Bots>Hull Repair Bots</Hull_Repair_Bots>
+  <Phase_Shield>Phase Shield</Phase_Shield>
+  <Last_Resort>Last Resort</Last_Resort>
+  <Weapon_Booster>Weapon Booster</Weapon_Booster>
+  <Shield_Rerouter>Shield Rerouter</Shield_Rerouter>
+  <Alien_Teleporter>Alien Teleporter</Alien_Teleporter>
+  <EMP_Channeler>EMP Channeler</EMP_Channeler>
+  <Modified_EMP_Channeler>%modifier% EMP Channeler</Modified_EMP_Channeler>
+  <Stream_Interrupt>Stream Interrupt</Stream_Interrupt>
+  <Fuel_Preprocessor>Fuel Preprocessor</Fuel_Preprocessor>
+  <Emergency_Backup_Systems>Emergency Backup Systems</Emergency_Backup_Systems>
+  <Vampire_Shield>Vampire Shield</Vampire_Shield>
+  <Courier_Pod>Courier Pod</Courier_Pod>
+  <Rubberized>Rubberized</Rubberized>
+  <Penetrating>Penetrating</Penetrating>
+  <Fires_one_bullet_every_X_seconds>Fires one bullet every %seconds% seconds.</Fires_one_bullet_every_X_seconds>
+  <Bullets_travel_X_pixels_per_second>Bullets travel %speed% pixels/second.</Bullets_travel_X_pixels_per_second>
+  <BULLET_TYPE_REGULAR>They deal %damage% damage.</BULLET_TYPE_REGULAR>
+  <BULLET_TYPE_EMP>They deal NO damage, instead slowing the target for %seconds% seconds.
+Permanently disables any forcefields it hits.</BULLET_TYPE_EMP>
+  <BULLET_TYPE_RUBBER>They bounce off walls, lasting 1.5 seconds.
+They deal %damage% damage.</BULLET_TYPE_RUBBER>
+  <BULLET_TYPE_FRAGMENTING>They deal %damage% damage and fire smaller bullets as they travel.</BULLET_TYPE_FRAGMENTING>
+  <BULLET_TYPE_KNOCKBACK>They deal %damage% damage and knock targets back %knockback%.</BULLET_TYPE_KNOCKBACK>
+  <BULLET_TYPE_PENETRATING>They deal %damage% damage and go through walls.</BULLET_TYPE_PENETRATING>
+  <WEAPON_ABILITIES>
+    <string></string>
+    <string>Fire rate is doubled while sensors are scrambled.</string>
+    <string>Transforms into another weapon when a boss is killed.</string>
+    <string>Deals additional damage the longer you've been on a planet.</string>
+    <string>Can be fired even when ship is disabled.</string>
+    <string>Every fifth bullet is an EMP bullet.</string>
+    <string>Deals 50% more damage if ship has not thrusted for at least half a second.</string>
+    <string>Every third bullet is a lightning bullet.</string>
+  </WEAPON_ABILITIES>
+  <Can_absorb_x_damage>Can absorb %amount% damage.</Can_absorb_x_damage>
+  <Originally>Originally %amount%.</Originally>
+  <Regenerates_x_damage_every_y_seconds>Regenerates %damage% damage/%seconds% seconds.</Regenerates_x_damage_every_y_seconds>
+  <Resists_X_percent_of_damage_resulting_from_collisions>Resists %percent%% of damage resulting from collisions.</Resists_X_percent_of_damage_resulting_from_collisions>
+  <Resists_X_percent_of_damage_resulting_from_weapons>Resists %percent%% of damage resulting from weapons.</Resists_X_percent_of_damage_resulting_from_weapons>
+  <Does_not_protect_from_collision_damage>Does not protect from collision damage.</Does_not_protect_from_collision_damage>
+  <X_percent_shield_recharge_rate>%percent%% shield recharge rate.</X_percent_shield_recharge_rate>
+  <X_percent_weapon_recharge_rate>%percent%% weapon recharge rate.</X_percent_weapon_recharge_rate>
+  <X_percent_movement_speed>%percent%% movement speed.</X_percent_movement_speed>
+  <X_percent_revive_speed>%percent%% revive speed.</X_percent_revive_speed>
+  <Regen_rate_is_doubled_if_pacifist>Regen rate is doubled if you haven't fired a weapon in the last %seconds% seconds.</Regen_rate_is_doubled_if_pacifist>
+  <When_you_are_slowed_you_are_randomly_teleported>When you're slowed, you're randomly teleported.</When_you_are_slowed_you_are_randomly_teleported>
+  <When_you_are_slowed_you_gain_a_X_point_temporary_shield>When you are slowed, you gain a %shield%-point bonus shield.</When_you_are_slowed_you_gain_a_X_point_temporary_shield>
+  <Something_good_happens_every_X_seconds>Something good happens every %seconds% seconds.</Something_good_happens_every_X_seconds>
+  <Something_bad_happens_every_X_seconds>Something bad happens every %seconds% seconds.</Something_bad_happens_every_X_seconds>
+  <Armor_is_weakened>This armor is Weakened, and only providing half the armor it otherwise could.</Armor_is_weakened>
+  <Fire_rate_is_halved_due_to_Weakening>Fire rate is halved due to Weakening.</Fire_rate_is_halved_due_to_Weakening>
+  <Damage_is_halved_due_to_Weakening>Damage is halved due to Weakening.</Damage_is_halved_due_to_Weakening>
+  <Lava>Lava</Lava>
+  <Slowed>Slowed</Slowed>
+  <NotAvailable>N/A</NotAvailable>
+  <Light_Lukida_Description>A small, fast ship.
+
+* +20% movement speed
+* When slowed, is slowed for
+  50% less time
+* -1 Hull strength
+* Maximum of 2 weapon slots</Light_Lukida_Description>
+  <Heavy_Head_of_Hydrus_Description>A heavy ship with strong armor.
+
+* May equip up to two Armors
+  (requires an Upgrade)
+* May not equip Accessories
+* Starts with Regenerating Armor
+* +1 Hull strength for every 3
+  Upgrade Parts collected
+* -15% movement speed
+* After killing an enemy by
+  colliding with it, becomes
+  invulnerable for 3 seconds</Heavy_Head_of_Hydrus_Description>
+  <Alien_Alwaid_Description>An alien ship.
+
+* Instead of their normal
+  effects, Alien Artifacts
+  double shield regen for 3
+  seconds and restore 1 point
+  of armor and hull
+* Starts with a EMP-resistant
+  Shield
+* -10% movement speed
+* -1 Hull strength</Alien_Alwaid_Description>
+  <Orbiting_Oculus_Description>Acts as a satellite, orbiting
+another ship. It cannot move on
+its own, but it can fire in any
+direction, and act as a shield by
+taking bullets, or ramming
+enemies. If destroyed, it remains
+destroyed until the completion of
+the level.</Orbiting_Oculus_Description>
+  <Risky_Ras_Algethi_Description>A ship designed for quickly
+traveling the stars.
+
+* Requires one fewer Fuel
+* When you collect Fuel, you
+  are hasted for 4 seconds
+  (1 second for Fuel Shards)
+* You will face more enemies</Risky_Ras_Algethi_Description>
+  <Slowing_Scorpii_Description>A highly-specialized support ship.
+
+* Starts with an EMP weapon
+* May only equip EMP weapons
+* +100% weapon fire rate
+* Starts with the upgrades
+  Improved Thrusters I,
+  Improved Thrusters II, and
+  Fixed Form</Slowing_Scorpii_Description>
+  <Alien_Alwaid_Alien_Artifact_Effect_Description>Doubles shield regen rate for 3 seconds and restores 1 Armor and Hull.</Alien_Alwaid_Alien_Artifact_Effect_Description>
+  <PLANET_TYPE_NAMES>
+    <string>Forest</string>
+    <string>Desert</string>
+    <string>Desolate</string>
+    <string>Ocean</string>
+    <string>Ice</string>
+    <string>Lava</string>
+    <string>Mining</string>
+    <string>Haunted</string>
+  </PLANET_TYPE_NAMES>
+  <CIVILIZATION_BASE_OPTIONS>
+    <string>Buy</string>
+    <string>Sell</string>
+    <string>Shipyard</string>
+    <string>Information</string>
+  </CIVILIZATION_BASE_OPTIONS>
+  <Leave>Leave</Leave>
+  <Ready_to_leave>Waiting for other players...</Ready_to_leave>
+  <MONTH_ABBREVIATIONS>
+    <string />
+    <string>Jan</string>
+    <string>Feb</string>
+    <string>Mar</string>
+    <string>Apr</string>
+    <string>May</string>
+    <string>June</string>
+    <string>July</string>
+    <string>Aug</string>
+    <string>Sept</string>
+    <string>Oct</string>
+    <string>Nov</string>
+    <string>Dec</string>
+  </MONTH_ABBREVIATIONS>
+  <SCAN_DATA_ENTRIES>
+    <ArrayOfString>
+      <string>Aiming Altair</string>
+      <string>Though it does not move, it will fire its EMP weapon ceaselessly in your direction. Though relatively harmless on its own, its slowing bullets can be disasterous when other enemies are around.
+
+Threat: 3
+Speed: None
+Hull: 240
+      </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Carpeting Celbalrai</string>
+      <string>It has a powerful bombing weapon, and knows how to use it: it will attempt to get above you, and rain death upon you.
+
+If you hear the distinctive sound of its bombs, but cannot see it, look up.
+
+Threat: 6
+Speed: 50%
+Hull: 120
+      </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Carpeting Celbalrai II</string>
+      <string>It has a powerful bombing weapon, and knows how to use it: it will attempt to get above you, and rain death upon you. Worse still, it will fire its sideways-pointing lasers if you try to get above it!
+
+If you hear the distinctive sound of its bombs, but cannot see it, look up.
+
+Threat: 10
+Speed: 50%
+Hull: 200
+      </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Crawling Carinae</string>
+      <string>It sticks to walls, following a predictable path, but its powerful weapon fires randomly, and the shots bounce off of walls.
+
+Threat: 7
+Speed: ??
+Hull: 280
+      </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Dashing Deneb</string>
+      <string>They come in swarms, attacking from all sides...
+
+Threat: 5
+Speed: 70%-110%
+Health: 60
+      </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Four-way Fomalhaut</string>
+      <string>It dashes near you, and fires from all four of its lasers.
+
+Threat: 1
+Speed: 100%
+Hull: 50
+      </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Four-way Fomalhaut II</string>
+      <string>It dashes near you with incredible speed, and fires two rounds from all four of its lasers.
+
+Threat: 8
+Speed: 150%
+Hull: 100
+      </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Swarming Sirrah</string>
+      <string>More of a nuisance than anything, they buzz around fuel and other objects, but never have any of their own.
+
+Threat: 0
+Speed: 60%
+Hull: 5
+      </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Swimming Sheliak</string>
+      <string>Meandering toward you on a collision course, it seems to have no regard for its own safety. Worst of all, it explodes violently when destroyed.
+
+Threat: 2
+Speed: 30%
+Hull: 120
+      </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Swimming Sheliak II</string>
+      <string>Meandering toward you on a collision course, it seems to have no regard for its own safety. Worst of all, it explodes violently when destroyed.
+
+Threat: 9
+Speed: 40%
+Hull: 240
+      </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Trailing Talitha</string>
+      <string>Moves around you at oddly-precise angles, noisily laying a trail of bullets in its wake.
+
+Threat: 4
+Speed: 40%
+Hull: 120
+      </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Tunneling Taurus</string>
+      <string>It writhes toward you. When split in two, each half moves independently. When you destroy its head, a new one appears.
+
+It would be truly horrifying if it were not so small.
+
+Threat: 4
+Speed: 50%
+Health: 80 (each segment)
+      </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Regenerating Rigel</string>
+      <string>It sits in orbit around planets for unknown purposes. Whatever its mission may be, it defends itself with violent force, and can regenerate damaged parts.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Grosse Baleine</string>
+      <string>Found on ocean worlds, surrounded by a school of fish.
+
+How did it end up with a piece of fuel in it? Did it accidentally eat it?
+      </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Grosse Baleine (Lava)</string>
+      <string>Found on lava worlds, surrounded by a swarm of ashen creatures.
+
+Is this really the same species as that found on Ocean Worlds?
+      </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Petit Poisson</string>
+      <string>A small, flying fish, found swarming around Grosse Baelines. They must have some sort of symbiotic relationship.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Tunneling Taurus (Huge)</string>
+      <string>Or perhaps "Titan" would be more-appropriate? Whichever the case, it remains unknown how some Tunneling Taurus obtain such large sizes.Threat: ??
+
+Speed: 70%
+Health: 500 (each segment)
+      </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Cloaking Cor Caroli</string>
+      <string>It travels along unseen paths, appearing only to fire an arc of bullets in your direction.</string>
+      <string>Threat: 2
+Speed: ??
+Hull: 400
+      </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Antares Anemone</string>
+      <string>Resting on the ocean floor, it periodically releases a burst of energy powerful enough to kill or wound even large sea creatures.</string>
+      <string>Threat: 1
+Speed: None
+Health: 60
+      </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Erratic Eridanus</string>
+      <string>It dashes, drifts, and shoots... dashes, drifts, and shoots...</string>
+      <string>Threat: 1
+Speed: 100%
+Hull: 50
+      </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Menkalinan Manufactory</string>
+      <string>It seems these manufactories have long since been abandoned. Unfortunately, their self-defense systems are still very alive.</string>
+      <string>Threat: 12
+Speed: None
+Hull: 7000
+      </string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Beehive</string>
+      <string>Colonies of flying insects build these fragile homes. Try not to destroy them: there are few things in this universe more fierce than a creature that has just lost its home.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Big Mushroom</string>
+      <string>These large mushrooms don't actively harm you; they mostly just get in the way.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Black Mushroom</string>
+      <string>The spores of this mushroom interfere with sensor readings.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Crystal Mushroom</string>
+      <string>It glows from the energy of the Fuel crystals it grows on.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Hive Mushroom</string>
+      <string>This pointed mushroom unleashes spores that seem to be attracted to the engines of ships.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Red Mushroom</string>
+      <string>These mushrooms explode on death. Maybe it's just best not to shoot them in the first place...</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Mini Menkalinan</string>
+      <string>These small, alien outposts are apparently manufactories. But of what? And why are they so well-defended?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Ghost Baleine</string>
+      <string>For some reason, the spirit of a deceased baleine may sometimes remain, corrupting the planet it once called home.</string>
+    </ArrayOfString>
+  </SCAN_DATA_ENTRIES>
+  <Hello_Captain>Hello, Captain.</Hello_Captain>
+  <One_more_thing>One more thing:</One_more_thing>
+  <We_cant_go_back_now>We can't go back now.</We_cant_go_back_now>
+  <What_do_you_recommend>What do you recommend?</What_do_you_recommend>
+  <Sounds_like_a_plan>Sounds like a plan.</Sounds_like_a_plan>
+  <MAINTENANCE_CHECK>Sorry to wake you, but it's time for another 100LY maintenance check.
+
+There are no outstanding issues requiring your attention. Hardware and software operations appear normal.
+
+How do you feel?
+  </MAINTENANCE_CHECK>
+  <TUTORIALIZE_OPTION>Good.
+
+Before shutting down, would you like to do some exercises?
+  </TUTORIALIZE_OPTION>
+  <TUTORIAL_MINIBOSS_APPROACHES>Wait.
+
+Captain, I'm picking something up... a ship is approaching us. I'm having trouble making contact; it's an old ship, and badly damaged.
+  </TUTORIAL_MINIBOSS_APPROACHES>
+  <TUTORIAL_MINIBOSS_APPROACHES_2>Captain, it's readying its weapons. It may be old and damaged, but this is definitely a warship.
+
+Try to disable it by force; while you're doing that, I'll attempt to hack in and gain control of it.
+  </TUTORIAL_MINIBOSS_APPROACHES_2>
+  <END_OF_TUTORIAL_NEUTRALIZED>Captain, I've gained control of the ship. I'm shutting it down now.</END_OF_TUTORIAL_NEUTRALIZED>
+  <END_OF_TUTORIAL_DESTROYED>Well done, captain.
+
+Sorry I wasn't able to shut it down faster; it's more badly-damaged than I thought.
+
+I was able to get some information, however.
+  </END_OF_TUTORIAL_DESTROYED>
+  <END_OF_TUTORIAL_2>The ship's memories show that it was indeed a warship. It was badly damaged in a skirmish 526 years ago and has been drifting, derelict, since.
+
+It's hard to say where the rest of its kind are, since the information it has is about 526 years old; with any luck we won't have any more run-ins.
+  </END_OF_TUTORIAL_2>
+  <END_OF_TUTORIAL_3>Anyway, as this is the last maintenance check before we reach Sector ZZ-Omega-9, I recommend conserving as much Fuel as possible. We don't want to to be caught unprepared for whatever lies in store for us.</END_OF_TUTORIAL_3>
+  <THREE_FUEL_EXPLANATION>Excellent. We now have the fuel needed to jump to the next system, and may leave at any time.
+  
+It may be worth looking around more, to collect additional resources and supplies, but I've also noticed that the number of enemies is increasing the longer we stay.
+
+It's your call. When you're ready, take us back up into space.</THREE_FUEL_EXPLANATION>
+  <LAVA_INFO>I feel I should remind you that our shields were not designed for the high temperatures of lava. While they will technically hold, we will not be able to regenerate them while submerged.</LAVA_INFO>
+  <MYSTERIOUS_FORCE_EXPLANATION>Sorry to wake you, but there's an emergency: an unidentified force is causing us to decelerate.
+
+While currently negligible, this force is increasing as we approach the ZZ-Omega cluster.
+
+If this force increases at its current rate, we will not have enough Fuel to return home.</MYSTERIOUS_FORCE_EXPLANATION>
+  <MYSTERIOUS_FORCE_SOLUTION_EXPLANATION>There are several mineral-rich planets in the ZZ-Omega cluster. We could stop at these planets to extract the necessary Fuel.
+
+If you'd like to go ahead with this plan, I have identified a few courses we could take through the ZZ-Omega cluster.
+
+Regardless of the course taken, we will need to collect 3 Fuel from each planet encountered before continuing.</MYSTERIOUS_FORCE_SOLUTION_EXPLANATION>
+  <STASIS_EXPLANATION>One of our ship parts is showing an extremely high Stasis level!
+
+I've analyzed its structure: it's definitely having a positive effect, but it's alien in origin; I worry about butterfly effects. So far there don't seem to be any problems, but I'll let you know if there are any changes.</STASIS_EXPLANATION>
+  <ENTROPY_EXPLANATION>One of our ship parts is showing an extremely high Entropy level!
+
+I've analyzed its structure, but this is beyond our ability to repair.
+
+We can continue using this part, but we should definitely be on the lookout for a replacement.</ENTROPY_EXPLANATION>
+  <WEAKENED_EXPLANATION>One of our ship parts is Weakened!
+
+We can continue using this part, but be aware that further Weakening will completely destroy it.</WEAKENED_EXPLANATION>
+  <EXPLAIN_POCKET_DIMENSION>We appear to have fallen into a pocket of folded space. That alien structure was probably there to protect against this very event, but was disrupted by our tractor beam.
+
+Our ship isn't powerful enough to go against the gravitational fields. We'll just have to let them carry us along, and out the other end.</EXPLAIN_POCKET_DIMENSION>
+  <EXPLAIN_POCKET_DIMENSION_2>Wait.
+
+Captain, I'm picking something up... a ship, or what's left of it. Pieces of its debris have become tangled in the gravitational field.
+
+There's also fragments we may be able to use as fuel. If possible, we should pick these up, but survival is our top priority.
+  </EXPLAIN_POCKET_DIMENSION_2>
+  <Its_dangerous_to_go_alone_take_this>It's dangerous to go alone! Take this.</Its_dangerous_to_go_alone_take_this>
+  <ReceivedItemNote>(Received %itemname%.)</ReceivedItemNote>
+  <Fool>Fool.</Fool>
+  <PRACTICE_MOVING_TUTORIAL>Great! Let's begin!
+
+Move the ship using %input%.</PRACTICE_MOVING_TUTORIAL>
+  <PRACTICE_SHOOTING_TUTORIAL>Unfortunately, there isn't anything out here to practice shooting at. A holographic projection will have to do.
+
+I'll create several holograms; practice moving while holding %input% to fire at them.</PRACTICE_SHOOTING_TUTORIAL>
+  <MINIBOSS_EXPLANATION>I'm picking up a powerful signal... another ship, but much larger than anything we've encountered thus far.
+
+It may be dangerous, but if we destroy it, we can salvage its Fuel.
+
+I'll track it on the minimap.</MINIBOSS_EXPLANATION>
+  <WASD_or_the_arrow_keys>WASD or the arrow keys</WASD_or_the_arrow_keys>
+  <Z_or_slash>Z or /</Z_or_slash>
+  <the_left_analog_stick>the left analog stick</the_left_analog_stick>
+  <CTRL>CTRL</CTRL>
+  <SHIFT>SHIFT</SHIFT>
+  <ENTER>ENTER</ENTER>
+  <ESC>ESC</ESC>
+  <DEL>DEL</DEL>
+  <Unknown_command>Unknown command. Type HELP for help.</Unknown_command>
+  <Release_Date>%month% %day%, %year%</Release_Date>
+
+  <WINDOW_LOST_FOCUS>WINDOW LOST FOCUS. CLICK ON WINDOW, THEN PRESS ((A)) OR ENTER TO RESUME PLAY.</WINDOW_LOST_FOCUS>
+</Language>

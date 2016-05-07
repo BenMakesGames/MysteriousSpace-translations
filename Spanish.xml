@@ -1,0 +1,654 @@
+<?xml version="1.0"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LanguageName>Spanish</LanguageName>
+  <LanguageCode>es</LanguageCode>
+  <LanguageIcon>5</LanguageIcon>
+  <Translation_Unavailable>Traducción no disponible</Translation_Unavailable>
+  <None>Nada</None>
+  <Hull>Salud</Hull>
+  <Armor>Armadura</Armor>
+  <Shield>Escudo</Shield>
+  <Accessory>Accesorio</Accessory>
+  <Orbital_Accessory>Accesorio orbital</Orbital_Accessory>
+  <Revive>Revivir!</Revive>
+  <Fuel>Gasolina</Fuel>
+  <Points>Puntos</Points>
+  <Cargo>Almacenamiento</Cargo>
+  <Yes>Sí</Yes>
+  <No>No</No>
+  <On>Encendido</On>
+  <Off>Apagado</Off>
+  <Ready>Listo</Ready>
+  <New>Nuevo</New>
+  <GET>AGARRAR</GET>
+  <Closer>Cerca</Closer>
+  <Total>Total</Total>
+  <Difficulty>Dificultad</Difficulty>
+  <Points_Earned>Puntos Obtenidos</Points_Earned>
+  <Threat>Amenaza</Threat>
+  <Low>Bajo</Low>
+  <Medium>Medio</Medium>
+  <High>Alto</High>
+  <Extreme>Extremo</Extreme>
+  <Overpowering>Overpowering</Overpowering>
+  <NEW_GAME>NUEVO JUEGO</NEW_GAME>
+  <CONTINUE_GAME>CONTINUAR JUEGO</CONTINUE_GAME>
+  <HIGH_SCORES>PUNTUACIONES</HIGH_SCORES>
+  <ABOUT>ACERCA DE</ABOUT>
+  <DONATIONS>DONACIONES</DONATIONS>
+  <QUIT>SALIR</QUIT>
+  <COLLECTION>COLECCIÓN</COLLECTION>
+  <SETTINGS>CONFIG</SETTINGS>
+  <Music>Música</Music>
+  <Sound_Effect>Efectos de sonido</Sound_Effect>
+  <version>versión</version>
+  <DEBUG_MODE_ON>MODO DEBUG ENCENDIDO</DEBUG_MODE_ON>
+  <SHIP>NAVE</SHIP>
+  <SCORE>PUNTUACIÓN</SCORE>
+  <DATE>FECHA</DATE>
+  <Space>Espacio</Space>
+  <Health>Salud</Health>
+  <Education>Educación</Education>
+  <Misc>Misc</Misc>
+  <THE_PREMISE>Científicos han descubierto señales extrañas viniendo del sistema ZZ-Omega-9.
+  
+Podría ser la fuente de poder necesaria para salvar a la civilización?
+  
+Tu misión es investigar y volver con ésa información.
+  
+Buena suerte, piloto!</THE_PREMISE>
+  <STORY_MADLIBS>
+    <string>Creado en un astillero, tu nave era propiedad de un hombre %person desc%.
+Tiene un color %color%, y una(s) %ship part%, algo muy inusual.</string>
+    <string>Creado a partir del diseño de %ship type% de la %corporation name%, la nave que te han asignado para ésta misión es inusualmente %size%, y posee un buen acabado de color.</string>
+    <string>Esta nave antes era poseída por el pirata %pirate name%, pero ahora te pertenece, y para ayudarte en tu misión se le ha hecho una buena dósis de modificaciones. Todavía posee su color original, un %color% brilloso.</string>
+    <string>Un buen tamaño para un luchador, ésta nave ha sido diseñada por científicos brillantes. 
+Posee un color %color% que brilla en su metal.</string>
+    <string>Tu nave es una de la serie %ship type%, serie creada por %corporation name%. Posee su característico color %color%, y también es muy %size%.</string>
+    <string>Tu %relative%, un %person desc% %job title%, falleció hace %small number% años atrás, mientras te encontrabas en la academia militar. Te sorprendió el saber que te había dejado su nave: una %ship type% de tamaño %size%, color %color% creada por %corporation name%.</string>
+    <string>Hiciste muchos trabajos pesados para poder comprar tu propia nave: una auténtica belleza de color %color% creada por %corporation name%.
+Salió caro, pero vaya que valió la pena!</string>
+  </STORY_MADLIBS>
+  <MADLIB_SIZES>
+    <string>larga</string>
+    <string>corta</string>
+    <string>ancha</string>
+    <string>delgada</string>
+    <string>pesada</string>
+    <string>ligera</string>
+  </MADLIB_SIZES>
+  <MADLIB_PERSON_DESCRIPTIONS>
+    <string>excéntrico</string>
+    <string>dedicado</string>
+    <string>talentoso</string>
+    <string>respetado</string>
+    <string>apreciado</string>
+    <string>adinerado</string>
+    <string>xenófilo</string>
+  </MADLIB_PERSON_DESCRIPTIONS>
+  <MADLIB_SHIP_PARTS>
+    <string>cabina</string>
+    <string>alas</string>
+    <string>alas</string>
+    <string>cola</string>
+    <string>nariz</string>
+  </MADLIB_SHIP_PARTS>
+  <MADLIB_WORKSHOP_STATE>
+    <string>pobre</string>
+    <string>renombrado</string>
+    <string>pequeño</string>
+    <string>local</string>
+    <string>militar</string>
+    <string>fuera del mundo</string>
+  </MADLIB_WORKSHOP_STATE>
+  <MADLIB_CORPORATION_NAMES>
+    <string>Ship Shapes Corp</string>
+    <string>Shipworks</string>
+    <string>Magnetar Mfg</string>
+    <string>G&amp;G Shipcorp</string>
+    <string>Krieg &amp; Co.</string>
+  </MADLIB_CORPORATION_NAMES>
+  <MADLIB_PIRATE_NAMES>
+    <string>#000000barba</string>
+    <string>nickNhack</string>
+    <string>FRED</string>
+    <string>Bipsi Avadon</string>
+    <string>"caterpillar"</string>
+  </MADLIB_PIRATE_NAMES>
+  <MADLIB_JOBS_TITLES>
+    <string>ingeniero</string>
+    <string>comerciante</string>
+    <string>transportista</string>
+    <string>pirata</string>
+    <string>apostador</string>
+  </MADLIB_JOBS_TITLES>
+  <MADLIB_RELATIVES>
+    <string>hermana</string>
+    <string>hermano</string>
+    <string>madre</string>
+    <string>padre</string>
+    <string>tío</string>
+    <string>abuelo</string>
+    <string>primo</string>
+  </MADLIB_RELATIVES>
+  <MADLIB_SHIP_TYPES>
+    <string>"corredor"</string>
+    <string>"luchador"</string>
+    <string>"mensajero"</string>
+  </MADLIB_SHIP_TYPES>
+  <SHIP_COLOR_NAMES>
+    <string>naranja</string>
+    <string>rojo</string>
+    <string>azul</string>
+    <string>violeta</string>
+    <string>verde</string>
+  </SHIP_COLOR_NAMES>
+  <Ship_Name>Nombre de la Naver</Ship_Name>
+  <Ship_Type>Tipo de Nave</Ship_Type>
+  <Subroutine>Subrutina</Subroutine>
+  <Please_name_your_ship>Por favor, coloca un nombre para tu nave!</Please_name_your_ship>
+  <That_name_is_already_in_use>Éste nombre ya está en uso!</That_name_is_already_in_use>
+  <Add_a_player>Añadir jugador</Add_a_player>
+  <Add_another_player>Añadir otro jugador</Add_another_player>
+  <Remove_player>Remover a éste jugador</Remove_player>
+  <Add_an_orbital_player>Añadir a un jugador orbital</Add_an_orbital_player>
+  <Press_to_accept_name>(((START)) cuando termines)</Press_to_accept_name>
+  <Very_well_Shutting_down>Está bien. Apagando.</Very_well_Shutting_down>
+  <I_feel_fine>Me siento bien.</I_feel_fine>
+  <Lets_do_some_flight_exercises>Hagamos algunos ejercicios de vuelo.</Lets_do_some_flight_exercises>
+  <No_thanks>No, gracias.</No_thanks>
+  <Practice_Moving>Práctica de movimiento...</Practice_Moving>
+  <Practice_Shooting>Mantenga presionado el botón de disparo...</Practice_Shooting>
+  <The_truth_behind_Sector_ZZ_Omega_9_remains_a_secret>Has muerto. La verdad del sector ZZ-Omega-9 se mantendrá como un secreto.</The_truth_behind_Sector_ZZ_Omega_9_remains_a_secret>
+  <The_truth_behind_Sector_ZZ_Omega_9_dies_with_you>Has muerto. La verdad del sector ZZ-Omega-9 muere contigo.</The_truth_behind_Sector_ZZ_Omega_9_dies_with_you>
+  <The_truth_behind_Sector_ZZ_Omega_9_will_be_revealed>La verdad del sector ZZ-Omega9 será revelada!</The_truth_behind_Sector_ZZ_Omega_9_will_be_revealed>
+  <Final_score>Puntuación final:</Final_score>
+  <PLAY_AGAIN_LOSE>
+    <string>JUGAR DENUEVO</string>
+    <string>INTENTAR DENUEVO</string>
+  </PLAY_AGAIN_LOSE>
+  <PLAY_AGAIN_WIN>
+    <string>JUGAR DENUEVO</string>
+  </PLAY_AGAIN_WIN>
+  <DONE_FOR_NOW_LOSE>
+    <string>RENDIRSE</string>
+    <string>VOLVER AL MENÚ</string>
+    <string>RENDICIÓN</string>
+    <string>DEJAR</string>
+    <string>TERMINADO</string>
+  </DONE_FOR_NOW_LOSE>
+  <DONE_FOR_NOW_WIN>
+    <string>TERMINADO</string>
+  </DONE_FOR_NOW_WIN>
+  <Visit_Planet>Visitar planeta</Visit_Planet>
+  <Inventory_Slash_Menu>Inventario/Menú</Inventory_Slash_Menu>
+  <Equipment>Equipo</Equipment>
+  <Inventory>Inventario</Inventory>
+  <Upgrade>Mejoras</Upgrade>
+  <Save_and_Quit>Guar. y Salir</Save_and_Quit>
+  <Settings>Config</Settings>
+  <Sound_Volume>Volumen de sonido</Sound_Volume>
+  <Music_Volume>Volumen de musica</Music_Volume>
+  <Vibrate_Controller>Vibración de control</Vibrate_Controller>
+  <Reset_Tutorial>Reiniciar el tutorial</Reset_Tutorial>
+  <Show_Health_Numbers>Mostrar Puntos</Show_Health_Numbers>
+  <Display>Pantalla:</Display>
+  <Windowed>Ventana</Windowed>
+  <Fullscreen>Completa</Fullscreen>
+  <Strengthen_Hull>Mejorar salud</Strengthen_Hull>
+  <X_Points>%points% Puntos</X_Points>
+  <Second_Weapon_Slot>Arma Secundaria</Second_Weapon_Slot>
+  <Third_Weapon_Slot>Arma Terciaria</Third_Weapon_Slot>
+  <Additional_Armor_Slot>Armadura Adicional</Additional_Armor_Slot>
+  <Alien_Scanners>Escáneres Alienígenas</Alien_Scanners>
+  <Scrapping>Desguace</Scrapping>
+  <Improved_Thrusters>Propulsores I</Improved_Thrusters>
+  <Improved_Thrusters_2>Propulsores II</Improved_Thrusters_2>
+  <Adaptive_Software>Software Adaptivo</Adaptive_Software>
+  <Shielded_Core>Núcleo del Escudo</Shielded_Core>
+  <Super_Repellent_Surface>Supeficie repelente</Super_Repellent_Surface>
+  <Improved_Thrusters_Description>Mejora el manejo de la nave al hacer que se detenga con mayor facilidad.</Improved_Thrusters_Description>
+  <Second_Weapon_Slot_Description>Te permite utilizar dos armas al mismo tiempo. Tu segunda arma disparará a una velocidad de 2/3.</Second_Weapon_Slot_Description>
+  <Third_Weapon_Slot_Description>Te permite utilizar tres armas al mismo tiempo. Tu tercera arma disparará a una velocidad de 1/3.</Third_Weapon_Slot_Description>
+  <Strengthen_Hull_Description>Añade %amount% puntos a tu salud actual.
+
++2 de capacidad de almacenamiento.</Strengthen_Hull_Description>
+  <Not_enough_upgrade_parts>No tienes suficientes partes.</Not_enough_upgrade_parts>
+  <Cannot_upgrade_while_on_a_planet>No puedes mejorar tu nave en un planeta.</Cannot_upgrade_while_on_a_planet>
+  <You_have_no_inventory>No posees un inventario.</You_have_no_inventory>
+  <Inventory_is_full>Inventario lleno.</Inventory_is_full>
+  <This_ship_part_has_not_been_identified>Ésta pieza no ha sido identificada aún.</This_ship_part_has_not_been_identified>
+  <Press_to_drop>%input% para soltar</Press_to_drop>
+  <Press_to_identify>%input% para identificar</Press_to_identify>
+  <Press_to_equip>%input% para equipar</Press_to_equip>
+  <Press_to_unequip>%input% para quitar</Press_to_unequip>
+  <Press_to_change>%input% para cambiar</Press_to_change>
+  <Press_to_use>%input% para usar</Press_to_use>
+  <Press_to_upgrade>%input% para mejorar</Press_to_upgrade>
+  <Cannot_equip_ship_parts_while_on_a_planet>No puedes equiparlo en un planeta</Cannot_equip_ship_parts_while_on_a_planet>
+  <You_may_identify_this_once_youre_safe_in_space>No puedes identificarlo en un planeta</You_may_identify_this_once_youre_safe_in_space>
+  <Cannot_throw_away_equipped_ship_parts>No puedes tirar partes equipadas</Cannot_throw_away_equipped_ship_parts>
+  <You_can_use_Alien_Artifacts_while_on_a_planet_or_in_space>(Puedes utilizar Artefactos Alienígenas en un planeta, o en el espacio)</You_can_use_Alien_Artifacts_while_on_a_planet_or_in_space>
+  <You_can_use_Advanced_Technology_while_on_a_planet_or_in_space>(Puedes utilizar Tecnología Avanzada en un planeta, o en el espacio)</You_can_use_Advanced_Technology_while_on_a_planet_or_in_space>
+  <To_quit_press_A_or_ENTER_now>Para salir, presiona ((A)) o ENTER ahora. Todo tu progreso será guardado.</To_quit_press_A_or_ENTER_now>
+  <You_have_never_used_this_kind_of_Alien_Artifact_before>Nunca antes habías utilizado éste tipo de Artefacto Alienígena. Los efectos que hará a tu nave son desconocidos.</You_have_never_used_this_kind_of_Alien_Artifact_before>
+  <You_have_never_used_this_kind_of_Advanced_Technology_before>Nunca antes habías utilizado éste tipo de Tecnología Avanzada. Los efectos que hará a tu nave son desconocidos.</You_have_never_used_this_kind_of_Advanced_Technology_before>
+  <ALIEN_ARTIFACT_COLOR_NAMES>
+    <string>Artefacto Blanco</string>
+    <string>Artefacto Gris</string>
+    <string>Artefacto Rojo</string>
+    <string>Artefacto Marrón</string>
+    <string>Artefacto Naranja</string>
+    <string>Artefacto Amarillo</string>
+    <string>Artefacto Lima</string>
+    <string>Artefacto Verde</string>
+    <string>Artefacto Cian</string>
+    <string>Artefacto Azul</string>
+    <string>Artefacto Morado</string>
+    <string>Artefacto Rosado</string>
+    <string>Artefacto Negro</string>
+  </ALIEN_ARTIFACT_COLOR_NAMES>
+  <ALIEN_ARTIFACT_EFFECT_DESCRIPTIONS>
+    <string>Añade un escudo temporal de igual poder a tu escudo principal. (los escudos temporales no se regeneran con el tiempo.)</string>
+    <string>Repara todos los escudos.</string>
+    <string>Repara toda la armadura.</string>
+    <string>Repare el 50% del salud.</string>
+    <string>Otorga 5 segundos de invulnerabilidad.</string>
+    <string>Remueve los escudos por 5 segundos.</string>
+    <string>Multiplica los disparos de tu arma principal por 10 segundos.</string>
+    <string>Multiplica la regeneración de los escudos por 10 segundos.</string>
+    <string>Malfunción de los sensores por 10 segundos.</string>
+    <string>Remueve todos los efectos negativos (lentitud, malfunción de los sensores, controles invertidos, y escudos desactivados).</string>
+    <string>Realentizado por 10 segundos.</string>
+    <string>Tu velocidad es aumentada un 50% por 10 segundos.</string>
+    <string>Invierte los controles por 10 segundos.</string>
+  </ALIEN_ARTIFACT_EFFECT_DESCRIPTIONS>
+  <ADVANCED_TECHNOLOGY_EFFECT_DESCRIPTIONS>
+    <string>Aumenta la Entropía de una parte aleatoria de la nave. (Ésto es algo malo!)</string>
+    <string>Aumenta el Estasis de una parte aleatoria de la nave. (Ësto es algo bueno!)</string>
+    <string>Endurece una parte aleatoria de la nave la cual esté Débil.</string>
+    <string>Incrementa la armadura permanentemente por 1 punto.</string>
+    <string>Otorga una mejora de nave.</string>
+    <string>Teletransporta la nave a una parte aleatoria del planeta.</string>
+    <string>Te quita una cantida considerable de salud.</string>
+    <string>No tiene efecto.</string>
+    <string>Te otorga un bote de Gasolina.</string>
+    <string>Remueve una mejora.</string>
+    <string>Disminuye la velocidad de los enemigos por 10 segundos.</string>
+    <string>Reconstruye la nave completamente en otra forma.</string>
+    <string>Hace que muchos enemigos aparezcan cerca.</string>
+    <string>Detiene el spawn de los enemigos por 10 segundos.</string>
+    <string>Destruye todos los enemigos y balas en pantalla.</string>
+  </ADVANCED_TECHNOLOGY_EFFECT_DESCRIPTIONS>
+  <Log>Apuntes</Log>
+  <Profile>Perfil</Profile>
+  <Blueprint>Proyector</Blueprint>
+  <Battery>Batería</Battery>
+  <Repair_Kit>Kit de Reparación</Repair_Kit>
+  <Long_Range_Scanner>Escáner de Largo alcance</Long_Range_Scanner>
+  <Advanced_Technology>Tecnología Avanzada</Advanced_Technology>
+  <Battery_Use_Description>La regeneración de tus escudos es multiplicada por 2 durante 5 segundos, los disparos de tus armas son multiplicados y eres más rápido.</Battery_Use_Description>
+  <Item_has_been_permanently_added_to_the_COLLECTION>%item% ha sido añadido permanentemente a la COLECCIÓN.</Item_has_been_permanently_added_to_the_COLLECTION>
+  <Master_Sword>Espada Maestra</Master_Sword>
+  <Angry_Armor>Armadura Enojada</Angry_Armor>
+  <Volcanic_Armor>Armadura Volcánica</Volcanic_Armor>
+  <Berserker_Armor>Armadura Berserker</Berserker_Armor>
+  <ANGEL_Armor>Armadura ANGELICAL</ANGEL_Armor>
+  <Regenerating_Armor>Armadura regenerativa</Regenerating_Armor>
+  <Embedded_Armor>Armadura Incrustrada</Embedded_Armor>
+  <Heavy_Armor>Armadura Pesada</Heavy_Armor>
+  <Angry_Shield>Escudo Enojado</Angry_Shield>
+  <Nova_Shield>Escudo Nova</Nova_Shield>
+  <EMP_Resistant_Shield>Escudo Resistente a PE</EMP_Resistant_Shield>
+  <Malleable_Shield>Escudo Maleable</Malleable_Shield>
+  <Integrated_Shield>Escudo Integrado</Integrated_Shield>
+  <Desperate_Shield>Escudo Desesperado</Desperate_Shield>
+  <Synchronized_Shield>Escudo Sincronizado</Synchronized_Shield>
+  <Overcharged_Shield>Escudo Supercargado</Overcharged_Shield>
+  <Tiny>Pequeño %name%</Tiny>
+  <Alien_Integrator>Integrador Alienígena</Alien_Integrator>
+  <Engine_Booster>Amplificador de Motor</Engine_Booster>
+  <Hull_Repair_Bots>Bots que reparan la Salud</Hull_Repair_Bots>
+  <Phase_Shield>Escudo Phase</Phase_Shield>
+  <Last_Resort>Útima Oportunidad</Last_Resort>
+  <Weapon_Booster>Amplificador de Armas</Weapon_Booster>
+  <Shield_Rerouter>Shield Rerouter</Shield_Rerouter>
+  <Alien_Teleporter>Teletransportador Alienígena</Alien_Teleporter>
+  <EMP_Channeler>Canalizador de PE</EMP_Channeler>
+  <Modified_EMP_Channeler>%modifier% Canalizador PE</Modified_EMP_Channeler>
+  <Stream_Interrupt>Interruptor de Corriente</Stream_Interrupt>
+  <Fuel_Preprocessor>Procesador de Combustible</Fuel_Preprocessor>
+  <Emergency_Backup_Systems>Sistemas de Emergencia</Emergency_Backup_Systems>
+  <Rubberized>Engomado</Rubberized>
+  <Penetrating>Penetrando</Penetrating>
+  <Fires_one_bullet_every_X_seconds>Dispara una bala cada %seconds% segundos.</Fires_one_bullet_every_X_seconds>
+  <Bullets_travel_X_pixels_per_second>Las balas viajan a %speed% píxeles por segundo.</Bullets_travel_X_pixels_per_second>
+  <BULLET_TYPE_REGULAR>Hacen %damage% de daño.</BULLET_TYPE_REGULAR>
+  <BULLET_TYPE_EMP>NO hacen ningún daño, en su lugar realentizan al enemigo por %seconds%.
+Desactiva permanentemente cualquier campo de fuerza que golpee.</BULLET_TYPE_EMP>
+  <BULLET_TYPE_RUBBER>Rebotan en las paredes, duran 1.5 segundos.
+Hacen %damage% de daño.</BULLET_TYPE_RUBBER>
+  <BULLET_TYPE_FRAGMENTING>Hacen %damage% de daño y dispara balas pequeñas al estar viajando.</BULLET_TYPE_FRAGMENTING>
+  <BULLET_TYPE_KNOCKBACK>Hacen %damage% de daño y empuja a los enemigos un %knockback%.</BULLET_TYPE_KNOCKBACK>
+  <BULLET_TYPE_PENETRATING>Hacen %damage% de daño y atraviesan paredes.</BULLET_TYPE_PENETRATING>
+  <Can_absorb_x_damage>Puede absorver %amount% de daño.</Can_absorb_x_damage>
+  <Originally>Originalmente %amount%.</Originally>
+  <Regenerates_x_damage_every_y_seconds>Regenera %damage% de daño cada %seconds% segundos.</Regenerates_x_damage_every_y_seconds>
+  <Resists_X_percent_of_damage_resulting_from_collisions>Resiste %percent%% de daño por colisiones.</Resists_X_percent_of_damage_resulting_from_collisions>
+  <Resists_X_percent_of_damage_resulting_from_weapons>Resiste %percent%% de daño por armas.</Resists_X_percent_of_damage_resulting_from_weapons>
+  <Does_not_protect_from_collision_damage>No protege de daño por colisiones.</Does_not_protect_from_collision_damage>
+  <X_percent_shield_recharge_rate>%percent%% puntos de regeneración de escudos.</X_percent_shield_recharge_rate>
+  <X_percent_weapon_recharge_rate>%percent%% puntos de regeneración de armas.</X_percent_weapon_recharge_rate>
+  <X_percent_movement_speed>%percent%% de velocidad de movimiento.</X_percent_movement_speed>
+  <X_percent_revive_speed>%percent%% de velocidad al revivir.</X_percent_revive_speed>
+  <Regen_rate_is_doubled_if_pacifist>La regeneración es el doble si no has disparado un arma en los ultimos %seconds% segundos.</Regen_rate_is_doubled_if_pacifist>
+  <When_you_are_slowed_you_are_randomly_teleported>Cuando te realentizan, eres teletransportado a un área aleatoria.</When_you_are_slowed_you_are_randomly_teleported>
+  <Something_good_happens_every_X_seconds>Algo bueno pasa cada %seconds% segundos.</Something_good_happens_every_X_seconds>
+  <Something_bad_happens_every_X_seconds>Algo malo pasa cada %seconds% segundos.</Something_bad_happens_every_X_seconds>
+  <Armor_is_weakened>Ésta armadura está débil, y solo te otorga la mitad de protección que daría normalmente..</Armor_is_weakened>
+  <Fire_rate_is_halved_due_to_Weakening>Velocidad de disparo es reducido por la debilidad.</Fire_rate_is_halved_due_to_Weakening>
+  <Damage_is_halved_due_to_Weakening>El daño es reducido por la debilidad.</Damage_is_halved_due_to_Weakening>
+  <Lava>Lava</Lava>
+  <Slowed>Ralentizado</Slowed>
+  <NotAvailable>N/A</NotAvailable>
+  <Light_Lukida_Description>Una nave pequeña y rápida.
+
+* +20% velocidad de movimiento.
+* Cuando la ralentizan, dura solo
+  un 50% del tiempo.
+* -1 puntos de Salud.
+* 2 armas máximo.</Light_Lukida_Description>
+  <Alien_Alwaid_Description>Una nave alienígena.
+
+* En lugar de sus efectos normales,
+  los Artefactos Alienígenas
+  aumenta x2 la regeneración de los escudos por 3
+  segundos y restaura el 1 de tu armadura
+  y salud.
+* Empieza con un escudo
+  resistente a los PE.
+* -10% velocidad de movimiento.
+* -1 puntos Salud.</Alien_Alwaid_Description>
+  <Orbiting_Oculus_Description>Actúa como un satelite, orbitando
+otra nave. No se puede mover
+por su cuenta, pero puede disparar en
+cualquier dirección, y actúa como un escudo al
+retener balas o estrellarse con
+enemigos. si es destruido, permanecerá así
+hasta que se complete el nivel.</Orbiting_Oculus_Description>
+  <Risky_Ras_Algethi_Description>Una nave diseñada para viajar
+  rápidamente.
+
+* Requiere solo 2 de Gasolina.
+* Cuando recoges Gasolina, tu velocidad
+  se multiplica por 4 segundos.
+* Te encontrarás con más enemigos.</Risky_Ras_Algethi_Description>
+  <Alien_Alwaid_Alien_Artifact_Effect_Description>Multiplica la regeneración de los escudos por 3 segundos y recupera 1 de armadura y salud.</Alien_Alwaid_Alien_Artifact_Effect_Description>
+  <PLANET_TYPE_NAMES>
+    <string>Bosque</string>
+    <string>Desierto</string>
+    <string>Desolado</string>
+    <string>Océano</string>
+    <string>Hielo</string>
+    <string>Lava</string>
+    <string>Minería</string>
+    <string>Embrujado</string>
+  </PLANET_TYPE_NAMES>
+  <CIVILIZATION_BASE_OPTIONS>
+    <string>Comprar</string>
+    <string>Vender</string>
+    <string>Astillero</string>
+    <string>Información</string>
+  </CIVILIZATION_BASE_OPTIONS>
+  <MONTH_ABBREVIATIONS>
+    <string />
+    <string>Jun</string>
+    <string>Feb</string>
+    <string>Mar</string>
+    <string>Abr</string>
+    <string>May</string>
+    <string>Jun</string>
+    <string>Jul</string>
+    <string>Ago</string>
+    <string>Sept</string>
+    <string>Oct</string>
+    <string>Nov</string>
+    <string>Dic</string>
+  </MONTH_ABBREVIATIONS>
+  <SCAN_DATA_ENTRIES>
+    <ArrayOfString>
+      <string>Objetivo de Puntería</string>
+      <string>No se moverá, pero disparará un arma de PE a tu dirección, sin parar. Aunque no sea muy peligroso, sus balas de ralentización pueden ser mortales si hay más enemigos en la zona.
+
+Peligro: 3
+Velocidad: None
+Salud: 240</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Carpeting Celbalrai</string>
+      <string>Posee una poderosa arma explosiva, y sabe cómo utilizarla: intentará ponerse encima de tí para hacer que te llueva la muerte.
+
+Si escuchas los sonidos de sus bombas pero no lo puedes ver, mira arriba.
+
+Peligro: 6
+Velocidad: 50%
+Salud: 120</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Carpeting Celbalrai II</string>
+      <string>Posee una poderosa arma explosiva, y sabe cómo utilizarla: intentará ponerse encima de tí para hacer que te llueva la muerte, pero peor, pues disparará sus lásers desde sus costados si intentas ponerte sobre él.
+
+Si escuchas los sonidos de sus bombas pero no lo puedes ver, mira arriba.
+
+Peligro: 10
+Velocidad: 50%
+Salud: 200</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Crawling Carinae</string>
+      <string>Se apega a las paredes y sigue un patrón de movimiento sencillo, pero sus armas son poderosas y sus balas pueden rebotar en las paredes.
+
+Peligro: 7
+Velocidad: ??
+Salud: 280</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Dashing Deneb</string>
+      <string>Vienen en oleadas, atacando desde todos lados.
+
+Peligro: 5
+Velocidad: 70%-110%
+Salud: 60</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Four-way Fomalhaut</string>
+      <string>Se acerca hacia tí para disparar sus cuatro lásers.
+
+Peligro: 1
+Velocidad: 100%
+Salud: 50</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Four-way Fomalhaut II</string>
+      <string>Se acerca a tí con una velocidad increíble para disparar sus cuatro lásers.
+
+Peligro: 8
+Velocidad: 150%
+Salud: 100</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Swarming Sirrah</string>
+      <string>Más molesto que nada, se la pasan volando al rededor de gasolina y otros objetos.
+
+Peligro: 0
+Velocidad: 60%
+Salud: 5</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Swimming Sheliak</string>
+      <string>Con un movimiento serpenteante, no le importa el vivir o morir, solo quiere acabar contigo. Lo pero de todo? Explota violentamente al chocar.
+
+Peligro: 2
+Velocidad: 30%
+Salud: 120</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Swimming Sheliak II</string>
+      <string>Con un movimiento serpenteante, no le importa el vivir o morir, solo quiere acabar contigo. Lo pero de todo? Explota violentamente al chocar.
+
+Peligro: 9
+Velocidad: 40%
+Salud: 240</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Trailing Talitha</string>
+      <string>Se mueve hacia tí en patrones extraños, dejando un rastro de balas en su camino.
+
+Peligro: 4
+Velocidad: 40%
+Salud: 120</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Tunneling Taurus</string>
+      <string>Se retuerce hacia tí, y al partirse, cada parte se mueve por su cuenta. Cuando destruyes su cabeza, una nueva aparece.
+
+Sería un auténtico desastre si no fuese tan pequeño.
+
+Peligro: 4
+Velocidad: 50%
+Salud: 80 (cada segmento)</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Regenerating Rigel</string>
+      <string>Se sienta en la órbita de los planetas sin razón aparente. No se conoce su propósito, pero se defiende con fuerza bruta, y puede reparar partes rotas.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Grosse Baeline</string>
+      <string>Se encuentra en planetas de agua, rodeado de pescados.
+
+Como acabó con un trozo de gasolina dentro de él? Lo habrá comido accidentalmente?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Grosse Baeline (Lava)</string>
+      <string>Encontrado en mundos de lava, rodeado por una oleada de criaturas echas ceniza.
+
+Será de la misma especie encontrada en los mundos de Agua?</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Petit Poisson</string>
+      <string>Un pequeño pescado volador, encontrado cerca de los Grosse Baelines. Deben tener una especie de relación.</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Tunneling Taurus (Enorme)</string>
+      <string>Quizá la palabra "titán" pegue mejor? Como sea, es un misterio el como éstas criaturas pueden adoptar un tamaño tan grande.Peligro: ??
+Velocidad: 70%
+Salud: 500 (cada segmento)</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Cloaking Cor Caroli</string>
+      <string>Se mueve en patrones escurridizos, y cuando aparece, solo lo hace para disparar a tu dirección.</string>
+      <string>Peligro: 2
+Velocidad: ??
+Salud: 400</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Antares Anemone</string>
+      <string>Descansa en el suelo de los mundos acuáticos, suelta de vez en cuando una cantidad de poder lo suficientemente grande como para destrozar criaturas enormes.</string>
+      <string>Peligro: 1
+Velocidad: None
+Salud: 60</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>Erratic Eridanus</string>
+      <string>Se mueve, dispara y huye... mueve, dispara y huye...</string>
+      <string>Peligro: 1
+Velocidad: 100%
+Salud: 50</string>
+    </ArrayOfString>
+  </SCAN_DATA_ENTRIES>
+  <Hello_Captain>Hola, capitán.</Hello_Captain>
+  <One_more_thing>Una cosa más:</One_more_thing>
+  <We_cant_go_back_now>No podemos devolvernos ahora.</We_cant_go_back_now>
+  <What_do_you_recommend>Qué recomiendas?</What_do_you_recommend>
+  <Sounds_like_a_plan>Suena como un plan.</Sounds_like_a_plan>
+  <MAINTENANCE_CHECK>Lamento levantarte, pero es momento de otro chequeo de mantenimiento.
+
+No hay problemas graves que requieran de tu atención. El software y el hardware están estables.
+
+Cómo te sientes?</MAINTENANCE_CHECK>
+  <TUTORIALIZE_OPTION>Bien.
+
+Antes de apagar, le gustaría hacer algunos ejercicios?</TUTORIALIZE_OPTION>
+  <TUTORIAL_MINIBOSS_APPROACHES>Espera.
+
+Capitán, recibo algo... una nave se está acercando. Estoy teniendo problemas para hacer contacto; es vieja, y está muy dañada.</TUTORIAL_MINIBOSS_APPROACHES>
+  <TUTORIAL_MINIBOSS_APPROACHES_2>Capitán, está preparando sus armas. podría estar vieja y dañada, pero definitivamente es una nave de guerra.
+
+Intenta apagarlo a la fuerza; mientras haces éso, intentaré hackearla y obtener el control sobre ella..</TUTORIAL_MINIBOSS_APPROACHES_2>
+  <END_OF_TUTORIAL_NEUTRALIZED>Capitán, he obtenido el poder sobre la nave. La apagaré ahora.</END_OF_TUTORIAL_NEUTRALIZED>
+  <END_OF_TUTORIAL_DESTROYED>Bien hecho, capitán.
+
+Lamento que no haya podido apagarla antes; está hecha polvo.
+
+Aún así, logré sacar algo de información.</END_OF_TUTORIAL_DESTROYED>
+  <END_OF_TUTORIAL_2>Las memorias de la nave dicen que en efecto, era una nave de guerra. Fué dañada gravemente en una pelea hace 526 años atrás, y ha estado recorriendo el espacio sin rumbo desde entonces.
+
+Es difícil decir donde se encuentran las otras naves de éste tipo, pues la información es de hace más de 526 años atrás, pero con suerte, no nos encontraremos con otra.</END_OF_TUTORIAL_2>
+  <END_OF_TUTORIAL_3>Como sea, ya que éste es el último chequeo de mantenimiento antes de llegar al sector ZZ-Omega-9, le recomiendo guardar tanta gasolina como sea posible. No queremos quedarnos varados en medio de lo desconocido.</END_OF_TUTORIAL_3>
+  <LAVA_INFO>Le recuerdo que nuestros escudos no fueron diseñados para la fuerte temperatura de la lava. Aguantarán, pero no se van a regenerar.</LAVA_INFO>
+  <MYSTERIOUS_FORCE_EXPLANATION>Lamento levantarlo, pero hay una emergencia; una fuente extraña nos está ralentizando.
+
+La fuente es desconocida, pero se hace cada vez más fuerte al acercarnos al sistema ZZ-Omega.
+
+Si ésta fuerza sigue incrementando con éste ritmo, no tendremos gasolina suficiente como para llegar a casa.</MYSTERIOUS_FORCE_EXPLANATION>
+  <MYSTERIOUS_FORCE_SOLUTION_EXPLANATION>Hay muchos planetas en el sistema ZZ-Omega llenos de minerales. Podriamos hacer una parada en algunos para obtener la gasolina necesaria.
+
+Si quieres continuar con éste plan, he encontrado algunos caminos para llegar.
+
+Sin importar del camino, deberemos recolectar mínimo 3 pedazos de gasolina antes de irnos.</MYSTERIOUS_FORCE_SOLUTION_EXPLANATION>
+  <STASIS_EXPLANATION>Una de las partes en la nave presentan cantidades increíbles de Estasis!
+
+Lo he analizado, y definitivamente tiene un efecto positivo, pero su naturaleza es alienígena; me preocupa que hayan efectos secundarios. Parece no haber problemas, pero te avisaré si se presenta un cambio.</STASIS_EXPLANATION>
+  <ENTROPY_EXPLANATION>Una de las partes de nuestra nave está presentando niveles grandes de Entropía!
+
+Lo he analizado, y no lo podemos reparar.
+
+Podemos seguir utilizando ésta parte, pero definitivamente deberíamos buscar un reemplazo.</ENTROPY_EXPLANATION>
+  <WEAKENED_EXPLANATION>Una de las partes de nuestra nave ha sido Debilitada!
+
+Podemos seguir utilizando ésta parte, pero si recibe más daño se destrozará por completo.</WEAKENED_EXPLANATION>
+  <EXPLAIN_POCKET_DIMENSION>Al parecer hemos sido teletransportados a una especie de pedazo de espacio... Ésa construcción alienígena de seguro nos protegía de ésto, pero nuestro rayo electromagnético la rompió.
+
+Nuestra nave no es lo suficientemente poderosa como para llevarnos devuelta, así que solo tendremos que esperar a que nos lleve la corriente..</EXPLAIN_POCKET_DIMENSION>
+  <EXPLAIN_POCKET_DIMENSION_2>Espera.
+
+Capitán, estoy recibiendo algo... Una nave, o lo que queda de ella. Pedazos de ésta se han enganchado a un campo de gravedad.
+
+También hay fragmentos que podríamos utilizar como gasolina. De ser posible deberíamos tomarlos, pero la supervivencia es primero.</EXPLAIN_POCKET_DIMENSION_2>
+  <Its_dangerous_to_go_alone_take_this>Es peligroso ir sólo! Toma ésto.</Its_dangerous_to_go_alone_take_this>
+  <ReceivedItemNote>(Has recibido: %itemname%.)</ReceivedItemNote>
+  <Fool>Idiota.</Fool>
+  <PRACTICE_MOVING_TUTORIAL>Genial! Empecemos!
+
+Mueve la nave usando %input%.</PRACTICE_MOVING_TUTORIAL>
+  <PRACTICE_SHOOTING_TUTORIAL>Desafortunadamente, no tenemos nada para practicar los disparos. Una proyección holográfica tendrá que bastar.
+
+Crearé varias proyecciones; practique el movimiento mientras mantiene presionado %input% para dispararles.</PRACTICE_SHOOTING_TUTORIAL>
+  <MINIBOSS_EXPLANATION>Estoy recibiendo una señal... otra nave, pero enorme comparada con lo que hemos encontrado hasta ahora.
+
+Podría ser peligroso, pero si la destrozamos, podríamos tomar su gasolina.
+
+La he colocado en el minimapa.</MINIBOSS_EXPLANATION>
+  <WASD_or_the_arrow_keys>WASD o las flechas.</WASD_or_the_arrow_keys>
+  <Z_or_slash>Z ó /</Z_or_slash>
+  <the_left_analog_stick>el stick analógico izquierdo</the_left_analog_stick>
+  <CTRL>CTRL</CTRL>
+  <SHIFT>SHIFT</SHIFT>
+  <ENTER>ENTER</ENTER>
+  <ESC>ESC</ESC>
+  <DEL>DEL</DEL>
+  <Unknown_command>Comando desconocido. Escribe HELP para ayuda.</Unknown_command>
+  <Release_Date>%month% %day%, %year%</Release_Date>
+
+  <WINDOW_LOST_FOCUS>LA VENTANA HA SIDO MINIMIZADA. HAGA CLICK Y LUEGO PRESIONE ((A)) O ENTER PARA RESUMIR.</WINDOW_LOST_FOCUS>
+</Language>

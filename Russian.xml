@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LanguageName>Русский</LanguageName>
+  <LanguageCode>ru</LanguageCode>
+  <LanguageIcon>6</LanguageIcon>
+  <None>Keiner</None>
+  <Hull>корпус</Hull>
+  <Armor>броня</Armor>
+  <Shield>Щит</Shield>
+  <Accessory>Принадлежность</Accessory>
+  <Revive>Возродить!</Revive>
+  <Fuel>Горючее</Fuel>
+  <Points>Точки</Points>
+  <Cargo>Груз</Cargo>
+  <Yes>Да</Yes>
+  <No>Нет</No>
+  <Ready>Bereit</Ready>
+  <New>новый</New>
+  <NEW_GAME>НОВАЯ ИГРА</NEW_GAME>
+  <CONTINUE_GAME>ЗАГРУЗИТЬ ИГРУ</CONTINUE_GAME>
+  <HIGH_SCORES>РЕКОРД</HIGH_SCORES>
+  <ABOUT>КРЕДИТЫ</ABOUT>
+  <DONATIONS>ПОЖЕРТВОВАНИЯ</DONATIONS>
+  <QUIT>УВОЛИТЬСЯ</QUIT>
+  <COLLECTION>SAMMLUNG</COLLECTION>
+  <SETTINGS>НАСТРОЙКИ</SETTINGS>
+  <Music>Музыка</Music>
+  <Sound_Effect>Звуковой эффект</Sound_Effect>
+  <version>версия</version>
+  <SHIP>СУДНА</SHIP>
+  <SCORE>СЧЕТ</SCORE>
+  <DATE>ДАТА</DATE>
+  <Space>Космос</Space>
+  <Health>Здоровье</Health>
+  <Education>Обучение</Education>
+  <Misc>Разное</Misc>
+  <Ship_Name>Имя судна</Ship_Name>
+  <Ship_Type>Тип судна</Ship_Type>
+  <Subroutine>Подпрограмма</Subroutine>
+  <Add_a_player>Добавить игрока</Add_a_player>
+  <Add_another_player>Добавить еще одного игрока</Add_another_player>
+  <Remove_player>Убрать игрока</Remove_player>
+  <Add_an_orbital_player>Fügen ein Oribtal Spieler</Add_an_orbital_player>
+  <Press_to_accept_name>(((START)) чтобы принять имя)</Press_to_accept_name>
+  <No_thanks>Нет, спасибо</No_thanks>
+  <Final_score>Финальный счет:</Final_score>
+  <PLAY_AGAIN_LOSE>
+    <string>ИГРАТЬ СНОВА</string>
+    <string>ЕЩЕ РАЗ</string>
+  </PLAY_AGAIN_LOSE>
+  <PLAY_AGAIN_WIN>
+    <string>ЕЩЕ РАЗ</string>
+  </PLAY_AGAIN_WIN>
+  <DONE_FOR_NOW_LOSE>
+    <string>СДАВАТЬСЯ</string>
+    <string>УВОЛИТЬСЯ</string>
+    <string>БОЛЬШЕ НЕ НАДО</string>
+  </DONE_FOR_NOW_LOSE>
+  <DONE_FOR_NOW_WIN>
+    <string>УВОЛИТЬСЯ</string>
+  </DONE_FOR_NOW_WIN>
+  <Visit_Planet>Посетите планету</Visit_Planet>
+  <Equipment>Оснащение</Equipment>
+  <Inventory>Oпись</Inventory>
+  <Upgrade>Обновить</Upgrade>
+  <Save_and_Quit>Уволиться</Save_and_Quit>
+  <Settings>Настройки</Settings>
+  <Sound_Volume>Громкость</Sound_Volume>
+  <Music_Volume>Музыка объем</Music_Volume>
+  <Reset_Tutorial>Сброс учебник</Reset_Tutorial>
+  <Display>Показать</Display>
+  <Windowed>Оконный</Windowed>
+  <Fullscreen>Полноэкранный</Fullscreen>
+  <ALIEN_ARTIFACT_COLOR_NAMES>
+    <string>Белый инопланетный артефакт</string>
+    <string>Серый инопланетный артефакт</string>
+    <string>Красный инопланетный артефакт</string>
+    <string>Браун инопланетный артефакт</string>
+    <string>Оранжевый инопланетный артефакт</string>
+    <string>Желтый инопланетный артефакт</string>
+    <string>Лайм инопланетный артефакт</string>
+    <string>Зеленый инопланетный артефакт</string>
+    <string>Голубой инопланетный артефакт</string>
+    <string>Синий инопланетный артефакт</string>
+    <string>Пурпурный инопланетный артефакт</string>
+    <string>Розовый инопланетный артефакт</string>
+    <string>Черный инопланетный артефакт</string>
+  </ALIEN_ARTIFACT_COLOR_NAMES>
+  <PLANET_TYPE_NAMES>
+    <string>Лес</string>
+    <string>Пустыня</string>
+    <string>Рок</string>
+    <string>Океан</string>
+    <string>Лед</string>
+    <string>Лава</string>
+    <string>Добыча</string>
+    <string>Привидениями</string>
+  </PLANET_TYPE_NAMES>
+  <CIVILIZATION_BASE_OPTIONS>
+    <string>Купить</string>
+    <string>Продажа</string>
+    <string>Верфь</string>
+    <string>Информация</string>
+  </CIVILIZATION_BASE_OPTIONS>
+  <MONTH_ABBREVIATIONS>
+    <string />
+    <string>янв</string>
+    <string>февр</string>
+    <string>март</string>
+    <string>апр</string>
+    <string>май</string>
+    <string>июнь</string>
+    <string>июль</string>
+    <string>авг</string>
+    <string>сент</string>
+    <string>окт</string>
+    <string>ноябрь</string>
+    <string>дек</string>
+  </MONTH_ABBREVIATIONS>
+  <SCAN_DATA_ENTRIES />
+  <Hello_Captain>Привет, капитан.</Hello_Captain>
+  <Z_or_slash>Z или /</Z_or_slash>
+  <Release_Date>%day% %month% %year% г</Release_Date>
+</Language>

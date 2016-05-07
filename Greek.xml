@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LanguageName>Greek</LanguageName>
+  <LanguageCode>el</LanguageCode>
+  <LanguageIcon>11</LanguageIcon>
+  <Hull>Κέλυφος</Hull>
+  <Armor>Πανοπλία</Armor>
+  <Shield>Ασπίδα</Shield>
+  <Accessory>Αξεσουάρ</Accessory>
+  <Fuel>Καύσιμο</Fuel>
+  <Points>Σημεία</Points>
+  <Yes>Ναι</Yes>
+  <No>Κανένα</No>
+  <NEW_GAME>ΝΈΟ ΠΑΙΧΝΊΔΙ</NEW_GAME>
+  <CONTINUE_GAME>ΣΥΝΈΧΙΣΗ ΠΑΙΧΝΙΔΙΟΎ</CONTINUE_GAME>
+  <HIGH_SCORES>ΥΨΗΛΆ ΣΚΟΡ</HIGH_SCORES>
+  <ABOUT>ΣΧΕΤΙΚΑ</ABOUT>
+  <DONATIONS>ΔΩΡΕΕΣ</DONATIONS>
+  <QUIT>ΚΛΕΊΣΤΕ</QUIT>
+  <COLLECTION>ΣΥΛΛΟΓΗ</COLLECTION>
+  <SETTINGS>ΡΥΘΜΙΣΕΙΣ</SETTINGS>
+  <version>έκδοση</version>
+  <Ship_Name>Όνομα Πλοίου</Ship_Name>
+  <Ship_Type>Τύπος Πλοίου</Ship_Type>
+  <Subroutine>Υπορουτίνα</Subroutine>
+  <I_feel_fine>Νιώθω μια χαρά.</I_feel_fine>
+  <No_thanks>Όχι ευχαριστώ.</No_thanks>
+  <Space>διάστημα</Space>
+  <Health>Υγεία</Health>
+  <Education>Εκπαίδευση</Education>
+  <Misc>διάφορος</Misc>
+  <PLAY_AGAIN_LOSE>
+    <string>ΞΑΝΑΠΑΊΖΩ</string>
+    <string>ΠΡΟΣΠΆΘΗΣΕ ΞΑΝΆ</string>
+  </PLAY_AGAIN_LOSE>
+  <PLAY_AGAIN_WIN>
+    <string>ΞΑΝΑΠΑΊΖΩ</string>
+  </PLAY_AGAIN_WIN>
+  <DONE_FOR_NOW_LOSE>
+    <string>ΕΓΙΝΕ ΓΙΑ ΤΩΡΑ</string>
+    <string>ΠΑΡΑΙΤΏ</string>
+  </DONE_FOR_NOW_LOSE>
+  <DONE_FOR_NOW_WIN>
+    <string>ΕΓΙΝΕ ΓΙΑ ΤΩΡΑ</string>
+  </DONE_FOR_NOW_WIN>
+  <Equipment>Εξοπλισμός</Equipment>
+  <Inventory>Απογραφή</Inventory>
+  <Save_and_Quit>Κλείστε</Save_and_Quit>
+  <Settings>Ρυθμίσεις</Settings>
+  <Blueprint>Προσχέδιο</Blueprint>
+  <Battery>Μπαταρία</Battery>
+  <PLANET_TYPE_NAMES>
+    <string>Forest</string>
+    <string>Ερημιά</string>
+    <string>Άγονος</string>
+    <string>Ωκεανό</string>
+    <string>Πάγου</string>
+    <string>Λάβα</string>
+    <string>Εξόρυξη</string>
+    <string>Στοιχειωμένος</string>
+  </PLANET_TYPE_NAMES>
+  <CIVILIZATION_BASE_OPTIONS>
+    <string>Αγορά</string>
+    <string>Πωλώ</string>
+    <string>Ναυπηγείο</string>
+    <string>Πληροφορία</string>
+  </CIVILIZATION_BASE_OPTIONS>
+  <MONTH_ABBREVIATIONS>
+    <string />
+    <string>Ίαν</string>
+    <string>Φεβρ</string>
+    <string>Μάρτ</string>
+    <string>Άπρ</string>
+    <string>Μάϊος</string>
+    <string>Ίούν</string>
+    <string>Ίούλ</string>
+    <string>Αύγ</string>
+    <string>Σεπτ</string>
+    <string>Όκτ</string>
+    <string>Νοέµ</string>
+    <string>Δεκ</string>
+  </MONTH_ABBREVIATIONS>
+  <Hello_Captain>Γεια σας, καπετάνιος.</Hello_Captain>
+  <Release_Date>%day% %month% %year%</Release_Date>
+</Language>
