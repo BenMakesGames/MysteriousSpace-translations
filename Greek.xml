@@ -29,6 +29,9 @@
   <Health>Υγεία</Health>
   <Education>Εκπαίδευση</Education>
   <Misc>διάφορος</Misc>
+  <Weakened>Αποδυναμωμένη</Weakened>
+  <Entropic>Εντροπίας</Entropic>
+  <Static>Στατικός</Static>
   <PLAY_AGAIN_LOSE>
     <string>ΞΑΝΑΠΑΊΖΩ</string>
     <string>ΠΡΟΣΠΆΘΗΣΕ ΞΑΝΆ</string>
@@ -62,6 +65,7 @@
   <CIVILIZATION_BASE_OPTIONS>
     <string>Αγορά</string>
     <string>Πωλώ</string>
+    <string>#Gambling#</string>
     <string>Ναυπηγείο</string>
     <string>Πληροφορία</string>
   </CIVILIZATION_BASE_OPTIONS>

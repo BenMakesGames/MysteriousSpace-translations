@@ -33,6 +33,7 @@
   <Extreme>Extreme</Extreme>
   <Overpowering>Overpowering</Overpowering>
   <NEW_GAME>NEW GAME</NEW_GAME>
+  <ENDLESS_GAME>ENDLESS GAME</ENDLESS_GAME>
   <CONTINUE_GAME>CONTINUE GAME</CONTINUE_GAME>
   <HIGH_SCORES>HIGH SCORES</HIGH_SCORES>
   <ABOUT>ABOUT</ABOUT>
@@ -47,6 +48,8 @@
   <SHIP>SHIP</SHIP>
   <SCORE>SCORE</SCORE>
   <DATE>DATE</DATE>
+  <NORMAL_MODE>STORY MODE</NORMAL_MODE>
+  <ENDLESS_MODE>ENDLESS MODE</ENDLESS_MODE>
   <Space>Space</Space>
   <Health>Health</Health>
   <Education>Education</Education>
@@ -64,7 +67,7 @@ It has %color% detailing and an unusually-shaped %ship part%.</string>
     <string>Modeled after a popular %ship type% from %corporation name%, the ship you've been assigned for this mission is unusually %size%, and features a striking %color% paint job.</string>
     <string>Once owned by the infamous pirate %pirate name%, your ship received heavy modifications for this mission, but still sports its original %color% stripes.</string>
     <string>Though %size% for a fighter, your ship was designed by brilliant military minds.
-Simple, %color% detailing runs along each side of its metalic frame.</string>
+Simple, %color% detailing runs along each side of its metallic frame.</string>
     <string>Yours is one of many %ship type%s made by %corporation name%. It features their signature %color% stripes and %size% %ship part%.</string>
     <string>Your %relative%, a %person desc% %job title%, passed away unexpectedly %small number% years ago. You'd had a falling out after you joined the military, so you were even more surprised to learn that they had left you their ship: this %size%, %color% %ship type% from %corporation name%.</string>
     <string>You took some odd jobs during your military tour in order to buy your own ship: this %size% beauty from %corporation name%.
@@ -193,6 +196,7 @@ Getting the custom-desgined %ship part% to match the ship's %color% paint job wa
   <Sound_Volume>Sound Volume</Sound_Volume>
   <Music_Volume>Music Volume</Music_Volume>
   <Vibrate_Controller>Vibrate Controller</Vibrate_Controller>
+  <Change_Keybindings>Change Keybindings</Change_Keybindings>
   <Reset_Tutorial>Reset Tutorial Settings</Reset_Tutorial>
   <Show_Health_Numbers>Show Health Numbers</Show_Health_Numbers>
   <Display>Display</Display>
@@ -207,6 +211,7 @@ Getting the custom-desgined %ship part% to match the ship's %color% paint job wa
   <Additional_Armor_Slot>Additional Armor Slot</Additional_Armor_Slot>
   <Alien_Scanners>Alien Scanners</Alien_Scanners>
   <Scrapping>Scrapping</Scrapping>
+  <Scrapping_2>Scrapping II</Scrapping_2>
   <Improved_Thrusters>Thrusters I</Improved_Thrusters>
   <Improved_Thrusters_2>Thrusters II</Improved_Thrusters_2>
   <Adaptive_Software>Adaptive Software</Adaptive_Software>
@@ -280,7 +285,7 @@ Getting the custom-desgined %ship part% to match the ship's %color% paint job wa
     <string>Doubles the firing rate of your first weapon for 10 seconds.</string>
     <string>Doubles shield regeneration rate for 10 seconds.</string>
     <string>Sensors malfunction for 10 seconds.</string>
-    <string>Removes all bad status effects (slows, sensor malfunctions, inverted controls, and shield disables), and grants immunity to such effects for 5 seconds.</string>
+    <string>Something good happens.</string>
     <string>You are Slowed for 10 seconds.</string>
     <string>Your speed is increased by 50% for 10 seconds.</string>
     <string>Inverts controls for 10 seconds.</string>
@@ -292,7 +297,7 @@ Getting the custom-desgined %ship part% to match the ship's %color% paint job wa
     <string>Permanently increases the strength of all your armors by 1. (Including those that are unequipped.)</string>
     <string>Grants one Ship Upgrade.</string>
     <string>Teleports the ship to a random location on the planet.</string>
-    <string>Deals enough damage to your hull to reduce it to 1.</string>
+    <string>Deals 1 damage directly to your Hull.</string>
     <string>Creates a random object.</string>
     <string>Grants one Fuel.</string>
     <string>Takes away one Ship Upgrade. If you have none, Weakens a random equipment, instead.</string>
@@ -352,6 +357,7 @@ Getting the custom-desgined %ship part% to match the ship's %color% paint job wa
   <Emergency_Backup_Systems>Emergency Backup Systems</Emergency_Backup_Systems>
   <Vampire_Shield>Vampire Shield</Vampire_Shield>
   <Courier_Pod>Courier Pod</Courier_Pod>
+  <Deck_of_Many_Things>Deck of Many Things</Deck_of_Many_Things>
   <Rubberized>Rubberized</Rubberized>
   <Penetrating>Penetrating</Penetrating>
   <Fires_one_bullet_every_X_seconds>Fires one bullet every %seconds% seconds.</Fires_one_bullet_every_X_seconds>
@@ -361,7 +367,7 @@ Getting the custom-desgined %ship part% to match the ship's %color% paint job wa
 Permanently disables any forcefields it hits.</BULLET_TYPE_EMP>
   <BULLET_TYPE_RUBBER>They bounce off walls, lasting 1.5 seconds.
 They deal %damage% damage.</BULLET_TYPE_RUBBER>
-  <BULLET_TYPE_FRAGMENTING>They deal %damage% damage and fire smaller bullets as they travel.</BULLET_TYPE_FRAGMENTING>
+  <BULLET_TYPE_BINARY>They're fired in rotating pairs. Each deals %damage% damage.</BULLET_TYPE_BINARY>
   <BULLET_TYPE_KNOCKBACK>They deal %damage% damage and knock targets back %knockback%.</BULLET_TYPE_KNOCKBACK>
   <BULLET_TYPE_PENETRATING>They deal %damage% damage and go through walls.</BULLET_TYPE_PENETRATING>
   <WEAPON_ABILITIES>
@@ -390,39 +396,40 @@ They deal %damage% damage.</BULLET_TYPE_RUBBER>
   <Something_good_happens_every_X_seconds>Something good happens every %seconds% seconds.</Something_good_happens_every_X_seconds>
   <Something_bad_happens_every_X_seconds>Something bad happens every %seconds% seconds.</Something_bad_happens_every_X_seconds>
   <Armor_is_weakened>This armor is Weakened, and only providing half the armor it otherwise could.</Armor_is_weakened>
-  <Fire_rate_is_halved_due_to_Weakening>Fire rate is halved due to Weakening.</Fire_rate_is_halved_due_to_Weakening>
-  <Damage_is_halved_due_to_Weakening>Damage is halved due to Weakening.</Damage_is_halved_due_to_Weakening>
+  <Fire_rate_is_halved_due_to_Weakening>Fire rate is halved.</Fire_rate_is_halved_due_to_Weakening>
+  <Damage_is_reduced_due_to_Weakening>Damage is reduced by 1.</Damage_is_reduced_due_to_Weakening>
+  <X_carrying_capacity>%amount% carrying capacity.</X_carrying_capacity>
+  <Additional_collision_damage>You deal %amount% damage when colliding with an enemy.</Additional_collision_damage>
   <Lava>Lava</Lava>
   <Slowed>Slowed</Slowed>
   <NotAvailable>N/A</NotAvailable>
   <Light_Lukida_Description>A small, fast ship.
 
+* Maximum of 2 weapon slots
 * +20% movement speed
-* When slowed, is slowed for
-  50% less time
-* -1 Hull strength
-* Maximum of 2 weapon slots</Light_Lukida_Description>
+* When slowed, slow duration is halved
+* -1 Hull strength</Light_Lukida_Description>
   <Heavy_Head_of_Hydrus_Description>A heavy ship with strong armor.
 
-* May equip up to two Armors
-  (requires an Upgrade)
 * May not equip Accessories
+* May equip up to two Armors (requires
+  an Upgrade)
 * Starts with Regenerating Armor
-* +1 Hull strength for every 3
-  Upgrade Parts collected
+* +1 Hull strength for every 3 Upgrade
+  Parts collected
 * -15% movement speed
-* After killing an enemy by
-  colliding with it, becomes
-  invulnerable for 3 seconds</Heavy_Head_of_Hydrus_Description>
+* After killing an enemy by colliding
+  with it, becomes invulnerable for 3
+  seconds</Heavy_Head_of_Hydrus_Description>
   <Alien_Alwaid_Description>An alien ship.
 
-* Instead of their normal
-  effects, Alien Artifacts
-  double shield regen for 3
-  seconds and restore 1 point
-  of armor and hull
-* Starts with a EMP-resistant
-  Shield
+* Instead of their normal effects,
+  Alien Artifacts double shield regen
+  for 3 seconds and restore 1 point of
+  armor and hull
+* Starts with a EMP-resistant Shield
+* Planets contain an additional alien
+  obelisk
 * -10% movement speed
 * -1 Hull strength</Alien_Alwaid_Description>
   <Orbiting_Oculus_Description>Acts as a satellite, orbiting
@@ -433,24 +440,39 @@ taking bullets, or ramming
 enemies. If destroyed, it remains
 destroyed until the completion of
 the level.</Orbiting_Oculus_Description>
-  <Risky_Ras_Algethi_Description>A ship designed for quickly
-traveling the stars.
+  <Risky_Ras_Algethi_Description>A ship designed for quickly traveling
+the stars.
 
 * Requires one fewer Fuel
-* When you collect Fuel, you
-  are hasted for 4 seconds
-  (1 second for Fuel Shards)
+* When you collect Fuel, you are hasted
+  for 4 seconds (1 second for Fuel
+  Shards)
+* Your starting weapon deals more
+  damage but has a lower fire rate
 * You will face more enemies</Risky_Ras_Algethi_Description>
   <Slowing_Scorpii_Description>A highly-specialized support ship.
 
-* Starts with an EMP weapon
 * May only equip EMP weapons
+* Starts with an EMP weapon
 * +100% weapon fire rate
-* Starts with the upgrades
-  Improved Thrusters I,
-  Improved Thrusters II, and
-  Fixed Form</Slowing_Scorpii_Description>
+* Starts with the upgrades Improved
+  Thrusters I, Improved Thrusters II,
+  and Fixed Form</Slowing_Scorpii_Description>
+  <Scrapping_Syrma_Description>A ship which prefers bonus shields over
+conventional shields.
+
+* May not equip Shields
+* Starts with the upgrades Scrapping,
+  and Scrapping II
+* Enemies drop twice as much Scrap
+* At the start of every level, and any
+  time you use a Battery, your bonus
+  shield is filled to its Scrapping
+  maximum
+* +10% movement speed
+  </Scrapping_Syrma_Description>
   <Alien_Alwaid_Alien_Artifact_Effect_Description>Doubles shield regen rate for 3 seconds and restores 1 Armor and Hull.</Alien_Alwaid_Alien_Artifact_Effect_Description>
+  <Deep_Space>Deep Space</Deep_Space>
   <PLANET_TYPE_NAMES>
     <string>Forest</string>
     <string>Desert</string>
@@ -464,6 +486,7 @@ traveling the stars.
   <CIVILIZATION_BASE_OPTIONS>
     <string>Buy</string>
     <string>Sell</string>
+    <string>Gambling</string>
     <string>Shipyard</string>
     <string>Information</string>
   </CIVILIZATION_BASE_OPTIONS>
@@ -737,22 +760,7 @@ It's your call. When you're ready, take us back up into space.</THREE_FUEL_EXPLA
   <LAVA_INFO>I feel I should remind you that our shields were not designed for the high temperatures of lava. While they will technically hold, we will not be able to regenerate them while submerged.</LAVA_INFO>
   <MYSTERIOUS_FORCE_EXPLANATION>Sorry to wake you, but there's an emergency: an unidentified force is causing us to decelerate.
 
-While currently negligible, this force is increasing as we approach the ZZ-Omega cluster.
-
-If this force increases at its current rate, we will not have enough Fuel to return home.</MYSTERIOUS_FORCE_EXPLANATION>
-  <MYSTERIOUS_FORCE_SOLUTION_EXPLANATION>There are several mineral-rich planets in the ZZ-Omega cluster. We could stop at these planets to extract the necessary Fuel.
-
-If you'd like to go ahead with this plan, I have identified a few courses we could take through the ZZ-Omega cluster.
-
-Regardless of the course taken, we will need to collect 3 Fuel from each planet encountered before continuing.</MYSTERIOUS_FORCE_SOLUTION_EXPLANATION>
-  <STASIS_EXPLANATION>One of our ship parts is showing an extremely high Stasis level!
-
-I've analyzed its structure: it's definitely having a positive effect, but it's alien in origin; I worry about butterfly effects. So far there don't seem to be any problems, but I'll let you know if there are any changes.</STASIS_EXPLANATION>
-  <ENTROPY_EXPLANATION>One of our ship parts is showing an extremely high Entropy level!
-
-I've analyzed its structure, but this is beyond our ability to repair.
-
-We can continue using this part, but we should definitely be on the lookout for a replacement.</ENTROPY_EXPLANATION>
+It's going to cost us 3 Fuel to jump from system to system, and we're almost out. In order to progress after this next jump, we will need to stop at whatever planets we can find, and extract at least 3 Fuel from each.</MYSTERIOUS_FORCE_EXPLANATION>
   <WEAKENED_EXPLANATION>One of our ship parts is Weakened!
 
 We can continue using this part, but be aware that further Weakening will completely destroy it.</WEAKENED_EXPLANATION>
@@ -782,11 +790,16 @@ I'll track it on the minimap.</MINIBOSS_EXPLANATION>
   <WASD_or_the_arrow_keys>WASD or the arrow keys</WASD_or_the_arrow_keys>
   <Z_or_slash>Z or /</Z_or_slash>
   <the_left_analog_stick>the left analog stick</the_left_analog_stick>
-  <CTRL>CTRL</CTRL>
-  <SHIFT>SHIFT</SHIFT>
-  <ENTER>ENTER</ENTER>
-  <ESC>ESC</ESC>
-  <DEL>DEL</DEL>
+  <action_descriptions>
+    <string>Fire</string>
+    <string>Fire (alt)</string>
+    <string>Use Accessory</string>
+    <string>Use Accessory (alt)</string>
+    <string>Tractor Beam</string>
+    <string>Tractor Beam (alt)</string>
+    <string>Change Facing</string>
+  </action_descriptions>
+
   <Unknown_command>Unknown command. Type HELP for help.</Unknown_command>
   <Release_Date>%month% %day%, %year%</Release_Date>
 

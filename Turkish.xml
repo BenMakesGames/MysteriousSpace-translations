@@ -47,6 +47,8 @@
   <SHIP>GEMİ</SHIP>
   <SCORE>SKOR</SCORE>
   <DATE>TARİH</DATE>
+  <NORMAL_MODE>ÖYKÜ KIP</NORMAL_MODE>
+  <ENDLESS_MODE>SONSUZ KIP</ENDLESS_MODE>
   <Space>Uzay</Space>
   <Health>Sağlık</Health>
   <Education>Eğitim</Education>
@@ -205,6 +207,7 @@ Basit, %color% işlemeler metalik gövdesinin iki tarafında uzanıyor.</string>
   <Additional_Armor_Slot>Ek Zırh Yuvası</Additional_Armor_Slot>
   <Alien_Scanners>Uzaylı Tarayıcıları</Alien_Scanners>
   <Scrapping>Hurda Toplama</Scrapping>
+  <Scrapping_2>Hurda Toplama II</Scrapping_2>
   <Improved_Thrusters>Ateşleyiciler I</Improved_Thrusters>
   <Improved_Thrusters_2>Ateşleyiciler II</Improved_Thrusters_2>
   <Adaptive_Software>Uyarlamalı Yazılım</Adaptive_Software>
@@ -236,6 +239,9 @@ Basit, %color% işlemeler metalik gövdesinin iki tarafında uzanıyor.</string>
   <To_quit_press_A_or_ENTER_now>Çıkmak için şimdi ((A))'ya veya ENTER'a bas.</To_quit_press_A_or_ENTER_now>
   <You_have_never_used_this_kind_of_Alien_Artifact_before>Bu tip Uzaylı Eserini şimdiye kadar hiç kullanmadın. Etkilerinin ne olacağını bilmiyorsun.</You_have_never_used_this_kind_of_Alien_Artifact_before>
   <You_have_never_used_this_kind_of_Advanced_Technology_before>Bu tip Gelişmiş Teknolojiyi şimdiye kadar hiç kullanmadın. Etkilerinin ne olacağını bilmiyorsun.</You_have_never_used_this_kind_of_Advanced_Technology_before>
+  <Weakened>Zayıflamış</Weakened>
+  <Entropic>Kaotik</Entropic>
+  <Static>Sabit</Static>
   <ALIEN_ARTIFACT_COLOR_NAMES>
     <string>Beyaz Uzaylı Eseri</string>
     <string>Gri Uzaylı Eseri</string>
@@ -261,7 +267,7 @@ Basit, %color% işlemeler metalik gövdesinin iki tarafında uzanıyor.</string>
     <string>Ana silahının ateşleme hızını 10 saniyelğine ikiye katlar.</string>
     <string>Kalkan yenilenme hızını 10 saniyeliğine iki katına çıkarır.</string>
     <string>10 saniyeliğine arıza tespiti yapar.</string>
-    <string>Bütün kötü durum etkilerini tamir eder. (yavaşlamalar, algılayıcı arızası, ters çevrilmiş kontroller ve kalkan iptalleri).</string>
+    <string>İyi bir şey olur.</string>
     <string>10 saniyeliğine yavaşladın.</string>
     <string>Hızını 10 saniyeliğine 50% artırır.</string>
     <string>Kontrolleri 10 saniyeliğine ters çevirir.</string>
@@ -331,7 +337,7 @@ Basit, %color% işlemeler metalik gövdesinin iki tarafında uzanıyor.</string>
 Dokunduğu herhangi bir güçkalkanını tamamen devredışı bırakır.</BULLET_TYPE_EMP>
   <BULLET_TYPE_RUBBER>Duvarlardan seker, ömürleri 1.5 saniyedir.
 %damage% hasarı verir.</BULLET_TYPE_RUBBER>
-  <BULLET_TYPE_FRAGMENTING>%damage% hasarı verir ve mermiler ilerlerken daha küçük mermiler ateşler.</BULLET_TYPE_FRAGMENTING>
+  <!--<BULLET_TYPE_BINARY>%damage% hasarı verir ve mermiler ilerlerken daha küçük mermiler ateşler.</BULLET_TYPE_BINARY>-->
   <BULLET_TYPE_KNOCKBACK>%damage% hasarı verir ve hedefi %knockback% geriye ittirir.</BULLET_TYPE_KNOCKBACK>
   <BULLET_TYPE_PENETRATING>%damage% hasarı verir ve duvardan geçebilir.</BULLET_TYPE_PENETRATING>
   <Can_absorb_x_damage>%amount% miktar hasarı emebilir.</Can_absorb_x_damage>
@@ -388,6 +394,7 @@ Dokunduğu herhangi bir güçkalkanını tamamen devredışı bırakır.</BULLET
   <CIVILIZATION_BASE_OPTIONS>
     <string>Satın Almak</string>
     <string>Satmak</string>
+    <string>#Gambling#</string>
     <string>Tersane</string>
     <string>Bilgi</string>
   </CIVILIZATION_BASE_OPTIONS>
@@ -585,21 +592,9 @@ Bilgi 526 yaşında olduğundan, bunun gemi gemilerin gerisinin nerede olduğunu
   <LAVA_INFO>Sanırım hatırlatmalıyım: kalkanlarımız lavın yüksek ısısı için tasarlanmadı. Teknik olarak tek parça olacaklardır, ama yüzey altındayken onları yenilememiz imkânsız.</LAVA_INFO>
   <MYSTERIOUS_FORCE_EXPLANATION>Uyandırdığım için üzgünüm, ancak acil bir durum var: tanımlanmayan bir güç yavaşlamamıza sebep oluyor.
   
-Şu an yok sayılabilir durumda olsa da, güç ZZ-Omega Kümesine yaklaştıkça kuvvetleniyor.
-
-Eğer güç bu hızda artmaya devam ederse, eve dönmek için yeterli yakıtımız olmayabilir.</MYSTERIOUS_FORCE_EXPLANATION>
-  <MYSTERIOUS_FORCE_SOLUTION_EXPLANATION>ZZ-Omega Kümesinde pekçok maden yönünden zengin gezegen var. Bu gezegenlerde durup gerekli yakıtı çıkarabiliriz. Bu planla hareket etmek istersen, ZZ-Omega Kümesinde hareket edebileceğimiz birkaç güzergâh belirledim.
+ZZ-Omega Kümesinde pekçok maden yönünden zengin gezegen var. Bu gezegenlerde durup gerekli yakıtı çıkarabiliriz. Bu planla hareket etmek istersen, ZZ-Omega Kümesinde hareket edebileceğimiz birkaç güzergâh belirledim.
   
-Hangi yolu seçersen seç, karşılaştığımız her gezegenden 3 Yakıt çıkarmamız gerekecek.
-  </MYSTERIOUS_FORCE_SOLUTION_EXPLANATION>
-  <STASIS_EXPLANATION>Gemi parçalarımızdan biri aşırı yüksek İstikrar seviyesi gösteriyor!
-  
-Yapısını inceledim: Kesinlikle pozitif bir etkisi var, ama kaynağı bilinmedik; tahmin edemeyeceğimiz sonuçlar olabilir diye endişeleniyorum. Şimdiye kadar bir sorun yok gibi gözüküyor, bir şey değişirse seni bilgilendiririm.</STASIS_EXPLANATION>
-  <ENTROPY_EXPLANATION>Gemi parçalarımızdan biri aşırı yüksek Entropi seviyesi gösteriyor!
-
-Yapısını inceledim, bu bizim tamir kapasitemizin çok üstünde.
-
-Bu parçayı kullanmaya devam edebiliriz, ama kesinlikle yedeğe ihtiyacımız aklımızda olmalı.</ENTROPY_EXPLANATION>
+Hangi yolu seçersen seç, karşılaştığımız her gezegenden 3 Yakıt çıkarmamız gerekecek.</MYSTERIOUS_FORCE_EXPLANATION>
   <WEAKENED_EXPLANATION>Gemi parçalarımızdan biri Güçsüzleşmiş!
   
 Bu parçayı kullanmaya devam edebiliriz, ama ilerideki olası Güçsüzleştirmeler onu tamamen yok edecek.</WEAKENED_EXPLANATION>

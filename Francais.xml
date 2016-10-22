@@ -46,6 +46,8 @@
   <SHIP>VAISSEAU</SHIP>
   <SCORE>SCORE</SCORE>
   <DATE>DATE</DATE>
+  <NORMAL_MODE>MODE RÉCIT</NORMAL_MODE>
+  <ENDLESS_MODE>MODE INTERMINABLE</ENDLESS_MODE>
   <Space>Espace</Space>
   <Health>Santé</Health>
   <Education>Éducation</Education>
@@ -116,6 +118,7 @@
   <Additional_Armor_Slot>#Additional Armor Slot#</Additional_Armor_Slot>
   <Alien_Scanners>Scanners Aliens</Alien_Scanners>
   <Scrapping>#Scrapping#</Scrapping>
+  <Scrapping_2>#Scrapping II#</Scrapping_2>
   <Improved_Thrusters>Propulseur I</Improved_Thrusters>
   <Improved_Thrusters_2>Propulseur II</Improved_Thrusters_2>
   <Adaptive_Software>Logiciel Adaptatif</Adaptive_Software>
@@ -147,6 +150,9 @@
   <To_quit_press_A_or_ENTER_now>Pour quitter, appuyez sur ((A)) ou ENTRÉE maintenant.</To_quit_press_A_or_ENTER_now>
   <You_have_never_used_this_kind_of_Alien_Artifact_before>Vous n'avez jamais utilisé ce genre de Alien Artifact avant. Les effets qu'il aura sur votre vaisseau ne sont pas connus.</You_have_never_used_this_kind_of_Alien_Artifact_before>
   <You_have_never_used_this_kind_of_Advanced_Technology_before>Vous avez jamais utilisé ce genre de Technologie Avancée avant. Les effets qu'il aura sont inconnus.</You_have_never_used_this_kind_of_Advanced_Technology_before>
+  <Weakened>Affaibli</Weakened>
+  <Entropic>Chaotique</Entropic>
+  <Static>Statique</Static>
   <Outpost_Please_Find_Rover>S'il vous plaît trouver nos rover perdus!</Outpost_Please_Find_Rover>
   <Outpost_Please_Give_Shield>Pouvez-vous donner un bouclier?</Outpost_Please_Give_Shield>
   <Outpost_Generic_Thank_You>Merci! :)</Outpost_Generic_Thank_You>
@@ -245,6 +251,7 @@
   <CIVILIZATION_BASE_OPTIONS>
     <string>Acheter</string>
     <string>Vendre</string>
+    <string>#Gambling#</string>
     <string>Chantier Naval</string>
     <string>Information</string>
   </CIVILIZATION_BASE_OPTIONS>
@@ -397,22 +404,11 @@ It's hard to say where the rest of its kind are, since the information it has is
   <LAVA_INFO>Je me sens obligé de vous rappeler que nos boucliers n'ont pas été conçus pour les hautes temperatures de la lave. Techniquement ils pourront résister, mais pas se régénérer quand ils seront immergés dans la lave.</LAVA_INFO>
   <MYSTERIOUS_FORCE_EXPLANATION>Désolé de vous réveillez, mais il y a une urgence: une force non identifié nous oblige à ralentir.
 
-En e moment cette force est négligeable, mais elle augmente avec notre rapprochement vers l'amas ZZ-Omega.
-
-Si cette force continue a augmenter à la même vitesse, nous n'aurons pas assez de carburant pour rentrer à la base.</MYSTERIOUS_FORCE_EXPLANATION>
-  <MYSTERIOUS_FORCE_SOLUTION_EXPLANATION>Il y a plusieurs planètes riches en minéraux dans l'amas ZZ-Omega. Nous pourrions faire une escale pour retirer le carburant nécessaire.
+Il y a plusieurs planètes riches en minéraux dans l'amas ZZ-Omega. Nous pourrions faire une escale pour retirer le carburant nécessaire.
 
 Si vous voulez poursuivre ce plan, j'ai identifié plusieurs parcours possibles à travers l'amas ZZ-Omega.
 
-Indépendamment du parcours choisi, nous allons devoir prendre 3 Carburants sur chaque planètes que nous visitons avant de pouvoir continuer.</MYSTERIOUS_FORCE_SOLUTION_EXPLANATION>
-  <STASIS_EXPLANATION>Une partie de notre vaisseau montre un taux de Stasis extrêmement élevé!
-
-J'ai analysé sa structure: il y a certainement un impact positif mais la source est extraterrestre; mon souci est la possibilité d'un effet papillon. Pour l'instant il ne semble pas avoir de problèmes, mais je vous tiendrais au courant s'il y a des changements.</STASIS_EXPLANATION>
-  <ENTROPY_EXPLANATION>Une partie de notre vaisseau montre un taux d'Entropy extrêmement élevé!
-
-J'ai analysé sa structure et nous n'avons pas la capacité de la réparer.
-
-Nous pouvons continuer a se servir de cette partie mais nous devrions définitivement chercher à la remplacer.</ENTROPY_EXPLANATION>
+Indépendamment du parcours choisi, nous allons devoir prendre 3 Carburants sur chaque planètes que nous visitons avant de pouvoir continuer.</MYSTERIOUS_FORCE_EXPLANATION>
   <WEAKENED_EXPLANATION>Une partie de notre vaisseau est Weakened!
 
 Nous pouvons continuer a se servir de cette partie mais soyez conscient que davantage de Weakening la détruira.</WEAKENED_EXPLANATION>

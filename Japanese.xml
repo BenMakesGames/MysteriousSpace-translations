@@ -30,11 +30,16 @@
   <version>バージョン</version>
   <SCORE>ポイント</SCORE>
   <Month_and_Year>%month%%year%年</Month_and_Year>
+  <NORMAL_MODE>ストーリーモード</NORMAL_MODE>
+  <ENDLESS_MODE>エンドレスモード</ENDLESS_MODE>
   <Space>スペース</Space>
   <Health>ヘルス</Health>
   <Education>きょういく</Education>
   <Misc>いろいろな</Misc>
   <Subroutine>サブルーチン</Subroutine>
+  <Weakened>すいたい</Weakened>
+  <Entropic>エントロピー</Entropic>
+  <Static>あんてい</Static>
   <Ship_Name>な</Ship_Name>
   <Ship_Type>かた</Ship_Type>
   <Add_a_player>プレーヤーくわえる</Add_a_player>
@@ -72,6 +77,7 @@
   <CIVILIZATION_BASE_OPTIONS>
     <string>かう</string>
     <string>うる</string>
+    <string>#Gambling#</string>
     <string>ぞうせんじょ</string>
     <string>じょうほう</string>
   </CIVILIZATION_BASE_OPTIONS>

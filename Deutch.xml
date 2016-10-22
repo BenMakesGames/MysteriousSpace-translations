@@ -8,9 +8,9 @@
   <Hull>Rumpf</Hull>
   <Armor>Panzerung</Armor>
   <Shield>Schild</Shield>
-  <Accessory>#Accessory#</Accessory>
+  <Accessory>Zubehörteil</Accessory>
   <Orbital_Accessory>#Orbital Accessory#</Orbital_Accessory>
-  <Revive>#Revive!#</Revive>
+  <Revive>Beleben!</Revive>
   <Fuel>Treibstoff</Fuel>
   <Points>Punkte</Points>
   <Cargo>Fracht</Cargo>
@@ -43,6 +43,8 @@
   <Sound_Effect>Sound-Effekt</Sound_Effect>
   <version>version</version>
   <DEBUG_MODE_ON>DEBUG-MODUS AUF</DEBUG_MODE_ON>
+  <NORMAL_MODE>GESCHICHTSMODUS</NORMAL_MODE>
+  <ENDLESS_MODE>ENDLOS-MODUS</ENDLESS_MODE>
   <Space>Weltall</Space>
   <Health>Gesundheit</Health>
   <Education>Ausbildung</Education>
@@ -104,9 +106,10 @@
   <Third_Weapon_Slot>#Third Weapon Slot#</Third_Weapon_Slot>
   <Additional_Armor_Slot>#Additional Armor Slot#</Additional_Armor_Slot>
   <Alien_Scanners>#Alien Scanners#</Alien_Scanners>
-  <Scrapping>#Scrapping#</Scrapping>
-  <Improved_Thrusters>#Thrusters I#</Improved_Thrusters>
-  <Improved_Thrusters_2>#Thrusters II#</Improved_Thrusters_2>
+  <Scrapping>Verschrottung</Scrapping>
+  <Scrapping_2>Verschrottung II</Scrapping_2>
+  <Improved_Thrusters>Antriebe I</Improved_Thrusters>
+  <Improved_Thrusters_2>Antriebe II</Improved_Thrusters_2>
   <Adaptive_Software>#Adaptive Software#</Adaptive_Software>
   <Shielded_Core>#Shielded Core#</Shielded_Core>
   <Super_Repellent_Surface>#Super-repellent Surface#</Super_Repellent_Surface>
@@ -136,6 +139,9 @@
   <To_quit_press_A_or_ENTER_now>#To quit, press A or ENTER now.#</To_quit_press_A_or_ENTER_now>
   <You_have_never_used_this_kind_of_Alien_Artifact_before>Sie haben noch nie diese Art von Alien Artifact verwendet vor. Die Auswirkungen wird es auf Ihrem Schiff unbekannt.</You_have_never_used_this_kind_of_Alien_Artifact_before>
   <You_have_never_used_this_kind_of_Advanced_Technology_before>Sie haben noch nie diese Art von Advanced Technology verwendet, vor. Die Auswirkungen wird es haben, sind nicht bekannt.</You_have_never_used_this_kind_of_Advanced_Technology_before>
+  <Weakened>Geschwächte</Weakened>
+  <Entropic>Wirr</Entropic>
+  <Static>Statisch</Static>
   <ALIEN_ARTIFACT_COLOR_NAMES>
     <string>Weiß außerirdisches Artefakt</string>
     <string>Grau außerirdisches Artefakt</string>
@@ -209,7 +215,6 @@
   EMP-resistente Schild
 * -10% Geschwindigkeit
 * -1 Rumpf</Alien_Alwaid_Description>
-  <Orbiting_Oculus_Description>#Orbiting Oculus Description#</Orbiting_Oculus_Description>
   <Risky_Ras_Algethi_Description>#Risky Ras Algethi Description#</Risky_Ras_Algethi_Description>
   <Alien_Alwaid_Alien_Artifact_Effect_Description>Verdoppeln Schildregen für 3 Sekunden und Reparaturen 1 Panzerung und Rumpf.</Alien_Alwaid_Alien_Artifact_Effect_Description>
   <PLANET_TYPE_NAMES>
@@ -225,6 +230,7 @@
   <CIVILIZATION_BASE_OPTIONS>
     <string>Kaufen</string>
     <string>Verkaufen</string>
+    <string>#Gambling#</string>
     <string>Werft</string>
     <string>Informationen</string>
   </CIVILIZATION_BASE_OPTIONS>
@@ -245,7 +251,7 @@
   </MONTH_ABBREVIATIONS>
   <SCAN_DATA_ENTRIES />
   <Hello_Captain>Hallo, Kapitän.</Hello_Captain>
-  <One_more_thing>#One more thing:#</One_more_thing>
+  <One_more_thing>Eine Sache noch:</One_more_thing>
   <We_cant_go_back_now>#We can't go back now.#</We_cant_go_back_now>
   <What_do_you_recommend>#What do you recommend?#</What_do_you_recommend>
   <Sounds_like_a_plan>#Sounds like a plan.#</Sounds_like_a_plan>
@@ -279,19 +285,6 @@ It's hard to say where the rest of its kind are, since the information it has is
 While currently negligible, this force is increasing as we approach the ZZ-Omega cluster.
 
 If this force increases at its current rate, we will not have enough Fuel to return home.#</MYSTERIOUS_FORCE_EXPLANATION>
-  <MYSTERIOUS_FORCE_SOLUTION_EXPLANATION>#There are several mineral-rich planets in the ZZ-Omega cluster. We could stop at these planets to extract the necessary Fuel.
-
-If you'd like to go ahead with this plan, I have identified a few courses we could take through the ZZ-Omega cluster.
-
-Regardless of the course taken, we will need to collect 3 Fuel from each planet encountered before continuing.#</MYSTERIOUS_FORCE_SOLUTION_EXPLANATION>
-  <STASIS_EXPLANATION>#One of our ship parts is showing an extremely high Stasis level!
-
-I've analyzed its structure: it's definitely having a positive effect, but it's alien in origin; I worry about butterfly effects. So far there don't seem to be any problems, but I'll let you know if there are any changes.#</STASIS_EXPLANATION>
-  <ENTROPY_EXPLANATION>#One of our ship parts is showing an extremely high Entropy level!
-
-I've analyzed its structure, but this is beyond our ability to repair.
-
-We can continue using this part, but we should definitely be on the lookout for a replacement.#</ENTROPY_EXPLANATION>
   <WEAKENED_EXPLANATION>#One of our ship parts is Weakened!
 
 We can continue using this part, but be aware that further Weakening will completely destroy it.#</WEAKENED_EXPLANATION>
@@ -313,13 +306,13 @@ Move the ship using %input%.#</PRACTICE_MOVING_TUTORIAL>
 
 I'll create several holograms; practice moving while holding %input% to fire at them.#</PRACTICE_SHOOTING_TUTORIAL>
   <WASD_or_the_arrow_keys>#WASD or the arrow keys#</WASD_or_the_arrow_keys>
-  <Z_or_slash>#Z or /#</Z_or_slash>
+  <Z_or_slash>Z oder /</Z_or_slash>
   <the_left_analog_stick>#the left analog stick#</the_left_analog_stick>
-  <CTRL>#CTRL#</CTRL>
-  <SHIFT>#SHIFT#</SHIFT>
-  <ENTER>#ENTER#</ENTER>
-  <ESC>#ESC#</ESC>
-  <DEL>#DEL#</DEL>
+  <CTRL>CTRL</CTRL>
+  <SHIFT>SHIFT</SHIFT>
+  <ENTER>ENTER</ENTER>
+  <ESC>ESC</ESC>
+  <DEL>DEL</DEL>
   <Unknown_command>#Unknown command. Type HELP for help.#</Unknown_command>
   <Release_Date>%month% %day%, %year%</Release_Date>
 </Language>

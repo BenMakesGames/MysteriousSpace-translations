@@ -46,6 +46,8 @@
   <SHIP>NAVE</SHIP>
   <SCORE>PUNTUACIÓN</SCORE>
   <DATE>FECHA</DATE>
+  <NORMAL_MODE>MODO RELATO</NORMAL_MODE>
+  <ENDLESS_MODE>MODO INTERMINABLE</ENDLESS_MODE>
   <Space>Espacio</Space>
   <Health>Salud</Health>
   <Education>Educación</Education>
@@ -202,6 +204,7 @@ Salió caro, pero vaya que valió la pena!</string>
   <Additional_Armor_Slot>Armadura Adicional</Additional_Armor_Slot>
   <Alien_Scanners>Escáneres Alienígenas</Alien_Scanners>
   <Scrapping>Desguace</Scrapping>
+  <Scrapping_2>Desguace II</Scrapping_2>
   <Improved_Thrusters>Propulsores I</Improved_Thrusters>
   <Improved_Thrusters_2>Propulsores II</Improved_Thrusters_2>
   <Adaptive_Software>Software Adaptivo</Adaptive_Software>
@@ -233,6 +236,9 @@ Salió caro, pero vaya que valió la pena!</string>
   <To_quit_press_A_or_ENTER_now>Para salir, presiona ((A)) o ENTER ahora. Todo tu progreso será guardado.</To_quit_press_A_or_ENTER_now>
   <You_have_never_used_this_kind_of_Alien_Artifact_before>Nunca antes habías utilizado éste tipo de Artefacto Alienígena. Los efectos que hará a tu nave son desconocidos.</You_have_never_used_this_kind_of_Alien_Artifact_before>
   <You_have_never_used_this_kind_of_Advanced_Technology_before>Nunca antes habías utilizado éste tipo de Tecnología Avanzada. Los efectos que hará a tu nave son desconocidos.</You_have_never_used_this_kind_of_Advanced_Technology_before>
+  <Weakened>Debilitado</Weakened>
+  <Entropic>Entrópico</Entropic>
+  <Static>Estático</Static>
   <ALIEN_ARTIFACT_COLOR_NAMES>
     <string>Artefacto Blanco</string>
     <string>Artefacto Gris</string>
@@ -258,7 +264,7 @@ Salió caro, pero vaya que valió la pena!</string>
     <string>Multiplica los disparos de tu arma principal por 10 segundos.</string>
     <string>Multiplica la regeneración de los escudos por 10 segundos.</string>
     <string>Malfunción de los sensores por 10 segundos.</string>
-    <string>Remueve todos los efectos negativos (lentitud, malfunción de los sensores, controles invertidos, y escudos desactivados).</string>
+    <string>Ocurre algo bueno.</string>
     <string>Realentizado por 10 segundos.</string>
     <string>Tu velocidad es aumentada un 50% por 10 segundos.</string>
     <string>Invierte los controles por 10 segundos.</string>
@@ -328,7 +334,7 @@ Salió caro, pero vaya que valió la pena!</string>
 Desactiva permanentemente cualquier campo de fuerza que golpee.</BULLET_TYPE_EMP>
   <BULLET_TYPE_RUBBER>Rebotan en las paredes, duran 1.5 segundos.
 Hacen %damage% de daño.</BULLET_TYPE_RUBBER>
-  <BULLET_TYPE_FRAGMENTING>Hacen %damage% de daño y dispara balas pequeñas al estar viajando.</BULLET_TYPE_FRAGMENTING>
+  <!--<BULLET_TYPE_BINARY></BULLET_TYPE_BINARY>-->
   <BULLET_TYPE_KNOCKBACK>Hacen %damage% de daño y empuja a los enemigos un %knockback%.</BULLET_TYPE_KNOCKBACK>
   <BULLET_TYPE_PENETRATING>Hacen %damage% de daño y atraviesan paredes.</BULLET_TYPE_PENETRATING>
   <Can_absorb_x_damage>Puede absorver %amount% de daño.</Can_absorb_x_damage>
@@ -397,6 +403,7 @@ hasta que se complete el nivel.</Orbiting_Oculus_Description>
   <CIVILIZATION_BASE_OPTIONS>
     <string>Comprar</string>
     <string>Vender</string>
+    <string>#Gambling#</string>
     <string>Astillero</string>
     <string>Información</string>
   </CIVILIZATION_BASE_OPTIONS>
@@ -598,22 +605,11 @@ Es difícil decir donde se encuentran las otras naves de éste tipo, pues la inf
   <LAVA_INFO>Le recuerdo que nuestros escudos no fueron diseñados para la fuerte temperatura de la lava. Aguantarán, pero no se van a regenerar.</LAVA_INFO>
   <MYSTERIOUS_FORCE_EXPLANATION>Lamento levantarlo, pero hay una emergencia; una fuente extraña nos está ralentizando.
 
-La fuente es desconocida, pero se hace cada vez más fuerte al acercarnos al sistema ZZ-Omega.
-
-Si ésta fuerza sigue incrementando con éste ritmo, no tendremos gasolina suficiente como para llegar a casa.</MYSTERIOUS_FORCE_EXPLANATION>
-  <MYSTERIOUS_FORCE_SOLUTION_EXPLANATION>Hay muchos planetas en el sistema ZZ-Omega llenos de minerales. Podriamos hacer una parada en algunos para obtener la gasolina necesaria.
+Hay muchos planetas en el sistema ZZ-Omega llenos de minerales. Podriamos hacer una parada en algunos para obtener la gasolina necesaria.
 
 Si quieres continuar con éste plan, he encontrado algunos caminos para llegar.
 
-Sin importar del camino, deberemos recolectar mínimo 3 pedazos de gasolina antes de irnos.</MYSTERIOUS_FORCE_SOLUTION_EXPLANATION>
-  <STASIS_EXPLANATION>Una de las partes en la nave presentan cantidades increíbles de Estasis!
-
-Lo he analizado, y definitivamente tiene un efecto positivo, pero su naturaleza es alienígena; me preocupa que hayan efectos secundarios. Parece no haber problemas, pero te avisaré si se presenta un cambio.</STASIS_EXPLANATION>
-  <ENTROPY_EXPLANATION>Una de las partes de nuestra nave está presentando niveles grandes de Entropía!
-
-Lo he analizado, y no lo podemos reparar.
-
-Podemos seguir utilizando ésta parte, pero definitivamente deberíamos buscar un reemplazo.</ENTROPY_EXPLANATION>
+Sin importar del camino, deberemos recolectar mínimo 3 pedazos de gasolina antes de irnos.</MYSTERIOUS_FORCE_EXPLANATION>
   <WEAKENED_EXPLANATION>Una de las partes de nuestra nave ha sido Debilitada!
 
 Podemos seguir utilizando ésta parte, pero si recibe más daño se destrozará por completo.</WEAKENED_EXPLANATION>

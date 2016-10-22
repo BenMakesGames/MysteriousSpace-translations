@@ -71,6 +71,9 @@
   <Display>Показать</Display>
   <Windowed>Оконный</Windowed>
   <Fullscreen>Полноэкранный</Fullscreen>
+  <Weakened>Ослабленные</Weakened>
+  <Entropic>Энтропическое</Entropic>
+  <Static>Статический</Static>
   <ALIEN_ARTIFACT_COLOR_NAMES>
     <string>Белый инопланетный артефакт</string>
     <string>Серый инопланетный артефакт</string>
@@ -99,6 +102,7 @@
   <CIVILIZATION_BASE_OPTIONS>
     <string>Купить</string>
     <string>Продажа</string>
+    <string>#Gambling#</string>
     <string>Верфь</string>
     <string>Информация</string>
   </CIVILIZATION_BASE_OPTIONS>
