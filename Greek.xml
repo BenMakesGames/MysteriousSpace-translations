@@ -29,6 +29,7 @@
   <Health>Υγεία</Health>
   <Education>Εκπαίδευση</Education>
   <Misc>διάφορος</Misc>
+  <X_of_Y>%x% από %y%</X_of_Y>
   <Weakened>Αποδυναμωμένη</Weakened>
   <Entropic>Εντροπίας</Entropic>
   <Static>Στατικός</Static>
@@ -52,16 +53,16 @@
   <Settings>Ρυθμίσεις</Settings>
   <Blueprint>Προσχέδιο</Blueprint>
   <Battery>Μπαταρία</Battery>
-  <PLANET_TYPE_NAMES>
-    <string>Forest</string>
-    <string>Ερημιά</string>
-    <string>Άγονος</string>
-    <string>Ωκεανό</string>
-    <string>Πάγου</string>
-    <string>Λάβα</string>
-    <string>Εξόρυξη</string>
-    <string>Στοιχειωμένος</string>
-  </PLANET_TYPE_NAMES>
+  <planet_type_names>
+    <string>FOREST:Forest</string>
+    <string>DESERT:Ερημιά</string>
+    <string>BARREN:Άγονος</string>
+    <string>OCEAN:Ωκεανό</string>
+    <string>ICE:Πάγου</string>
+    <string>LAVA:Λάβα</string>
+    <string>MINING:Εξόρυξη</string>
+    <string>HAUNTED:Στοιχειωμένος</string>
+  </planet_type_names>
   <CIVILIZATION_BASE_OPTIONS>
     <string>Αγορά</string>
     <string>Πωλώ</string>

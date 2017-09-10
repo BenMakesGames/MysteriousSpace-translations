@@ -44,6 +44,7 @@
   <Press_to_accept_name>(((START)) чтобы принять имя)</Press_to_accept_name>
   <No_thanks>Нет, спасибо</No_thanks>
   <Final_score>Финальный счет:</Final_score>
+  <X_of_Y>%x% из %y%</X_of_Y>
   <PLAY_AGAIN_LOSE>
     <string>ИГРАТЬ СНОВА</string>
     <string>ЕЩЕ РАЗ</string>
@@ -89,16 +90,16 @@
     <string>Розовый инопланетный артефакт</string>
     <string>Черный инопланетный артефакт</string>
   </ALIEN_ARTIFACT_COLOR_NAMES>
-  <PLANET_TYPE_NAMES>
-    <string>Лес</string>
-    <string>Пустыня</string>
-    <string>Рок</string>
-    <string>Океан</string>
-    <string>Лед</string>
-    <string>Лава</string>
-    <string>Добыча</string>
-    <string>Привидениями</string>
-  </PLANET_TYPE_NAMES>
+  <planet_type_names>
+    <string>FOREST:Лес</string>
+    <string>DESERT:Пустыня</string>
+    <string>BARREN:Рок</string>
+    <string>OCEAN:Океан</string>
+    <string>ICE:Лед</string>
+    <string>LAVA:Лава</string>
+    <string>MINING:Добыча</string>
+    <string>HAUNTED:Привидениями</string>
+  </planet_type_names>
   <CIVILIZATION_BASE_OPTIONS>
     <string>Купить</string>
     <string>Продажа</string>

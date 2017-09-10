@@ -52,6 +52,7 @@
   <Health>Salud</Health>
   <Education>Educación</Education>
   <Misc>Misc</Misc>
+  <X_of_Y>%x% de %y%</X_of_Y>
   <THE_PREMISE>Científicos han descubierto señales extrañas viniendo del sistema ZZ-Omega-9.
   
 Podría ser la fuente de poder necesaria para salvar a la civilización?
@@ -159,8 +160,6 @@ Salió caro, pero vaya que valió la pena!</string>
   <I_feel_fine>Me siento bien.</I_feel_fine>
   <Lets_do_some_flight_exercises>Hagamos algunos ejercicios de vuelo.</Lets_do_some_flight_exercises>
   <No_thanks>No, gracias.</No_thanks>
-  <Practice_Moving>Práctica de movimiento...</Practice_Moving>
-  <Practice_Shooting>Mantenga presionado el botón de disparo...</Practice_Shooting>
   <The_truth_behind_Sector_ZZ_Omega_9_remains_a_secret>Has muerto. La verdad del sector ZZ-Omega-9 se mantendrá como un secreto.</The_truth_behind_Sector_ZZ_Omega_9_remains_a_secret>
   <The_truth_behind_Sector_ZZ_Omega_9_dies_with_you>Has muerto. La verdad del sector ZZ-Omega-9 muere contigo.</The_truth_behind_Sector_ZZ_Omega_9_dies_with_you>
   <The_truth_behind_Sector_ZZ_Omega_9_will_be_revealed>La verdad del sector ZZ-Omega9 será revelada!</The_truth_behind_Sector_ZZ_Omega_9_will_be_revealed>
@@ -390,16 +389,16 @@ hasta que se complete el nivel.</Orbiting_Oculus_Description>
   se multiplica por 4 segundos.
 * Te encontrarás con más enemigos.</Risky_Ras_Algethi_Description>
   <Alien_Alwaid_Alien_Artifact_Effect_Description>Multiplica la regeneración de los escudos por 3 segundos y recupera 1 de armadura y salud.</Alien_Alwaid_Alien_Artifact_Effect_Description>
-  <PLANET_TYPE_NAMES>
-    <string>Bosque</string>
-    <string>Desierto</string>
-    <string>Desolado</string>
-    <string>Océano</string>
-    <string>Hielo</string>
-    <string>Lava</string>
-    <string>Minería</string>
-    <string>Embrujado</string>
-  </PLANET_TYPE_NAMES>
+  <planet_type_names>
+    <string>FOREST:Bosque</string>
+    <string>DESERT:Desierto</string>
+    <string>BARREN:Desolado</string>
+    <string>OCEAN:Océano</string>
+    <string>ICE:Hielo</string>
+    <string>LAVA:Lava</string>
+    <string>MINING:Minería</string>
+    <string>HAUNTED:Embrujado</string>
+  </planet_type_names>
   <CIVILIZATION_BASE_OPTIONS>
     <string>Comprar</string>
     <string>Vender</string>
@@ -578,14 +577,6 @@ Salud: 50</string>
   <We_cant_go_back_now>No podemos devolvernos ahora.</We_cant_go_back_now>
   <What_do_you_recommend>Qué recomiendas?</What_do_you_recommend>
   <Sounds_like_a_plan>Suena como un plan.</Sounds_like_a_plan>
-  <MAINTENANCE_CHECK>Lamento levantarte, pero es momento de otro chequeo de mantenimiento.
-
-No hay problemas graves que requieran de tu atención. El software y el hardware están estables.
-
-Cómo te sientes?</MAINTENANCE_CHECK>
-  <TUTORIALIZE_OPTION>Bien.
-
-Antes de apagar, le gustaría hacer algunos ejercicios?</TUTORIALIZE_OPTION>
   <TUTORIAL_MINIBOSS_APPROACHES>Espera.
 
 Capitán, recibo algo... una nave se está acercando. Estoy teniendo problemas para hacer contacto; es vieja, y está muy dañada.</TUTORIAL_MINIBOSS_APPROACHES>
@@ -598,10 +589,6 @@ Intenta apagarlo a la fuerza; mientras haces éso, intentaré hackearla y obtene
 Lamento que no haya podido apagarla antes; está hecha polvo.
 
 Aún así, logré sacar algo de información.</END_OF_TUTORIAL_DESTROYED>
-  <END_OF_TUTORIAL_2>Las memorias de la nave dicen que en efecto, era una nave de guerra. Fué dañada gravemente en una pelea hace 526 años atrás, y ha estado recorriendo el espacio sin rumbo desde entonces.
-
-Es difícil decir donde se encuentran las otras naves de éste tipo, pues la información es de hace más de 526 años atrás, pero con suerte, no nos encontraremos con otra.</END_OF_TUTORIAL_2>
-  <END_OF_TUTORIAL_3>Como sea, ya que éste es el último chequeo de mantenimiento antes de llegar al sector ZZ-Omega-9, le recomiendo guardar tanta gasolina como sea posible. No queremos quedarnos varados en medio de lo desconocido.</END_OF_TUTORIAL_3>
   <LAVA_INFO>Le recuerdo que nuestros escudos no fueron diseñados para la fuerte temperatura de la lava. Aguantarán, pero no se van a regenerar.</LAVA_INFO>
   <MYSTERIOUS_FORCE_EXPLANATION>Lamento levantarlo, pero hay una emergencia; una fuente extraña nos está ralentizando.
 
@@ -624,12 +611,6 @@ También hay fragmentos que podríamos utilizar como gasolina. De ser posible de
   <Its_dangerous_to_go_alone_take_this>Es peligroso ir sólo! Toma ésto.</Its_dangerous_to_go_alone_take_this>
   <ReceivedItemNote>(Has recibido: %itemname%.)</ReceivedItemNote>
   <Fool>Idiota.</Fool>
-  <PRACTICE_MOVING_TUTORIAL>Genial! Empecemos!
-
-Mueve la nave usando %input%.</PRACTICE_MOVING_TUTORIAL>
-  <PRACTICE_SHOOTING_TUTORIAL>Desafortunadamente, no tenemos nada para practicar los disparos. Una proyección holográfica tendrá que bastar.
-
-Crearé varias proyecciones; practique el movimiento mientras mantiene presionado %input% para dispararles.</PRACTICE_SHOOTING_TUTORIAL>
   <MINIBOSS_EXPLANATION>Estoy recibiendo una señal... otra nave, pero enorme comparada con lo que hemos encontrado hasta ahora.
 
 Podría ser peligroso, pero si la destrozamos, podríamos tomar su gasolina.

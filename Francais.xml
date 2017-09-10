@@ -52,6 +52,7 @@
   <Health>Santé</Health>
   <Education>Éducation</Education>
   <Misc>Divers</Misc>
+  <X_of_Y>%x% de %y%</X_of_Y>
   <SHIP_COLOR_NAMES>
     <string>orange</string>
     <string>rouge</string>
@@ -73,8 +74,6 @@
   <I_feel_fine>Je me sens bien.</I_feel_fine>
   <Lets_do_some_flight_exercises>Faisons des exercices de pilotage.</Lets_do_some_flight_exercises>
   <No_thanks>Non merci.</No_thanks>
-  <Practice_Moving>Pratique Mobile</Practice_Moving>
-  <Practice_Shooting>Pratique Tir</Practice_Shooting>
   <The_truth_behind_Sector_ZZ_Omega_9_remains_a_secret>La vérité derrière le secteur ZZ-Omega-9 demeure un secret.</The_truth_behind_Sector_ZZ_Omega_9_remains_a_secret>
   <The_truth_behind_Sector_ZZ_Omega_9_dies_with_you>La vérité derrière le secteur ZZ-Omega-9 meurt avec toi.</The_truth_behind_Sector_ZZ_Omega_9_dies_with_you>
   <The_truth_behind_Sector_ZZ_Omega_9_will_be_revealed>La vérité derrière le secteur ZZ-Omega-9 sera révêlée!</The_truth_behind_Sector_ZZ_Omega_9_will_be_revealed>
@@ -238,16 +237,16 @@
   <Orbiting_Oculus_Description>#Orbiting Oculus Description#</Orbiting_Oculus_Description>
   <Risky_Ras_Algethi_Description>#Risky Ras Algethi Description#</Risky_Ras_Algethi_Description>
   <Alien_Alwaid_Alien_Artifact_Effect_Description>Doubler bouclier régén pour 3 seconds et de restaurer 1 de votre armure et la coque.</Alien_Alwaid_Alien_Artifact_Effect_Description>
-  <PLANET_TYPE_NAMES>
-    <string>Forêt</string>
-    <string>Désert</string>
-    <string>Rocheux</string>
-    <string>Océan</string>
-    <string>Glace</string>
-    <string>Lave</string>
-    <string>Minière</string>
-    <string>Hanté</string>
-  </PLANET_TYPE_NAMES>
+  <planet_type_names>
+    <string>FOREST:Forêt</string>
+    <string>DESERT:Désert</string>
+    <string>BARREN:Rocheux</string>
+    <string>OCEAN:Océan</string>
+    <string>ICE:Glace</string>
+    <string>LAVA:Lave</string>
+    <string>MINING:Minière</string>
+    <string>HAUNTED:Hanté</string>
+  </planet_type_names>
   <CIVILIZATION_BASE_OPTIONS>
     <string>Acheter</string>
     <string>Vendre</string>
@@ -377,30 +376,6 @@ Coque: 400</string>
   <We_cant_go_back_now>On ne peut pas rentrer maintenant.</We_cant_go_back_now>
   <What_do_you_recommend>Que recommandez-vous?</What_do_you_recommend>
   <Sounds_like_a_plan>Ça me semble bien.</Sounds_like_a_plan>
-  <MAINTENANCE_CHECK>Désolé de vous réveiller, mais il est temps de faire la maintenance des 100AL.
-
-Il n'y a pas de problème éminent qui nécessite votre attention. Les opérations du software et hardware apparaissent normaux.
-
-Comment vous sentez vous?</MAINTENANCE_CHECK>
-  <TUTORIALIZE_OPTION>Très bien.
-
-Avant d'éteindre, voulez vous faire quelques exercices pratiques?</TUTORIALIZE_OPTION>
-  <TUTORIAL_MINIBOSS_APPROACHES>#Wait.
-
-Captain, I'm picking something up... a ship is approaching us. I'm having trouble making contact; it's an old ship, and badly damaged.#</TUTORIAL_MINIBOSS_APPROACHES>
-  <TUTORIAL_MINIBOSS_APPROACHES_2>#Captain, it's readying its weapons. It may be old and damaged, but this is definitely a warship.
-
-Try to disable it by force; while you're doing that, I'll attempt to hack in and gain control of it.#</TUTORIAL_MINIBOSS_APPROACHES_2>
-  <END_OF_TUTORIAL_NEUTRALIZED>#Captain, I've gained control of the ship. I'm shutting it down now.#</END_OF_TUTORIAL_NEUTRALIZED>
-  <END_OF_TUTORIAL_DESTROYED>#Well done, captain.
-
-Sorry I wasn't able to shut it down faster; it's more badly-damaged than I thought.
-
-I was able to get some information, however.#</END_OF_TUTORIAL_DESTROYED>
-  <END_OF_TUTORIAL_2>#The ship's memories show that it was indeed a warship. It was badly damaged in a skirmish 526 years ago and has been drifting, derelict, since.
-
-It's hard to say where the rest of its kind are, since the information it has is about 526 years old; with any luck we won't have any more run-ins.#</END_OF_TUTORIAL_2>
-  <END_OF_TUTORIAL_3>#Anyway, as this is the last maintenance check before we reach Sector ZZ-Omega-9, I recommend conserving as much Fuel as possible. We don't want to to be caught unprepared for whatever lies in store for us.#</END_OF_TUTORIAL_3>
   <LAVA_INFO>Je me sens obligé de vous rappeler que nos boucliers n'ont pas été conçus pour les hautes temperatures de la lave. Techniquement ils pourront résister, mais pas se régénérer quand ils seront immergés dans la lave.</LAVA_INFO>
   <MYSTERIOUS_FORCE_EXPLANATION>Désolé de vous réveillez, mais il y a une urgence: une force non identifié nous oblige à ralentir.
 
@@ -423,12 +398,6 @@ There's also fragments we may be able to use as fuel. If possible, we should pic
   <Its_dangerous_to_go_alone_take_this>C'est risqué d'y aller seul! Prenez ça.</Its_dangerous_to_go_alone_take_this>
   <ReceivedItemNote>(Recoit %itemname%.)</ReceivedItemNote>
   <Fool>Imbécile.</Fool>
-  <PRACTICE_MOVING_TUTORIAL>Super! Allons y!
-
-Bougez le vaisseau en utilisant %input%.</PRACTICE_MOVING_TUTORIAL>
-  <PRACTICE_SHOOTING_TUTORIAL>Malheureusement, il n'y a rien ici pour faire des exercices de tir. Nous allons utiliser une projection holographique.
-
-Je vais créer plusieurs hologrammes; pratiquez bouger tandis tenant %input% à tirer sur eux.</PRACTICE_SHOOTING_TUTORIAL>
   <WASD_or_the_arrow_keys>WASD ou les touches fléchées</WASD_or_the_arrow_keys>
   <Z_or_slash>Z ou /</Z_or_slash>
   <the_left_analog_stick>le stick analogique gauche</the_left_analog_stick>

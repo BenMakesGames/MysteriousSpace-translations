@@ -36,6 +36,7 @@
   <Health>ヘルス</Health>
   <Education>きょういく</Education>
   <Misc>いろいろな</Misc>
+  <X_of_Y>%x%の%y%</X_of_Y>
   <Subroutine>サブルーチン</Subroutine>
   <Weakened>すいたい</Weakened>
   <Entropic>エントロピー</Entropic>
@@ -64,16 +65,16 @@
   <Upgrade>上り坂</Upgrade>
   <Save_and_Quit>やめる</Save_and_Quit>
   <Settings>セッティング</Settings>
-  <PLANET_TYPE_NAMES>
-    <string>もり</string>
-    <string>さばく</string>
-    <string>いわば</string>
-    <string>かいよう</string>
-    <string>こおり</string>
-    <string>ようがん</string>
-    <string>さいくつ</string>
-    <string>ゆうれいな</string>
-  </PLANET_TYPE_NAMES>
+  <planet_type_names>
+    <string>FOREST:もり</string>
+    <string>DESERT:さばく</string>
+    <string>BARREN:いわば</string>
+    <string>OCEAN:かいよう</string>
+    <string>ICE:こおり</string>
+    <string>LAVA:ようがん</string>
+    <string>MINING:さいくつ</string>
+    <string>HAUNTED:ゆうれいな</string>
+  </planet_type_names>
   <CIVILIZATION_BASE_OPTIONS>
     <string>かう</string>
     <string>うる</string>

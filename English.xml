@@ -54,6 +54,7 @@
   <Health>Health</Health>
   <Education>Education</Education>
   <Misc>Misc</Misc>
+  <X_of_Y>%x% of %y%</X_of_Y>
   <THE_PREMISE>Scientists have detected a strange signal originating from the ZZ-Omega-9 system.
 
 Could it be the power source that will save civilization?
@@ -163,8 +164,25 @@ Getting the custom-desgined %ship part% to match the ship's %color% paint job wa
   <I_feel_fine>I feel fine.</I_feel_fine>
   <Lets_do_some_flight_exercises>Let's do some flight exercises.</Lets_do_some_flight_exercises>
   <No_thanks>No thanks.</No_thanks>
-  <Practice_Moving>Practice moving...</Practice_Moving>
-  <Practice_Shooting>Hold down fire button...</Practice_Shooting>
+  <Got_it>Got it.</Got_it>
+  <Tell_me_more>Tell me more.</Tell_me_more>
+  <TUTORIAL_SOMETHING_IS_WRONG>Sorry to wake you, but something's wrong: we appear to be losing fuel at a faster-than-expected rate.</TUTORIAL_SOMETHING_IS_WRONG>
+  <TUTORIAL_SOMETHING_IS_WRONG_2>I've put us in orbit around a small, icy dwarf planet. While I run some ship diagnostics, can you explore for something we can use as fuel?</TUTORIAL_SOMETHING_IS_WRONG_2>
+  <TUTORIAL_SCHEMATICS>These look like designs for some kind of alien ship. Interesting...
+
+We should definitely take a closer look at these later, but for now we really need fuel.</TUTORIAL_SCHEMATICS>
+  <TUTORIAL_FUEL>At least we can salvage the fuel it had.</TUTORIAL_FUEL>
+  <MYSTERIOUS_FORCE_EXPLANATION>Captain, I've identified the source of our fuel problems: something within the ZZ-Omega-9 sector itself is warping space, creating a constant drag effect. It's going to cost us 3 Fuel to jump from system to system, and we're already almost out.</MYSTERIOUS_FORCE_EXPLANATION>
+  <MYSTERIOUS_FORCE_EXPLANATION_2>If we're to succeed in our mission, we will need to stop at whatever planets we can find, and extract at least 3 Fuel from each.</MYSTERIOUS_FORCE_EXPLANATION_2>
+  <APPROACH_MYSTERIOUS_SOURCE>Captain, we're here!
+
+I'll send some probes immediately.</APPROACH_MYSTERIOUS_SOURCE>
+  <EXPLAIN_MYSTERIOUS_SOURCE>That device... it's incredible that something so old could contain such power.
+
+Do the inhabitents of this sector even realize that it's here?</EXPLAIN_MYSTERIOUS_SOURCE>
+  <EXPLAIN_MYSTERIOUS_SOURCE_2>Whatever the case, we must get this information back home.
+
+Let's get out of the ZZ-Omega-9 sector, and into Deep Space.</EXPLAIN_MYSTERIOUS_SOURCE_2>
   <The_truth_behind_Sector_ZZ_Omega_9_remains_a_secret>The truth behind Sector ZZ-Omega-9 remains a secret.</The_truth_behind_Sector_ZZ_Omega_9_remains_a_secret>
   <The_truth_behind_Sector_ZZ_Omega_9_dies_with_you>The truth behind Sector ZZ-Omega-9 dies with you.</The_truth_behind_Sector_ZZ_Omega_9_dies_with_you>
   <The_truth_behind_Sector_ZZ_Omega_9_will_be_revealed>The truth behind Sector ZZ-Omega-9 will be revealed!</The_truth_behind_Sector_ZZ_Omega_9_will_be_revealed>
@@ -370,6 +388,8 @@ They deal %damage% damage.</BULLET_TYPE_RUBBER>
   <BULLET_TYPE_BINARY>They're fired in rotating pairs. Each deals %damage% damage.</BULLET_TYPE_BINARY>
   <BULLET_TYPE_KNOCKBACK>They deal %damage% damage and knock targets back %knockback%.</BULLET_TYPE_KNOCKBACK>
   <BULLET_TYPE_PENETRATING>They deal %damage% damage and go through walls.</BULLET_TYPE_PENETRATING>
+  <BULLET_TYPE_LIGHTNING>Each deals %damage% damage, and fires lightning as it travels.</BULLET_TYPE_LIGHTNING>
+  <BULLET_TYPE_STASIS>Each deals %damage% damage, and has a slowing field around it.</BULLET_TYPE_STASIS>
   <WEAPON_ABILITIES>
     <string></string>
     <string>Fire rate is doubled while sensors are scrambled.</string>
@@ -473,16 +493,16 @@ conventional shields.
   </Scrapping_Syrma_Description>
   <Alien_Alwaid_Alien_Artifact_Effect_Description>Doubles shield regen rate for 3 seconds and restores 1 Armor and Hull.</Alien_Alwaid_Alien_Artifact_Effect_Description>
   <Deep_Space>Deep Space</Deep_Space>
-  <PLANET_TYPE_NAMES>
-    <string>Forest</string>
-    <string>Desert</string>
-    <string>Desolate</string>
-    <string>Ocean</string>
-    <string>Ice</string>
-    <string>Lava</string>
-    <string>Mining</string>
-    <string>Haunted</string>
-  </PLANET_TYPE_NAMES>
+  <planet_type_names>
+    <string>FOREST:Forest</string>
+    <string>DESERT:Desert</string>
+    <string>BARREN:Desolate</string>
+    <string>OCEAN:Ocean</string>
+    <string>ICE:Ice</string>
+    <string>LAVA:Lava</string>
+    <string>MINING:Mining</string>
+    <string>HAUNTED:Haunted</string>
+  </planet_type_names>
   <CIVILIZATION_BASE_OPTIONS>
     <string>Buy</string>
     <string>Sell</string>
@@ -722,20 +742,9 @@ Hull: 7000
   <We_cant_go_back_now>We can't go back now.</We_cant_go_back_now>
   <What_do_you_recommend>What do you recommend?</What_do_you_recommend>
   <Sounds_like_a_plan>Sounds like a plan.</Sounds_like_a_plan>
-  <MAINTENANCE_CHECK>Sorry to wake you, but it's time for another 100LY maintenance check.
-
-There are no outstanding issues requiring your attention. Hardware and software operations appear normal.
-
-How do you feel?
-  </MAINTENANCE_CHECK>
-  <TUTORIALIZE_OPTION>Good.
-
-Before shutting down, would you like to do some exercises?
-  </TUTORIALIZE_OPTION>
   <TUTORIAL_MINIBOSS_APPROACHES>Wait.
 
-Captain, I'm picking something up... a ship is approaching us. I'm having trouble making contact; it's an old ship, and badly damaged.
-  </TUTORIAL_MINIBOSS_APPROACHES>
+Captain, I'm picking something up... a ship is approaching us. I'm having trouble making contact; it's an old ship, and badly damaged.</TUTORIAL_MINIBOSS_APPROACHES>
   <TUTORIAL_MINIBOSS_APPROACHES_2>Captain, it's readying its weapons. It may be old and damaged, but this is definitely a warship.
 
 Try to disable it by force; while you're doing that, I'll attempt to hack in and gain control of it.
@@ -743,24 +752,11 @@ Try to disable it by force; while you're doing that, I'll attempt to hack in and
   <END_OF_TUTORIAL_NEUTRALIZED>Captain, I've gained control of the ship. I'm shutting it down now.</END_OF_TUTORIAL_NEUTRALIZED>
   <END_OF_TUTORIAL_DESTROYED>Well done, captain.
 
-Sorry I wasn't able to shut it down faster; it's more badly-damaged than I thought.
-
-I was able to get some information, however.
-  </END_OF_TUTORIAL_DESTROYED>
-  <END_OF_TUTORIAL_2>The ship's memories show that it was indeed a warship. It was badly damaged in a skirmish 526 years ago and has been drifting, derelict, since.
-
-It's hard to say where the rest of its kind are, since the information it has is about 526 years old; with any luck we won't have any more run-ins.
-  </END_OF_TUTORIAL_2>
-  <END_OF_TUTORIAL_3>Anyway, as this is the last maintenance check before we reach Sector ZZ-Omega-9, I recommend conserving as much Fuel as possible. We don't want to to be caught unprepared for whatever lies in store for us.</END_OF_TUTORIAL_3>
-  <THREE_FUEL_EXPLANATION>Excellent. We now have the fuel needed to jump to the next system, and may leave at any time.
+Sorry I wasn't able to shut it down faster; it's more badly-damaged than I thought.</END_OF_TUTORIAL_DESTROYED>
+  <THREE_FUEL_EXPLANATION>Excellent. We now have the fuel needed to jump to the next system.
   
-It may be worth looking around more, to collect additional resources and supplies, but I've also noticed that the number of enemies is increasing the longer we stay.
-
-It's your call. When you're ready, take us back up into space.</THREE_FUEL_EXPLANATION>
+Let's get out of here before anything else shows up!</THREE_FUEL_EXPLANATION>
   <LAVA_INFO>I feel I should remind you that our shields were not designed for the high temperatures of lava. While they will technically hold, we will not be able to regenerate them while submerged.</LAVA_INFO>
-  <MYSTERIOUS_FORCE_EXPLANATION>Sorry to wake you, but there's an emergency: an unidentified force is causing us to decelerate.
-
-It's going to cost us 3 Fuel to jump from system to system, and we're almost out. In order to progress after this next jump, we will need to stop at whatever planets we can find, and extract at least 3 Fuel from each.</MYSTERIOUS_FORCE_EXPLANATION>
   <WEAKENED_EXPLANATION>One of our ship parts is Weakened!
 
 We can continue using this part, but be aware that further Weakening will completely destroy it.</WEAKENED_EXPLANATION>
@@ -776,12 +772,6 @@ There's also fragments we may be able to use as fuel. If possible, we should pic
   <Its_dangerous_to_go_alone_take_this>It's dangerous to go alone! Take this.</Its_dangerous_to_go_alone_take_this>
   <ReceivedItemNote>(Received %itemname%.)</ReceivedItemNote>
   <Fool>Fool.</Fool>
-  <PRACTICE_MOVING_TUTORIAL>Great! Let's begin!
-
-Move the ship using %input%.</PRACTICE_MOVING_TUTORIAL>
-  <PRACTICE_SHOOTING_TUTORIAL>Unfortunately, there isn't anything out here to practice shooting at. A holographic projection will have to do.
-
-I'll create several holograms; practice moving while holding %input% to fire at them.</PRACTICE_SHOOTING_TUTORIAL>
   <MINIBOSS_EXPLANATION>I'm picking up a powerful signal... another ship, but much larger than anything we've encountered thus far.
 
 It may be dangerous, but if we destroy it, we can salvage its Fuel.
@@ -790,6 +780,8 @@ I'll track it on the minimap.</MINIBOSS_EXPLANATION>
   <WASD_or_the_arrow_keys>WASD or the arrow keys</WASD_or_the_arrow_keys>
   <Z_or_slash>Z or /</Z_or_slash>
   <the_left_analog_stick>the left analog stick</the_left_analog_stick>
+  <hold_X_or_Y>#hold %x% or %y%#</hold_X_or_Y>
+  <hold_X>#hold %x%#</hold_X>
   <action_descriptions>
     <string>Fire</string>
     <string>Fire (alt)</string>

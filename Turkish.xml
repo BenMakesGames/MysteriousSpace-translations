@@ -53,6 +53,7 @@
   <Health>Sağlık</Health>
   <Education>Eğitim</Education>
   <Misc>Çeşitli</Misc>
+  <X_of_Y>%x%/%y%</X_of_Y>
   <THE_PREMISE>Bilimadamları ZZ-Omega-9 Sektöründen gelen garip bir sinyal tespit ettiler.
   
 Acaba bu sinyal uygarlığı kurtaracak enerji kaynağından geliyor olabilir mi?
@@ -162,8 +163,6 @@ Basit, %color% işlemeler metalik gövdesinin iki tarafında uzanıyor.</string>
   <I_feel_fine>İyi hissediyorum.</I_feel_fine>
   <Lets_do_some_flight_exercises>Hadi biraz uçuş pratiği yapalım.</Lets_do_some_flight_exercises>
   <No_thanks>Hayır, teşekkürler.</No_thanks>
-  <Practice_Moving>Alıştırma aktif...</Practice_Moving>
-  <Practice_Shooting>Ateş tuşuna basılı tut...</Practice_Shooting>
   <The_truth_behind_Sector_ZZ_Omega_9_remains_a_secret>Sektör ZZ-Omega-9'un arkasındaki sır hala gizemini koruyor.</The_truth_behind_Sector_ZZ_Omega_9_remains_a_secret>
   <The_truth_behind_Sector_ZZ_Omega_9_dies_with_you>Sektör ZZ-Omega-9'un arkasındaki sır seninle birlikte öldü.</The_truth_behind_Sector_ZZ_Omega_9_dies_with_you>
   <The_truth_behind_Sector_ZZ_Omega_9_will_be_revealed>Sektör ZZ-Omega-9'un arkasındaki sır açığa çıkacak!</The_truth_behind_Sector_ZZ_Omega_9_will_be_revealed>
@@ -381,16 +380,16 @@ Dokunduğu herhangi bir güçkalkanını tamamen devredışı bırakır.</BULLET
   (Yakıt Parçası için 1 saniye).
 * Daha fazla düşmanla karşılaşacaksın.</Risky_Ras_Algethi_Description>
   <Alien_Alwaid_Alien_Artifact_Effect_Description>Kalkan yenilenme hızını 3 saniyeliğine iki katına çıkarır ve Zırh ve Gövdeyi %20 yeniler.</Alien_Alwaid_Alien_Artifact_Effect_Description>
-  <PLANET_TYPE_NAMES>
-    <string>Orman</string>
-    <string>Çöl</string>
-    <string>Issız</string>
-    <string>Okyanus</string>
-    <string>Buz</string>
-    <string>Lav</string>
-    <string>Maden</string>
-    <string>Perili</string>
-  </PLANET_TYPE_NAMES>
+  <planet_type_names>
+    <string>FOREST:Orman</string>
+    <string>DESERT:Çöl</string>
+    <string>BARREN:Issız</string>
+    <string>OCEAN:Okyanus</string>
+    <string>ICE:Buz</string>
+    <string>LAVA:Lav</string>
+    <string>MINING:Maden</string>
+    <string>HAUNTED:Perili</string>
+  </planet_type_names>
   <CIVILIZATION_BASE_OPTIONS>
     <string>Satın Almak</string>
     <string>Satmak</string>
@@ -565,14 +564,6 @@ Can: 50</string>
   <We_cant_go_back_now>Şimdi geri gidemeyiz.</We_cant_go_back_now>
   <What_do_you_recommend>Ne önerirsin?</What_do_you_recommend>
   <Sounds_like_a_plan>Kulağa mantıklı geliyor.</Sounds_like_a_plan>
-  <MAINTENANCE_CHECK>Uyandırmak istemezdim, ama 100IY bakım kontrolü zamanı.
-
-Sizi endişelendirebilecek sıradışı bir durum yok. Yazılım ve donanım işlemleri normal gözüküyor.
-
-Nasıl hissediyorsun?</MAINTENANCE_CHECK>
-  <TUTORIALIZE_OPTION>İyi.
-
-Before shutting down, would you like to do some exercises?</TUTORIALIZE_OPTION>
   <TUTORIAL_MINIBOSS_APPROACHES>Wait.
 
 Kaptan bir şey yakaladım... bir gemi bize yaklaşıyor. Bağlantı kurmakta güçlük çekiyorum; eski bir gemi ve epey hasar almış.</TUTORIAL_MINIBOSS_APPROACHES>
@@ -585,10 +576,6 @@ Onu güçle etkisiz hale getirmeye çalış; sen bunu yaparken ben de onu hekley
 Daha önce devredışı bırakamadığım için üzgünüm. Tahmin ettiğimden daha fazla hasarlıydı.
 
 Yine de bazı bilgileri ele geçirebildim.</END_OF_TUTORIAL_DESTROYED>
-  <END_OF_TUTORIAL_2>Geminin kayıtları onun bir savaş gemisi olduğunu doğruluyor. 526 yıl önceki bir çarpışmada ağır hasar almış ve o zamandan beri harap bir şekilde sürükleniyor derelict.
-
-Bilgi 526 yaşında olduğundan, bunun gemi gemilerin gerisinin nerede olduğunu söylemek zor; biraz şanslıysak bunun gibi bir başkasıyla karşılaşmayız.</END_OF_TUTORIAL_2>
-  <END_OF_TUTORIAL_3>Neyse, bu Sektör ZZ-Omega-9'a ulaşmadan önceki son bakım kontrolüydü, mümkün olduğunca fazla yakıt tasarrufu öneririm. İleride bizi bekleyen her ne ise, hazırlıksız yakalanmak istemeyiz.</END_OF_TUTORIAL_3>
   <LAVA_INFO>Sanırım hatırlatmalıyım: kalkanlarımız lavın yüksek ısısı için tasarlanmadı. Teknik olarak tek parça olacaklardır, ama yüzey altındayken onları yenilememiz imkânsız.</LAVA_INFO>
   <MYSTERIOUS_FORCE_EXPLANATION>Uyandırdığım için üzgünüm, ancak acil bir durum var: tanımlanmayan bir güç yavaşlamamıza sebep oluyor.
   
@@ -609,12 +596,6 @@ Yakıt olarak kullanabileceğimiz parçalar olabilir. Eğer mümkünse bunları 
   <Its_dangerous_to_go_alone_take_this>Yalnız gitmen tehlikeli! Bunu al.</Its_dangerous_to_go_alone_take_this>
   <ReceivedItemNote>(%itemname% silahını aldın.)</ReceivedItemNote>
   <Fool>Aptal.</Fool>
-  <PRACTICE_MOVING_TUTORIAL>Harika! Hadi başlayalım!
-
-Gemiyi %input% kullanarak hareket ettir.</PRACTICE_MOVING_TUTORIAL>
-  <PRACTICE_SHOOTING_TUTORIAL>Maalesef, etrafta alıştırma için ateş edebileceğimiz hiçbir şey yok. Mecburen holografik bir yansıtma işimizi görecek.
-
-Birkaç hologram üreteceğim; onlara %input% tuşunu kullanarak ateş etmeye çalış.</PRACTICE_SHOOTING_TUTORIAL>
   <MINIBOSS_EXPLANATION>Çok güçlü bir sinyal tespit ettim... başka bir gemi, ama şimdiye kadar karşılaştıklarımızdan hepsinden daha güçlü.
   
 Tehlikeli olabilir, ama yok edersek, Yakıtını ele geçirebiliriz.
